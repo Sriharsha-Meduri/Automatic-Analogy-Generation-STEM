@@ -1,0 +1,154 @@
+[
+  {
+    "id": "phy_induction",
+    "subject": "Physics",
+    "grade": 12,
+    "concept": "Electromagnetic induction (Faraday's law)",
+    "standard_explanation": "Electromagnetic induction is the production of a voltage across a conductor when the magnetic field around it changes. Faraday's law states that the induced voltage is proportional to how fast the magnetic flux through a loop changes. A steady magnetic field induces nothing; it is the change in the field, from motion or a varying current, that drives the induced current.",
+    "analogies": {
+      "eli12": "Imagine a windmill that only spins when the wind is changing speed, not when it blows steadily. A magnet sitting still near a wire does nothing, but a magnet that is moving, getting stronger or weaker to the wire, pushes a current, just as changing wind turns the blades.",
+      "sports": "Think of a wave pool. Swimmers get pushed only when a new wave rolls through, not when the water sits flat. A steady magnetic field is flat water; a moving or changing field is the passing wave that shoves the current along.",
+      "cooking": "Picture a spoon in soup. Holding it still does nothing, but sloshing it back and forth makes the soup swirl. A still magnet near a coil makes no current; only a moving, changing magnet stirs a current into the wire.",
+      "everyday": "Think of automatic doors that open only when you move toward them, not when you stand still nearby. Standing still is a steady field and nothing happens; moving is the changing field that triggers the response, like an induced current."
+    },
+    "questions": [
+      {"q": "A bar magnet is held perfectly still inside a coil of wire. The induced current in the coil is:", "options": {"A": "Large and steady", "B": "Zero, because the field is not changing", "C": "Growing over time", "D": "Reversed"}, "answer": "B"},
+      {"q": "To induce a larger voltage in a coil, you should move the magnet:", "options": {"A": "More slowly", "B": "Faster, so the flux changes more quickly", "C": "Not at all", "D": "Only in a circle"}, "answer": "B"},
+      {"q": "In the wave-pool picture, what does a steady, unchanging magnetic field correspond to?", "options": {"A": "A passing wave that pushes swimmers", "B": "Flat water that pushes nobody", "C": "A stronger swimmer", "D": "A deeper pool"}, "answer": "B"},
+      {"q": "Which situation will NOT induce a current in a nearby coil?", "options": {"A": "A magnet moving toward the coil", "B": "A magnet moving away from the coil", "C": "A magnet resting motionless beside the coil", "D": "A steadily strengthening electromagnet near the coil"}, "answer": "C"}
+    ]
+  },
+  {
+    "id": "phy_resonance",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Resonance in oscillating systems",
+    "standard_explanation": "Resonance occurs when a system is pushed by a repeating force whose frequency matches the system's own natural frequency of vibration. At that matching frequency, each push adds to the motion at just the right moment, so the amplitude grows large. Pushing at the wrong frequency wastes effort, because some pushes fight the motion instead of helping it.",
+    "analogies": {
+      "eli12": "Think of pushing a friend on a swing. If you push exactly when the swing comes back to you, it goes higher and higher. Push at random times and you sometimes stop it. Matching the swing's rhythm is resonance.",
+      "sports": "Imagine a crowd doing a stadium wave. If everyone stands at just the right beat, the wave grows huge and travels smoothly. Stand at the wrong time and the wave fizzles. Timing the pushes to the natural rhythm is resonance.",
+      "cooking": "Picture jiggling a bowl of jelly. Shake it at its own wobble speed and the wobble grows big; shake too fast or too slow and it barely moves. Matching the jelly's natural wobble is resonance.",
+      "everyday": "Think of bouncing a car by pushing down on the bumper. Push in time with the car's natural bounce and it rocks a lot; push randomly and little happens. Hitting the natural rhythm is resonance."
+    },
+    "questions": [
+      {"q": "A child on a swing goes highest when you push:", "options": {"A": "As hard as possible at random times", "B": "In time with the swing's natural rhythm", "C": "Only when the swing is at the top", "D": "Twice as fast as the swing moves"}, "answer": "B"},
+      {"q": "Resonance produces a large amplitude when the driving frequency:", "options": {"A": "Is much higher than the natural frequency", "B": "Is much lower than the natural frequency", "C": "Matches the system's natural frequency", "D": "Changes randomly"}, "answer": "C"},
+      {"q": "Why does pushing a swing at the wrong times fail to build height?", "options": {"A": "The pushes are too gentle", "B": "Some pushes oppose the motion instead of adding to it", "C": "Swings cannot resonate", "D": "Gravity turns off"}, "answer": "B"},
+      {"q": "A singer shatters a glass by singing a note equal to the glass's natural frequency. This is an example of:", "options": {"A": "Reflection", "B": "Resonance", "C": "Refraction", "D": "Insulation"}, "answer": "B"}
+    ]
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "analogies": {
+      "eli12": "Think of walking up a ramp. Slope is how many steps up you climb for every step forward you take. A gentle ramp gives a small slope; a steep ramp gives a big one; flat ground gives zero.",
+      "sports": "Imagine a ski run. Slope is how much you drop for every metre you move across the hill. A bunny slope has a small number; a black-diamond run has a large one. A flat cross-country stretch is slope zero.",
+      "cooking": "Picture a tilted baking tray. Slope is how much higher one end sits for every centimetre along the tray. Tilt it a little for a small slope; prop it up steeply for a large one; lay it flat for zero.",
+      "everyday": "Think of a wheelchair ramp. Slope is the height it climbs divided by its length along the ground. Ramps must have a small, gentle slope; a staircase would be a very large slope."
+    },
+    "questions": [
+      {"q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:", "options": {"A": "2", "B": "3", "C": "1/3", "D": "8"}, "answer": "B"},
+      {"q": "A perfectly horizontal (flat) line has a slope of:", "options": {"A": "1", "B": "0", "C": "Infinity", "D": "Negative"}, "answer": "B"},
+      {"q": "In the ramp picture, a steeper ramp corresponds to:", "options": {"A": "A smaller slope", "B": "A larger slope", "C": "Zero slope", "D": "A negative slope"}, "answer": "B"},
+      {"q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:", "options": {"A": "Less steep", "B": "Steeper", "C": "Flat", "D": "Going downhill"}, "answer": "B"}
+    ]
+  },
+  {
+    "id": "mat_integral",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "The definite integral as accumulated area",
+    "standard_explanation": "A definite integral of a function between two points gives the signed area between the curve and the horizontal axis over that interval. It can be understood as adding up infinitely many thin slices under the curve. If the function represents a rate, the definite integral accumulates the total amount that has built up over the interval.",
+    "analogies": {
+      "eli12": "Imagine filling a bathtub where the tap's flow rate changes over time. The integral of the flow rate is the total water collected, found by adding up all the little bits that flowed in each moment.",
+      "sports": "Think of a cyclist whose speed varies during a ride. The integral of speed over time is the total distance covered, built up by summing the tiny distances travelled in each instant.",
+      "cooking": "Picture pouring sugar at a changing rate into a bowl. The integral of the pouring rate is the total sugar in the bowl, the sum of every small amount added over the whole time.",
+      "everyday": "Think of your phone's data use, which speeds up and slows down through the day. The integral of the data rate is the total gigabytes used, the accumulation of all the small amounts moment by moment."
+    },
+    "questions": [
+      {"q": "If a function gives the speed of a car over time, the definite integral of that function over a time interval gives:", "options": {"A": "The car's acceleration", "B": "The total distance travelled in that interval", "C": "The top speed", "D": "The slope of the speed"}, "answer": "B"},
+      {"q": "Geometrically, a definite integral represents:", "options": {"A": "The slope of the tangent line", "B": "The signed area between the curve and the horizontal axis", "C": "The height of the curve at one point", "D": "The length of the curve"}, "answer": "B"},
+      {"q": "In the bathtub picture, the tap's changing flow rate corresponds to the function, and the integral corresponds to:", "options": {"A": "How fast the tap changes", "B": "The total water collected", "C": "The temperature of the water", "D": "The size of the tub"}, "answer": "B"},
+      {"q": "A definite integral is described as adding up:", "options": {"A": "A few large blocks", "B": "Infinitely many thin slices under the curve", "C": "The endpoints only", "D": "The slopes at each point"}, "answer": "B"}
+    ]
+  },
+  {
+    "id": "che_catalyst",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Catalysts and activation energy",
+    "standard_explanation": "A catalyst speeds up a chemical reaction by providing an alternative pathway with a lower activation energy, the energy barrier reactants must overcome to react. The catalyst is not used up in the reaction. By lowering the barrier, more reactant collisions have enough energy to succeed, so the reaction goes faster, without changing how much product is finally possible.",
+    "analogies": {
+      "eli12": "Imagine a tall hill between two towns. A catalyst is like digging a tunnel through the hill, so travellers need far less energy to cross. The hill's two sides stay the same height; the trip just becomes easier, so more people make it.",
+      "sports": "Think of a high hurdle on a track. A catalyst is like lowering the hurdle, so many more runners can clear it and finish. The start and end lines do not move; more runners simply get over the smaller barrier.",
+      "cooking": "Picture a stiff jar lid. A catalyst is like a rubber grip that makes opening it far easier, so more people can open the jar quickly. The jar and its contents are unchanged; only the effort needed drops.",
+      "everyday": "Think of a locked gate on a path. A catalyst is like leaving the gate ajar, so far more walkers pass through without struggling. The path's start and end are the same; only the barrier in the middle is easier."
+    },
+    "questions": [
+      {"q": "A catalyst speeds up a reaction mainly by:", "options": {"A": "Raising the activation energy", "B": "Lowering the activation energy barrier", "C": "Being used up quickly", "D": "Heating the reactants permanently"}, "answer": "B"},
+      {"q": "After a reaction catalysed by a substance finishes, the catalyst is:", "options": {"A": "Completely consumed", "B": "Left essentially unchanged and reusable", "C": "Turned into product", "D": "Destroyed"}, "answer": "B"},
+      {"q": "In the tunnel-through-a-hill picture, the tunnel represents:", "options": {"A": "A higher energy barrier", "B": "A lower-energy alternative pathway", "C": "The final product", "D": "The reactants"}, "answer": "B"},
+      {"q": "A catalyst changes which of the following?", "options": {"A": "The rate of the reaction", "B": "The final amount of product possible", "C": "The identity of the products", "D": "The temperature needed to store the product"}, "answer": "A"}
+    ]
+  },
+  {
+    "id": "che_mole",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "The mole as a counting unit",
+    "standard_explanation": "A mole is a counting unit in chemistry, like a dozen but far larger: one mole is about 6.02 times ten to the twenty-third particles (atoms, molecules, or ions). Chemists use it because atoms are far too tiny and numerous to count individually. The mole links the number of particles to a mass that can actually be weighed in the laboratory.",
+    "analogies": {
+      "eli12": "Think of the word 'dozen', which always means 12, whether eggs or pencils. A mole is just a much bigger fixed number for counting atoms, the way a dozen is a fixed number for counting eggs.",
+      "sports": "Imagine counting a huge crowd in a stadium by counting full sections instead of individual people. A mole is like one enormous 'section' of atoms, a fixed count that lets you handle vast numbers without counting one by one.",
+      "cooking": "Think of buying rice by the sack rather than counting grains. A mole is a fixed 'sack' of particles, always the same number, so chemists deal in sacks instead of counting impossibly tiny grains.",
+      "everyday": "Think of a ream of paper, which always means 500 sheets. A mole is just a fixed count like a ream, only enormous, used because atoms are far too small and many to count sheet by sheet."
+    },
+    "questions": [
+      {"q": "Why do chemists use the mole instead of counting atoms one by one?", "options": {"A": "Atoms are too large to see", "B": "Atoms are far too small and numerous to count individually", "C": "The mole changes size for each element", "D": "Atoms cannot be weighed"}, "answer": "B"},
+      {"q": "A mole is best described as:", "options": {"A": "A unit of temperature", "B": "A fixed, very large count of particles", "C": "A type of atom", "D": "A unit of speed"}, "answer": "B"},
+      {"q": "In what way is a mole like a 'dozen'?", "options": {"A": "Both always equal 12", "B": "Both are a fixed number used for counting, just very different sizes", "C": "Both measure weight", "D": "Both apply only to eggs"}, "answer": "B"},
+      {"q": "One mole of any substance always contains:", "options": {"A": "The same mass in grams", "B": "The same fixed number of particles", "C": "12 particles", "D": "A different number for each element"}, "answer": "B"}
+    ]
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "analogies": {
+      "eli12": "Think of a lock and key. An enzyme is the lock, and only the matching key (its substrate) fits the keyhole (the active site). Once the key turns the reaction happens, and the lock is ready to be used again with another key.",
+      "sports": "Imagine a specialised glove that only catches one shape of ball. The enzyme is the glove, its substrate the ball; only the right ball fits and gets processed. The glove is not worn out and can catch the next matching ball.",
+      "cooking": "Think of a cookie cutter shaped for one design. The enzyme is the cutter, the dough its substrate; only dough pressed into that exact shape is cut. The cutter is not consumed and can shape the next piece of dough.",
+      "everyday": "Think of a puzzle piece that snaps into just one spot. The enzyme is the empty slot, its substrate the matching piece; only the correctly shaped piece fits and the task is done. The slot stays ready for another matching piece."
+    },
+    "questions": [
+      {"q": "An enzyme speeds up only one particular reaction because:", "options": {"A": "It is very large", "B": "Its active site fits only a specific substrate shape", "C": "It is used up each time", "D": "It works at any temperature"}, "answer": "B"},
+      {"q": "In the lock-and-key picture, the keyhole (active site) fits:", "options": {"A": "Any molecule at all", "B": "Only the matching substrate", "C": "Only heat", "D": "Only water"}, "answer": "B"},
+      {"q": "Very high temperature can stop an enzyme working because it:", "options": {"A": "Adds more substrate", "B": "Changes the enzyme's shape so the substrate no longer fits", "C": "Speeds the enzyme up forever", "D": "Turns the enzyme into a substrate"}, "answer": "B"},
+      {"q": "After catalysing its reaction, an enzyme is:", "options": {"A": "Used up and discarded", "B": "Free to catalyse the same reaction again", "C": "Turned into product", "D": "Permanently locked"}, "answer": "B"}
+    ]
+  },
+  {
+    "id": "bio_homeostasis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Homeostasis and negative feedback",
+    "standard_explanation": "Homeostasis is the maintenance of a stable internal environment in the body despite changes outside. It often works by negative feedback: when a variable such as temperature or blood sugar moves away from its set point, the body triggers responses that push it back toward that point. The correction switches off once the variable returns to normal, keeping conditions within a narrow healthy range.",
+    "analogies": {
+      "eli12": "Think of a thermostat heating a room. If it gets too cold, the heater turns on; once it is warm enough, the heater turns off. The body keeps temperature and other things steady the same way, switching corrections on and off.",
+      "sports": "Imagine a coach keeping a team's effort steady. If players tire and slow down, the coach pushes them; if they overheat, the coach rests them. The corrections stop once the pace is back to normal, like negative feedback.",
+      "cooking": "Think of a cook adjusting a flame under a simmering pot. Too hot and boiling over, they lower it; too cool and it stops simmering, they raise it. Each correction ends once the simmer is just right, keeping it steady.",
+      "everyday": "Think of cruise control in a car. Going uphill and slowing, it adds gas; speeding downhill, it eases off. Once the speed is back to the set value, the correction stops, just as the body returns a variable to its set point."
+    },
+    "questions": [
+      {"q": "Negative feedback keeps a body variable steady by:", "options": {"A": "Pushing it further from the set point", "B": "Triggering responses that return it toward the set point", "C": "Ignoring the change", "D": "Permanently raising the set point"}, "answer": "B"},
+      {"q": "In the thermostat picture, what happens once the room reaches the target temperature?", "options": {"A": "The heater stays on forever", "B": "The correction (heating) switches off", "C": "The room keeps getting hotter", "D": "The thermostat breaks"}, "answer": "B"},
+      {"q": "When blood sugar rises after a meal, the body releases insulin to lower it. This is an example of:", "options": {"A": "Positive feedback", "B": "Negative feedback restoring the set point", "C": "Homeostasis failing", "D": "An enzyme lock and key"}, "answer": "B"},
+      {"q": "Homeostasis maintains internal conditions:", "options": {"A": "Exactly constant with no change ever", "B": "Within a narrow healthy range around a set point", "C": "Equal to the outside environment", "D": "Only when asleep"}, "answer": "B"}
+    ]
+  }
+]

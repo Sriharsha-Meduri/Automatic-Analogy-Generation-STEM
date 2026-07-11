@@ -1,0 +1,282 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "न्यूटन का तीसरा गति-नियम",
+    "standard_explanation": "न्यूटन का तीसरा नियम कहता है कि जब कोई वस्तु दूसरी वस्तु पर बल (force) लगाती है, तो दूसरी वस्तु भी पहली पर बराबर परिमाण और विपरीत दिशा में बल लगाती है। इन दोनों बलों को action-reaction pair कहते हैं। ये हमेशा दो अलग-अलग वस्तुओं पर लगते हैं, इसलिए एक-दूसरे को cancel नहीं करते।",
+    "analogies": {
+      "free": "जब आप दीवार पर बल लगाते हैं, तो दीवार आप पर बिल्कुल समान और विपरीत दिशा में बल लगाती है। यह एक-दूसरे के प्रतिरोध की तरह काम करता है, लेकिन आपको लगता होगा कि ये दोनों बल आपके ऊपर ही रहते हैं!",
+      "everyday": "जब आप अपने बड़ी शैली में गेम खेलते हैं, तो दूसरे खिलाड़ियों के दबाव और वस्तुओं से आपको उठाया जाता है, ठीक उसी तरह जब कोई वस्तु दूसरी वस्तु पर बल (force) लगाती है, तो दूसरी वस्तु भी पहली वस्तु पर बराबर परिमाण और विपरीत दिशा में बल लगाती है।",
+      "sports": "जब आप एक बास्केटबॉल को छुआ करते हैं, तो यह बल उस तकिया के प्रति आकर्षित करता है। बल्कि, बास्केटबॉल से दूसरा बल, जिसका कारण वह तकिया का द्रव्यमान और गति का परिवर्तन है, उत्पन्न होता है जो बास्केटबॉल को दूर ले जाता है।",
+      "cooking": "जब आप कटा हुआ सैंडविच को गरम बर्तन में डालते हैं, तो उस सैंडविच के आगे और पीछे आता है। अगर आप एक तरफ चम्मच से उसे दबा रहे हों, तो दूसरी तरफ भी चम्मच के प्रभाव का अभाव नहीं होगा। ये दो अलग-अलग वस्तुओं पर लगने वाला बल, इस घटना की तरह ही न्यूटन के तीसरे नियम को दर्शाता है."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "ओम का नियम और विद्युत प्रतिरोध",
+    "standard_explanation": "ओम का नियम कहता है कि किसी conductor में बहने वाली current उस पर लगे voltage के directly proportional और उसके resistance के inversely proportional होती है (V = I R)। Voltage विद्युत का धक्का है, current आवेश के बहने की दर है, और resistance उस बहाव का विरोध करता है। किसी fixed voltage पर ज़्यादा resistance का मतलब है कम current।",
+    "analogies": {
+      "free": "Imagine a narrow water channel, where the flow of water is like electrical current.  The more water flowing through the channel (current), the greater the pressure pushing it forward (voltage). However, if you widen the channel to make it larger (resistance), less water will flow even with the same amount of pressure (voltage).  This wider channel acts as a \"highway\" for the water, slowing down its flow.",
+      "everyday": "जब आप एक बर्तन में पानी डालते हैं, तो पानी धीरे-धीरे बहता है।  याद रखें, अगर आप बर्तन का वांछित आकार बदलते हैं, तो पानी तेज़ हो सकता है, और अगर आप बर्तन को छोटा कर देते हैं, तो पानी धीमा हो सकता है।  यह कैसे काम करता है? यह तब होता है जब आप पानी के प्रवाह की गति (जैसे, आवेश का बहना) को नियंत्रित करते हैं, क्योंकि आप पानी को कम या अधिक आकार देने पर प्रभाव डालते हैं।",
+      "sports": "Imagine a water slide.  The faster you go down the slide (higher voltage), the more current flows through you (more electric charge). The narrower the slide (lower resistance), the harder it is to stay on the slide and the less current flows (less charge) – that's why we need strong, wide slides!",
+      "cooking": "जब आप एक कुट्टी में पानी डालते हैं, उसके  अंतरिक्ष में पानी को बहाने के लिए आवश्यक बल का प्रमाण \"voltage\" होता है। लेकिन अगर कुट्ठी में बहुत सी रस्सी लगें, तो पानी बहना मुश्किल हो जाएगा और \"current\" कम होगा। इसका मतलब यह है कि अगर आप कुट्टी में रस्सियाँ जमाते हैं, वह जगह पर पानी को तेज़ा तेज धक्का देगा या कम current के साथ  water flow में रुकावट आएगी।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "दाब (प्रति इकाई क्षेत्रफल बल)",
+    "standard_explanation": "Pressure किसी सतह पर लगने वाला बल है जिसे उस क्षेत्रफल से भाग किया जाता है जिस पर बल फैला हो, यानी pressure = force ÷ area। वही बल छोटे क्षेत्रफल पर लगने से बहुत ज़्यादा pressure बनाता है, इसीलिए तेज़ चाकू या पतली सुई आसानी से काटती या चुभती है। बल को बड़े क्षेत्रफल पर फैलाने से pressure कम हो जाता है, जैसे चौड़े snowshoes पहनने पर व्यक्ति नरम बर्फ में नहीं धँसता।",
+    "analogies": {
+      "free": "Pressure is like the weight of a stack of books.  If you distribute those books evenly across a big flat surface, the pressure on each square inch is relatively low.  However, if you pile the same books on top of each other in a small area, the pressure becomes much higher – just like how a sharp knife cuts through paper more easily when it's pointed at a smaller spot on the surface.",
+      "everyday": "जब आप एक बड़ी बोतल में पानी डालते हैं तो वह जगह जितनी धारणीय है उसमें पानी के प्रभाव को कम होना चाहिए। लेकिन अगर आप छोटे-छोटे से थोड़े-थोड़े पत्तों में पानी डालते हैं तो वह जगह जितना अधिक क्षमता रखती है।",
+      "sports": "Imagine pushing a toy car across the floor. If you push it gently on a small area of the floor, the car will accelerate quickly, like a sharp force in a concentrated point. But if you push it with the same force on a larger, wider section of the floor, the car will move slower or maybe not at all. This is similar to pressure - a stronger force applied over a smaller area creates more pressure than the same force spread out across a bigger area.",
+      "cooking": "चुआ की चपलहट के समान, दाब एक बल को उसके क्षेत्रफल पर फैलाने का प्रभाव है। जब आप एक छोटी सी चादर से बारीकी से छूते हैं तो वहाँ बहुत अधिक दबा है, लेकिन अगर आप एक बड़ी चादर पर उस छोटे चाकू को रखते हैं, तो दाब कम होता है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_friction",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "घर्षण (Friction)",
+    "standard_explanation": "Friction एक बल है जो दो संपर्क में आई सतहों के बीच सापेक्ष गति (relative motion) का विरोध करता है। कोई भी सतह पूरी तरह चिकनी नहीं होती, इसलिए दोनों सतहों के सूक्ष्म उभार आपस में फँसकर फिसलने का विरोध करते हैं। Friction की वजह से हम चल पाते और चीज़ें पकड़ पाते हैं, पर यह ऊर्जा को heat के रूप में बर्बाद भी करता है और सतहों को धीरे-धीरे घिसता है।",
+    "analogies": {
+      "free": "Friction  जैसे एक बिल्डिंग की पत्थरों के बीच घुमावदार जगह होती है जो रास्ते में चीज़ों को धकेलती है और उसे सटीक रूप से चलने की अनुमति देती है। यह अक्सर गड्ढे-सी कट्टानों का अनुकरण करता है, जहां दो पदार्थ एक-दूसरे के साथ बारीकी से जुड़े हुए हैं। इस तरह, घर्षण का कारण सापेक्ष गति और सतहों की छोटी सी वस्तुओं में लगने वाला छोटा खुरदर होना होता है।",
+      "everyday": "जब हम प्लेट्स को एक दूसरे से जोड़ते हैं या रस्सियों का उपयोग करते हैं, तो घर्षण सतहों के अनेकों छोटे हिस्से को एक दूसरे से मुक्त करने की कोशिश करता है। यह हमारे साथ काम करने में मदद करता है, लेकिन यह ऊर्जा भी बर्बाद कर देता है।",
+      "sports": "Imagine two kids trying to push a heavy toy across the playground. The friction between their hands and the toy's surface creates resistance, making it harder for them to move the toy easily.  Just like the toy experiences friction when pushed, every time objects rub against each other, some energy is lost as heat due to the force of the rubbing.",
+      "cooking": "जब आप चावल को एक बर्तन में डालते हैं, तो वह बर्तन के घर्षण से रोकता है.  यह बर्तन और चावल के बीच वक्रता से उत्पन्न होता है जो आंदोलन को रोका जाता है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_density",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "घनत्व और तैरना",
+    "standard_explanation": "Density किसी दिए गए आयतन (volume) में भरे द्रव्यमान (mass) की मात्रा है, यानी mass ÷ volume। कोई वस्तु किसी fluid में तब तैरती है जब उसका density उस fluid से कम हो, और तब डूबती है जब ज़्यादा हो; इसीलिए हवा से भरा steel का जहाज़ तैरता है पर steel का ठोस टुकड़ा डूब जाता है। यही कारण है कि तेल पानी के ऊपर एक परत बना लेता है।",
+    "analogies": {
+      "free": "Imagine a crowded bus where everyone is squeezed together tightly.  The bus itself represents the object's density, and how tightly packed it is in its volume. If you try to push more people onto this already-filled bus, the bus will become heavier and harder to move, just like objects with higher density sink easily in fluids. A lighter bus can float on water, even though it is full of passengers!",
+      "everyday": "एक छोटा सा कटोरा भरे में पानी और उसके आस-पास का वजन समान दिखता है। जब आप इस कटोरे के पानी को बदलते हैं, तो यह अलग तरह से भारित हो जाता है.  यदि आप एक बड़े कटोरे में पानी डालेंगे, तो उसका भार कम होगा।",
+      "sports": "Imagine a giant bag of marbles.  The denser the marbles are, the heavier the bag feels, and it's harder to move it around. If you drop this bag into a swimming pool filled with water, some marbles will sink deeper while others stay closer to the top. This is similar to how density affects objects floating or sinking in fluids like air or water.",
+      "cooking": "जब आप एक बड़े भूखे भोजन को अपने हाथ में रखते हैं तो उसे पानी में डालने पर पानी उसमें घुसता है, ठीक जैसे एक वस्तु का घनत्व उसके आसपास के fluid से कम होता है। अगर वस्तु का घनत्वfluid के समान होता है, तो वह तैरती या डूब जाती है; अगर वस्तु का घनत्वfluid से अधिक होता है, तो वह पानी में डूब जाती है और अगर वस्तु का घनत्वfluid से कम होता है तो वह तैरती है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "स्वतंत्र घटनाओं की प्रायिकता",
+    "standard_explanation": "किसी घटना की probability अनुकूल परिणामों की संख्या को कुल समान-संभाव्य परिणामों की संख्या से भाग देकर मिलती है, जिसका मान 0 और 1 के बीच होता है। दो घटनाएँ independent तब होती हैं जब एक का परिणाम दूसरे को प्रभावित न करे। Independent घटनाओं के लिए दोनों के एक साथ होने की probability उनकी अलग-अलग probabilities को गुणा करके निकाली जाती है।",
+    "analogies": {
+      "free": "Imagine flipping a coin.  Each flip has two possible outcomes - heads or tails. The probability of getting heads is 1/2, and the probability of getting tails is also 1/2. When you flip the coin twice, the probability of getting both heads and tails in sequence is simply the product of their individual probabilities: (1/2) * (1/2) = 1/4. This illustrates how independent events combine to influence the overall probability outcome.",
+      "everyday": "जब आप बूंदों का खेल देखते हैं तो यह याद रखना महत्वपूर्ण है कि एक ही बार में कई बूँदें अलग-अलग जगहों पर गिरती हैं। इस तरह के घटनाओं की प्रायिकता, प्रत्येक बूँदे की स्वतंत्र प्रारंभ और किसी भी अन्य बूँदे से जुड़े हुए परिणामों पर निर्भर करती है।",
+      "sports": "Imagine flipping a coin twice.  The probability of getting heads on both flips is found by multiplying the individual probabilities (1/2 * 1/2). This represents how independent events influence each other. Similarly, in a game of basketball, two players shooting from different spots has their own probabilities of scoring a basket. However, they don't directly impact each other – we simply calculate the probability of one player making a shot and then multiply that by the probability of the second player's shot to find the chance of both happening.",
+      "cooking": "जब आप एक नमकीन और मीठी मिक्स्चर तैयार कर रहे हैं, तो आप दोनों रत्नों को अलग-अलग बर्तनों में डालते हैं।  प्रत्येक बर्तन में अलग-अलग तैयारी के लिए अलग-अलग अनुपात का उपयोग किया जाता है, लेकिन एक भोजन बनाने के लिए आपको सभी घटकों को मिलाने की आवश्यकता होगी।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_pythagoras",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "पाइथागोरस प्रमेय",
+    "standard_explanation": "Pythagoras theorem कहती है कि किसी right-angled triangle में सबसे लंबी भुजा (hypotenuse) का वर्ग बाकी दो भुजाओं के वर्गों के योग के बराबर होता है। इससे किसी right triangle की कोई भी एक भुजा निकाली जा सकती है जब बाकी दो पता हों। यह समतल में सीधी दूरी नापने का आधार है।",
+    "analogies": {
+      "free": "Imagine a pizza cut into three equal slices.  Each slice represents one side of a right triangle, and the area of the whole pizza is like the total area of the triangle. If you know the areas of two slices, you can figure out the area of the third slice by using the Pythagorean theorem.  Just like how a pizza's area depends on the sizes of its slices, a right triangle's area depends on the lengths of its sides.",
+      "everyday": "Imagine a Lego brick house. Each side of the house is like one side of a right triangle.  The longest diagonal side (hypotenuse) tells you how many pieces to take from each other to build the whole structure. The smaller sides tell you where to position the walls and the base, and by combining them, you can create the complete house!",
+      "sports": "Think of a square pyramid with its base being a equilateral triangle. The top point of the pyramid is exactly where the hypotenuse connects to two equal sides. The area of this square pyramid's base, which is formed by the same equilateral triangle, will be equivalent to the area of another similar triangle formed by connecting the corner points to the center of the base.",
+      "cooking": "Imagine you're baking a perfect cake. The recipe needs a specific amount of flour, sugar, and butter to create the right texture. Similarly, a right-angled triangle in math uses special proportions – the length of the longest side (hypotenuse) is like the ideal flour amount for your cake.  If you know the amounts of the other two sides, you can precisely determine the length of the hypotenuse to ensure your cake's perfect rise."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_quadratic",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "द्विघात समीकरण",
+    "standard_explanation": "एक quadratic equation का रूप a·x² + b·x + c = 0 होता है और इसके आम तौर पर दो हल होते हैं, यानी x के वे मान जो इसे सही बनाते हैं। इसका graph एक parabola होता है, और हल वहीं होते हैं जहाँ यह parabola horizontal axis को काटता है। इन्हें factoring, completing the square, या quadratic formula से निकाला जा सकता है।",
+    "analogies": {
+      "free": "Imagine a stretched rubber sheet.  When you place a weight on the sheet, it curves downward in the shape of a parabola. This curve represents a quadratic equation. The points where the sheet curves and touches the ground represent the solutions to the equation; those are your x-values.",
+      "everyday": "Imagine a swing set in the backyard.  When you push it, it goes up and down, just like the x² term in a quadratic equation! The height of the swing represents the value of 'x', which determines if it's above or below ground level. To find out where the swing stops moving (its peak), we need to calculate where the swing set moves upward to meet the horizontal axis, which is the same as solving the quadratic equation for x.",
+      "sports": "जब हम एक बाधा को पार कर रहे हैं, तो हमें उसके दोनों तरफ बारीकी से देखना पड़ता है ताकि पता चले कि कहाँ बाधा सबसे तेज और सबसे तेज़ होगी. इसी तरह, द्विघात समीकरण के हल हमें बाधा की स्थिति (x) को समझाने में मदद करते हैं, जहाँ दो बिंदुओं पर वह बाधा सबसे तीव्र होती है. ये हल parabola का प्रतिनिधित्व करते हैं, जहां दोनों बिंदुओं पर बाधा ऊर्ध्वाधर रूप से समाप्त हो जाती है।",
+      "cooking": "जब हम बराबर के सिर को एक निश्चित बिंदु पर स्थानांतरित करते हैं, तो यह समान रूप से फैलता है।  यह इस तरह से काम करता है जैसे कि हम अपनी ताकत का उपयोग करके एक खाली बॉक्स में पानी डालते हैं, जिससे वह ऊपर उठता है और फिर नीचे गिर जाता है और एक क्षैतिज रेखा बनाता है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "रेखा का ढाल (Slope)",
+    "standard_explanation": "किसी सीधी रेखा का slope बताता है कि वह कितनी तेज़ी से चढ़ती या उतरती है, और यह ऊर्ध्वाधर परिवर्तन को क्षैतिज परिवर्तन से भाग देकर (rise ÷ run) निकलता है। धनात्मक slope का मतलब रेखा ऊपर की ओर जाती है, ऋणात्मक का मतलब नीचे की ओर, और शून्य slope का मतलब क्षैतिज रेखा। slope जितना बड़ा होगा, रेखा उतनी ही तीव्र (steep) होगी।",
+    "analogies": {
+      "free": "Imagine a hill with its base at the bottom and its peak at the top. The slope of the hill is like the steepness of that climb -  how quickly you ascend from one point to another. If the hill slopes steeply, it means there's a large rise over a small run, while a gently sloping hill implies less change in elevation for the same distance traveled. Just like how a steeper hill requires more effort to climb, a larger slope in mathematics signifies a greater rate of change.",
+      "everyday": "यहां एक उत्तम समर्थन अनुमान है:\n\n* **एक दीवार की ढांचा  ** -  यह सरलता और तात्कालिकता के लिए आदर्श है क्योंकि यह रेखा के ढाल का परिदृश्य बनाता है।",
+      "sports": "Think of a roller coaster going up and down. The steeper the slope, the faster it goes uphill or downhill! Just like that, the slope shows how much a line rises for every unit it moves horizontally.  So, a steeper slope means a quicker change in direction as the line climbs or descends along its path.",
+      "cooking": "जब आप  एक गर्म चावल के बर्तन में पानी डालते हैं, तो वह ढीला ढंग से ऊपर चला जाता है, और उसमें पानी का स्तर स्थिर रहता है। रेखीय ढाल इस स्थिति को दर्शाती है - यह बताती है कि कितनी तेजी से पानी ऊपर चढ़ रहा है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_trigonometry",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "त्रिकोणमितीय अनुपात",
+    "standard_explanation": "Trigonometry किसी right-angled triangle के कोणों को उसकी भुजाओं के अनुपातों से जोड़ती है, sine, cosine और tangent के ज़रिए। किसी दिए गए कोण के लिए ये अनुपात triangle के आकार पर निर्भर नहीं करते, इसलिए इनसे अज्ञात भुजाएँ या कोण निकाले जा सकते हैं। इनकी मदद से हम ऐसी ऊँचाइयाँ और दूरियाँ नाप सकते हैं जिन तक सीधे नहीं पहुँचा जा सकता।",
+    "analogies": {
+      "free": "Imagine a bridge spanning a deep canyon.  The length of the bridge's base can vary, but its height and angle to the ground are fixed. We use trigonometry like the surveyor using a rope and plumb line to determine how high we must build the bridge, even if we don't know exactly where the center is or how wide it needs to be. The angle of the bridge helps us calculate the exact distance across the canyon for safety and efficiency.",
+      "everyday": "Imagine a slide at the playground. If you know how long your feet are from the ground to the bottom of the slide and the angle formed by the slide, you can figure out exactly where you are on the slide – and how far up or down you've gone!  That's similar to trigonometry; it uses angles and ratios to understand distances and positions in triangles.",
+      "sports": "Imagine a seesaw.  If one side is longer than the other, it will tilt to that side.  This tilt is like the cosine of an angle – it tells us how much a shorter side's distance affects the overall length. Similarly, if you have two sides in a triangle, you can use trigonometry to find out the angle between them and even the unknown side!",
+      "cooking": "जब आप एक बर्तन को पानी में डालते हैं, उसके ऊपर पानी की मात्रा उसके आधार और ऊँचाई के अनुपात से निर्धारित होती है।  क्या आप देखें कि पानी का अनुपात उसकी ऊँचाई और आधार के अनुपात से निर्धारित होता है? यह इस प्रकार ही त्रिकोणमितीय अनुपात में काम करता है, जहां कोणों के अनुपात (sine, cosine, tangent) हमें अज्ञात भुजाएँ या कोणों की पहचान करने में मदद करते हैं।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "pH स्केल",
+    "standard_explanation": "pH स्केल किसी विलयन के अम्लीय या क्षारीय होने को 0 से 14 के बीच मापता है, जहाँ 7 उदासीन (neutral) होता है। 7 से कम pH अम्लीय और 7 से ज़्यादा क्षारीय होता है, और pH में हर एक इकाई का बदलाव अम्लता में दस गुना बदलाव दर्शाता है क्योंकि यह एक logarithmic scale है। इसका मतलब है कि pH 4 का विलयन pH 5 के विलयन से दस गुना ज़्यादा अम्लीय होता है।",
+    "analogies": {
+      "free": "pH स्केल की तरह, एक मजबूत चटाई के साथ धनुष, जो दायित्व और वजन को प्रभावित करता है,  बड़े-बड़े परिवर्तन में तेज बदलाव करते हैं।",
+      "everyday": "pH स्केल का उपयोग करते समय हमेशा एक संतुलित रचयिता की तरह ही काम करना चाहिए -  जब आप एक पेय को ठंडा करने में मदद कर रहे हों तो आप यह सुनिश्चित करते हैं कि वह पानी के पीछे कोई भी अम्ल या क्षारीय पदार्थ नहीं हो। अगर आप अपनी पेंटिंग पर थोड़ी नीले रंग की चमक जोड़ते हैं, तो आप एक अक्षमता से जुड़े परिणाम का अनुभव करेंगे.",
+      "sports": "यह मानक ढांचा  जो हमेशा उतना ही ऊँचा होता है जितना पानी में उमड़ा हुआ है वह एक नुकीला चम्मच का रूप लेता है, यह देखते हुए कि आप कितना मिट्टी गहरे से पतले से लेकर बहुत पीछे तक चल रहे हैं।",
+      "cooking": "Imagine a lemon's juice - it's incredibly sour! The pH scale measures how acidic or basic the solution is.  If you add baking soda to water, it will become slightly bubbly and neutralize the acidity. Now think of adding vinegar; it starts as neutral but becomes more acidic when mixed with water, just like the pH scale shows a gradual shift between acids and bases."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_acid_base",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "अम्ल, क्षार और उदासीनीकरण",
+    "standard_explanation": "कोई acid विलयन में hydrogen ions छोड़ता है जबकि base उन्हें ग्रहण करता है या hydroxide ions छोड़ता है, और जब दोनों react करते हैं तो एक-दूसरे को neutralize करके salt और पानी बनाते हैं। कोई acid या base कितना strong है, यह इस पर निर्भर करता है कि वह पानी में कितना पूरी तरह ionize होता है। Neutralization की वजह से ही antacid पेट की अतिरिक्त अम्लता से राहत देता है।",
+    "analogies": {
+      "free": "अम्ल और क्षार के बीच रसायन विज्ञान की घटनाएँ जितनी ही तीव्र होती है, उतनी ही ताज़ी चादर की तरह लगती हैं।  जब हम अमीलों और क्षारों को मिलाते हैं तो यह एक-दूसरे पर प्रभाव डालता है, जैसे कि दो पेशेवर कलाकार जो अपनी रचनाओं को जोड़ते हैं - उनकी कलाएँ एक नए रंग में बदल जाती हैं और एक नई शैली की गहनता पैदा होती है।  यहां तक कि यदि हम अम्ल या क्षार का स्वरूप बदल देते हैं, तो हमारा स्रोत भी उसके प्रभाव से परिणाम पाने की अनुमति देता है।",
+      "everyday": "Imagine a bowl of lemonade.  When you add baking soda (a base), it reacts with the lemon juice (an acid) to neutralize both the sourness and fizz. The result is a slightly less tart, bubbly drink that's still refreshing! This same principle applies to our bodies; stomach acids are neutralized by the natural bases in saliva to create an even pH balance.",
+      "sports": "Imagine a cake batter.  The lemon juice is the acid, it's full of tiny sour particles that want to make the cake acidic. The baking soda acts as a base, and when you add it to the batter, it neutralizes the lemon juice. The result is a balanced cake that’s neither too sour nor too sweet - just like neutralization.  And just like how baking soda works in cake batter, acids and bases react with each other through a process called neutralization to form salt and water.",
+      "cooking": "जब आप बारी-बारी से एक चूर्ण को पानी में डालते हैं, तो वह धीरे-धीरे गाढ़ा हो जाता है क्योंकि अम्ल और क्षार जल्दी से मिलने लगते हैं।  आसान शब्दों में, यह एक ऐसा प्रक्रिया है जो विद्यार्थियों को समझाने के लिए सबसे अच्छा उदाहरण है, जिसमें पानी का स्तर बदलता है।   अगर आप अम्लों और क्षारों की तुलना किसी तरह से करें, तो यह इस बात पर ध्यान केंद्रित करने का एक सटीक तरीका होगा कि कैसे इनकी क्रियाएँ समान हैं।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "ऊष्माक्षेपी और ऊष्माशोषी अभिक्रियाएँ",
+    "standard_explanation": "किसी exothermic reaction में products में reactants से कम रासायनिक ऊर्जा होती है, इसलिए बची हुई ऊर्जा आस-पास के वातावरण में heat के रूप में निकलती है और वातावरण गर्म हो जाता है। किसी endothermic reaction में products ज़्यादा ऊर्जा संचित करते हैं, इसलिए ऊर्जा वातावरण से अवशोषित होती है और वह ठंडा हो जाता है। ईंधन का जलना exothermic है, जबकि instant cold pack की अभिक्रिया endothermic।",
+    "analogies": {
+      "free": "ऊष्माक्षेपी अभिक्रियाओं की तरह, जैसे ईंधन जलना,  एक बॉक्स में थोड़ा-थोड़ा फायर लाइट रखता है।  और ऊष्माशोषी अभिक्रियाओं की तरह, जैसे कि एक ठंडा पैक, वह बॉक्स को बाहर से ठंडा कर देता है।",
+      "everyday": "जब आप चावल को जलाते हैं, तो उससे ऊष्मा निकलती है और भिगोना और रसोई का तापमान बढ़ता है।  लेकिन जब आप फॉर्मूला का उपयोग करते हैं, तो उसके बाद पानी की तुलना में अधिक ठंडा हो जाता है।",
+      "sports": "चमगादड़ जब ऊर्जा भरा होता है तो वह आसानी से दहन करता है, जिससे गर्म हवा निकलती है। लेकिन अगर चमगादड़ में थोड़ी सी ऊर्जा कम होती है, तो वो ठंडा हो जाता है और फिर धीरे-धीरे उसमें गर्मी का बहाव होता है।",
+      "cooking": "जब आप मांस को आंच पर जलाते हैं, तो वह चमकता है और वातावरण गरम हो जाता है, यह एक exothermic reaction है जैसे खाना पकाने में।  जैसे ही आप एक instant cold pack का उपयोग करते हैं, उसके अंदर के पदार्थ ठंडे हुए हैं, जिसकी वजह से वातावरण ठंडा हो जाता है, यह endothermic reaction है."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_states_matter",
+    "subject": "Chemistry",
+    "grade": 8,
+    "concept": "पदार्थ की अवस्थाएँ और कण-सिद्धांत",
+    "standard_explanation": "Kinetic theory मानती है कि सारा पदार्थ छोटे-छोटे कणों से बना है जो लगातार गति में रहते हैं, और तापमान बढ़ने पर उनकी गति बढ़ जाती है। ठोस में कण अपनी fixed जगह पर सिर्फ़ कंपन करते हैं, द्रव में वे पास रहते हुए इधर-उधर चलते हैं, और गैस में वे स्वतंत्र रूप से दूर-दूर तक चलते हैं। heat देने या हटाने से पदार्थ इन अवस्थाओं के बीच बदलता है।",
+    "analogies": {
+      "free": "Imagine a bag of marbles.  A solid marble is like a tightly packed group of people sitting still - they're locked in place and don't move much unless the bag shakes. A liquid marble, like water, is more free-flowing - people can easily move around each other without stopping. Finally, a gas marble is like a bunch of bouncy balls in a room, constantly bouncing off walls and hitting each other.",
+      "everyday": "जब आप अपने पसंदीदा भोजन के लिए एक बगीचे में खड़े होते हैं, तो आपके हाथी और कूड़े की दवाब पर विचार करते हुए, ठोस पदार्थ आसानी से चलता है, द्रव पदार्थ घूमता है और गैस पदार्थ स्वतंत्र रूप से फैलता है। यह सब तापमान के स्तर के कारण बदलता है, जैसे कि जब आप अपनी जमे हुई चाय में गर्म पानी डालते हैं तो वह ठोस में रहती है।",
+      "sports": "जब बच्चे खेलते हैं, तो वे  भूमि पर खेल के उपकरणों को जंप करते हैं और गेंद को टेक कर फेंकते हैं - ठोस समान है, जैसे कि स्थिर बर्फबारी या तेज हवा में तैरना। जब गेंद मजबू से थके हुए बच्चे द्वारा ड्रॉप होती है, तो यह द्रव के रूप में आती है और फिर वह गैस बन जाती है-  उच्च तापमान से उत्पन्न गति और विस्तार।",
+      "cooking": "जब आप भट्ठा में दाल डालते हैं तो वह ठोस अवस्था में रहती है, जैसे कठोर मिट्टी।  जब आप गरम पानी से दाल को उथल-पुथल करने के लिए प्रोत्साहित करते हैं, तो वह द्रव अवस्था में बदलती है और आसानी से घुमा सकती है। जब आप उस दाल को भट्ठे से निकालते हैं, तो उसके पिघला हुआ पतंग जैसा रूप दिखता है जो गैस की तरह स्वतंत्र रूप से तैरता है - ठीक इसी तरह पदार्थ के कण-कणों का व्यवहार बदलते हैं।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_atomic_structure",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "परमाणु संरचना",
+    "standard_explanation": "किसी atom में धनावेशित protons और उदासीन neutrons का एक छोटा-सा घना nucleus होता है, जिसके चारों ओर ऋणावेशित electrons रहते हैं। protons की संख्या तय करती है कि atom किस तत्व का है, जबकि electrons nucleus के चारों ओर shells में रहकर तय करते हैं कि atom कैसे bond बनाएगा। atom का लगभग सारा द्रव्यमान nucleus में होता है, फिर भी उसका लगभग सारा आयतन खाली जगह होता है।",
+    "analogies": {
+      "free": "Imagine a tiny solar system. At the center sits a dense sun, filled with protons and neutrons - the nucleus of the atom. This sun's gravity pulls in electrons like planets orbiting around it, moving in specific shells.  The number of electrons determines how the atom will interact with others – just like planets forming different orbits determine their interactions within our solar system.  This close proximity of protons and neutrons creates a core of almost all the atom’s mass, while the space between them provides an empty shell for the electrons.",
+      "everyday": "Think of an atom like a miniature solar system. The nucleus is the sun, holding both protons (positive charge) and neutrons (no charge).  Electrons whizz around the nucleus in a series of shells, much like planets orbit a sun.  The number of electrons dictates how the atom will interact with other atoms to form bonds.",
+      "sports": "एक बड़ा और मजबूत घोड़ा, उसके अंदर एक छोटा-सा सफेद केंद्र होता है। इस केंद्र में हल्के फुफ्फुस से भरे हुए पेट होते हैं जो आसानी से घूमते रहते हैं, जिससे वह आगे बढ़ सकता है। इसी तरह, परमाणु के पास एक केंद्रीय केंद्र होता है जिसमें प्रोटॉन और न्यूट्रॉन का समूह होता है, जिसे हम \"घोड़े के सफेद केंद्र\" कहते हैं.",
+      "cooking": "देखो,  किसी के साथ बटुए में एक छोटी सी क्रीप होती है जो भूगोल को भर देती है! उस क्रीप में अक्सर अचानक हलकी से आ रही द्रव्यमान की तरह छोटी-छोटी इकाइयों का घनापन होता है।  दूसरे शब्दों में, यह तत्व के केंद्र में प्रोटन और न्यूट्रॉन जैसी लार्वा होती हैं जो क्रीप को भरती है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "परासरण (Osmosis)",
+    "standard_explanation": "Osmosis वह प्रक्रिया है जिसमें पानी किसी semipermeable membrane के आर-पार, कम विलेय-सांद्रता वाली ओर से ज़्यादा विलेय-सांद्रता वाली ओर जाता है। यह membrane पानी को गुज़रने देती है पर घुले हुए बड़े कणों को रोकती है, इसलिए पानी अपने आप दोनों ओर की सांद्रता बराबर करने की दिशा में बहता है। इसी वजह से सूखी किसमिस पानी में डालने पर फूल जाती है।",
+    "analogies": {
+      "free": "Imagine a crowded room with people wanting to move to different sides based on their desire for more space.  The door is a semipermeable membrane, only allowing water molecules to pass through. This causes the crowd of people (water) from areas of lower density to spread out and flow towards areas of higher density (higher concentration), ultimately creating balance on both sides.",
+      "everyday": "मानसिक स्वास्थ्य में कठिनाई का समाधान करने के लिए, जब आप अपनी आँखों के सामने एक चादर को ढूंढते हैं जिसके माध्यम से पानी चलता है, तो यह एक समान अनुप्रयोग होगा।  यह सुनिश्चित करें कि आपका मन इसे समझ सके और इसे आगे बढ़ाने पर विचार करें।",
+      "sports": "Imagine two jars filled with water, but one jar has a lot of sugar in it, and the other has very little.  If you pour them together through a tiny hole in the middle, the water will flow from the jar with less sugar to the jar with more sugar until both jars have an equal amount of sugar dissolved in the water! This is like osmosis because the water moves to balance out the concentration of sugar on both sides of the membrane.",
+      "cooking": "जब आप एक भारी बर्तन में पानी डालते हैं, तो वह  किसी पतली शीट के माध्यम से तेजी से घुसता है। यह ताज़ी चीज़ की तरह है - पानी अक्सर किसी भी तरल पदार्थ को समान रूप से फैलाता है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "प्रकाश-संश्लेषण",
+    "standard_explanation": "Photosynthesis वह प्रक्रिया है जिसमें हरे पौधे chlorophyll द्वारा सोखी गई प्रकाश-ऊर्जा का उपयोग करके carbon dioxide और पानी को glucose और oxygen में बदलते हैं। सोखी गई प्रकाश-ऊर्जा glucose के bonds में रासायनिक ऊर्जा के रूप में संचित हो जाती है, जिसे पौधा बाद में वृद्धि और श्वसन के लिए इस्तेमाल करता है। यह लगभग respiration के उलट है और धरती पर लगभग सारे भोजन और oxygen का स्रोत है।",
+    "analogies": {
+      "free": "प्रकाश-संश्लेषण की तरह, एक फार्मिंग कंपनी को अपने खेतों में नई ऊर्जा पैदा करने के लिए सूरज की रोशनी का उपयोग करके गेहूं और जमीन से ताजी चीजें बनाना चाहिए।  फैसला लेते हुए, वे पहले पानी और CO2 को ग्रह पर एक भयानक फसल (glucose) में बदलते हैं, जिससे वे अपने खेतों में बढ़ते हैं। ये कंपनी हर बार सूरज की रोशनी का उपयोग करके पुनरावृत्ति कर सकती है, जिससे उनके उत्पादों में उच्च ऊर्जा और नई चीजें होती हैं।",
+      "everyday": "मानसून के बाद पौधे ग्रीन के फूलों से लेकर फल और सब्जियां तक हर चीज़ को सजाते हैं, जैसे कि प्रकाश-संश्लेषण एक बड़ी मछलीघर है जो पानी की रीढ़ के नीचे गर्म पानी का उपयोग करके शक्ति प्रदान करती है। यह प्रक्रिया पौधे के ऊर्जावान छिलके में प्रकाश का आकर्षण और वसा को जलाने जैसी गतिविधियों के माध्यम से ऊर्जा को बचाता है, जिससे पौधे जीवन के लिए आवश्यक भोजन बनाते हैं, जो बाद में वनस्पतियों और जानवरों के लिए जीवन शक्ति प्रदान करता है।",
+      "sports": "यह सोचो की एक खिलौना बनाने के लिए रेशम और धागे का इस्तेमाल किया जाता है, जैसे कि सूरज की किरणें.  हाईटेक इंटेलिजेंस वाला पहेली गेम! हरे पौधे में लकड़ी (कैल्शियम) को छानकर ऊर्जा लेते हैं, जो एक नए खिलौने के निर्माण की प्रक्रिया है।  जब प्रकाश-ऊर्जा का उपयोग करके पानी और कार्बन डाइऑक्साइड को ऊर्जा प्रदान किया जाता है, तो यह पौधे को पोषण देता है, जिससे उसे अधिक विकसित होने और जीवित रहने में मदद मिलती है।",
+      "cooking": "जैसे कि एक बड़ी रोटी बनाना, हरे पौधे में प्रकाश-संश्लेषण का कार्य होता है। वे सूर्य की ऊर्जा को अपने चावल से सोखते हैं और पानी के साथ कार्बन डाइऑक्साइड को मिलाकर रोटी बनाते हैं - जो उनके लिए पोषण प्रदान करते हैं। इस प्रक्रिया में, प्रकाश ऊर्जा का उपयोग करके ग्रीन पौधे ने भोजन (ग्लूकोज) और ऑक्सीजन का उत्पादन किया। यह चावल के रूप में सूर्य की ऊर्जा से बनी रोटी जैसा, और हमारे लिए खाना।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_respiration",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "कोशिकीय श्वसन",
+    "standard_explanation": "Cellular respiration वह प्रक्रिया है जिसमें कोशिकाएँ glucose में संचित ऊर्जा को मुक्त करके अपनी गतिविधियाँ चलाती हैं। oxygen की उपस्थिति में glucose टूटकर carbon dioxide और पानी बनाता है, और बड़ी मात्रा में प्रयोग-योग्य ऊर्जा निकलती है। यह मूलतः photosynthesis के उलट है और जीवित कोशिकाओं में लगातार चलता रहता है।",
+    "analogies": {
+      "free": "Think of a battery charging. The cells in a battery are like mitochondria, the tiny powerhouses inside a cell. Glucose is like the chemical energy from fuel that charges the battery (like a gasoline car). Oxygen acts as the \"circuit\" for this process, allowing the battery to release its stored energy in the form of usable work (movement, growth). This whole process happens continuously in living cells just like a battery being charged and used.",
+      "everyday": "जब आप एक बड़ी चाय की मात्रा में गरम दूध को गर्म पानी में मिलाते हैं, तो वह दूध ठोस बनता है और यह ऊर्जा देता है। कोशिकाएँ अपने \"गर्मी\" का उपयोग करके दूध (glucose) को जलाकर ऊर्जा बनाती हैं, जिससे जीवित रहने के लिए आवश्यक गतिविधियों को चलाने में मदद मिलती है.",
+      "sports": "जब आप एक बच्चे के लिए बास्केटबॉल खेलते हैं, तो आप अपने शरीर को सक्रिय करने और ऊर्जा देने के लिए गेंद को रोकता है। इस प्रक्रिया में, ऊर्जा को सांस की मदद से प्राप्त होती है, जैसे ऊर्जापूर्ण शक्ति का उपयोग करके गेंद को नियंत्रित करना। जब आप खेलते हैं, तो आपको अपनी क्षमताओं का पता चलता है और अपने शरीर का एक समग्र तरीके से आंदोलन करने के लिए ऊर्जा उपलब्ध कराई जाती है, जो कोशिकीय श्वसन की तरह है।",
+      "cooking": "यह इस तरह सोचो की जब आप बर्तन में दाल डालते हैं, तो वह जलती है और उसमें अत्यधिक गर्मी उत्पन्न होती है।  जीवाणु कोशिकाएं भोजन के रूप में दाल का काम करती हैं, जो ऊर्जा के लिए ग्लूकोज को खाती है, जिससे पानी और कार्बन डाइऑक्साइड बनता है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_digestion",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "मानव पाचन",
+    "standard_explanation": "Digestion बड़े, अघुलनशील भोजन-अणुओं को छोटे, घुलनशील अणुओं में तोड़ने की प्रक्रिया है, जिन्हें शरीर रक्त में absorb कर सकता है। यांत्रिक क्रिया और digestive enzymes आँत के साथ-साथ काम करते हैं, और हर enzyme किसी खास प्रकार के भोजन जैसे starch, protein या fat को तोड़ता है। absorb हुए पोषक तत्व फिर शरीर को ऊर्जा और निर्माण-सामग्री देते हैं।",
+    "analogies": {
+      "free": "मानव पाचन जैसा है कि एक बड़े, मुलायम भोजन को एक छोटा, घुलनशील अणु में बदलना जो मजबूत धारा से बह रहा होता है। जैसे-जैसे वह भोजन ऊर्जा और निर्माण के लिए तैयार होता है, यह रक्त में आसानी से फैलता है, अपने पाचन तंत्र में आतंकार करता है।",
+      "everyday": "जब आप एक पुरी को काटते हैं, तो उसे छोटे-छोटे टुकड़े में लाने की प्रक्रिया जैसी है, जो उसमें भोजन के अणुओं को बदलता है।  इस तरह से, जैसे कि खाद्य पदार्थों को मसाला और चीजों से बचाने के लिए अलग-अलग तरीके से तोड़ते हैं, यह शरीर में पोषक तत्व को ले जाता है। फिर, शरीर का निर्माण और ऊर्जा देने के लिए उन्हें उपयोग करता है।",
+      "sports": "मानव पाचन का अनुकरण करते हुए, सोना एक खोखले पौधे की तरह काम करता है - इसमें भोजन को तोड़ने और उसे फिर से तैयार करने के लिए उसी तरह एक निश्चित प्रक्रिया होती है। अंग्रेजी में \"breaking down\" शब्द का प्रयोग करके, आप इसे समझ सकते हैं कि कैसे पानी एक विशाल बर्तन में डुबोकर छोटे-छोटे टुकड़ों में तोड़ सकता है। फिर से तैयार होने के लिए भोजन को फिर से बनाने की प्रक्रिया - यह सभी प्रकार के अणुओं को तोड़ता है, और अंत में हमारे शरीर को ऊर्जा देता है.",
+      "cooking": "मानव पाचन दरवाजे पर एक बड़ी चाय की चम्मच जैसी तरह है, जिसमें भोजन के अणुओं को छोटे और घुलनशील आकार में बदलकर फिर शरीर में ले जाया जाता है। इस चाय की चम्मच के माध्यम से, विभिन्न प्रकार के भोजन जैसे कि चीनी, ब्रेड या मीट, अलग-अलग दिशाएं पर मुस्कुराते हुए घोल जाते हैं, जिससे यह पाचनशील हो जाता है और शरीर में ऊर्जा मिलती है।"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_food_chain",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "आहार शृंखला और ऊर्जा प्रवाह",
+    "standard_explanation": "एक food chain दिखाती है कि ऊर्जा और पोषक तत्व एक जीव से दूसरे तक कैसे पहुँचते हैं जब एक को दूसरा खाता है, और यह हरे पौधों जैसे producers से शुरू होती है। हर चरण पर बहुत-सी ऊर्जा heat के रूप में नष्ट हो जाती है, इसलिए food chains में आम तौर पर कुछ ही कड़ियाँ होती हैं। प्रकृति में ये आहार-संबंध आपस में जुड़कर एक food web बनाते हैं।",
+    "analogies": {
+      "free": "Think of a solar panel farm.  The sunlight provides energy to the panels, which converts that energy into electricity.  The electricity flows through wires to power homes and businesses.  Eventually, some of the energy is lost in the form of heat or used for other purposes. Just like a food chain has limited energy transfer from one organism to another due to energy loss, the solar panel farm's electricity flow represents energy transfer with losses along the way.",
+      "everyday": "देखिए, जब आप अपनी घर की रेस्तरां  में बिताते हैं, तो खाना पकाने वाले को अपना काम करने के लिए स्टीवर्ड और चाय का इस्तेमाल करते हैं।  जब स्टीवर्ड से चाय तक पहुंचाया जाता है, उसके बाद वह खाने से लेकर शिशुओं तक पहुँचाता है, यह ऊर्जा प्रवाह के रूप में चलता है।",
+      "sports": "मान लीजिए एक खेल के मैदान पर दो टीमों का खेल चल रहा है - एक टीम खिलाड़ी अपने कपड़े पहन कर दौड़ती है और दूसरी टीम खिलाड़ी अपने भोजन से ऊर्जा खो दे रही है। जब खेल शुरू होता है तो सबसे पहले खिलाड़ी जो अपनी गति से आगे निकलते हैं, उनका खाना पिघलता है और फिर दूसरे खिलाड़ियों को ऊर्जा मिलती है। लेकिन प्रत्येक दौड़ में, कुछ ऊर्जा का विराम हो जाता है क्योंकि खिलाड़ियों के पास केवल थोड़ी ऊर्जा है और इसी कारण ही खेल की गति कम होती है।",
+      "cooking": "Imagine making a meal for your family. You start with the basic ingredients like rice and vegetables. Then you cook them in a pot, adding meat or fish to make it more complete.  As you move through the steps of cooking, some energy is lost as heat, just like in nature, where some energy from one level of the food chain gets lost as heat when another organism consumes it. This process creates a complex web of interconnected pathways, much like how the ingredients and heat are interconnected in your kitchen."
+    },
+    "generator": "gemma2:2b"
+  }
+]

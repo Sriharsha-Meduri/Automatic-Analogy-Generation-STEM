@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "When a boxer throws a punch at an opponent's face, their hand pushes forward with great force, and simultaneously, the opponent's face is pushed backward by an equal amount and in the opposite direction, as if they threw the punch themselves. The same principle applies to how planets orbit around stars: the Earth's gravity pulls inward on the star, while the star's gravity pulls outward on our planet, creating a balanced yet opposing force that keeps them moving in tandem. This forward-pushing action results from the backward-pulling reaction, illustrating the Newtonian concept of equal and opposite forces.",
+      "everyday": "Imagine you're having a tug-of-war with your friend in the park. You pull on one end of the rope, and your friend pulls back on the other end. The force you apply to the rope is matched by the force your friend applies to you – both are strong, but opposite.",
+      "sports": "Imagine two wrestlers, Alex and Ben, in a grappling match. When Alex grabs Ben's arm to try and take him down, he exerts an upward force on Ben. At the same time, Ben is also pushing back downward with equal force on Alex, which prevents Alex from going all the way down. The forces they exert on each other are action-reaction pairs that always occur between two different objects (Alex and Ben).",
+      "cooking": "When you whip cream with a mixer, the whisk pushes down on the cream with a force that makes it move upwards, but at the same time, the whipped cream pushes back up on the whisk with an equal and opposite force that keeps it moving downwards, illustrating how forces always come in pairs. This pushing-back action is what keeps the whisk from flying out of your hand, demonstrating that the two forces are not opposing each other head-on, but rather balanced against each other."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ],
+    "analogies": {
+      "free": "A garden hose with a clogged filter has less water flowing through it for a given pump's pressure compared to one with a clear filter; similarly, higher resistance in an electrical circuit restricts the flow of electrons (current) more than lower resistance, and increasing voltage is like turning up the pump's pressure.",
+      "everyday": "Imagine trying to pour water from a container with different tap openings through which you can control the water flow. If the opening is small (high resistance), less water flows at the same pressure (voltage) compared to a larger opening where more water can flow freely, even at the same pressure. The wider opening allows more \"current\" to pass through, just like how increasing the tap's diameter lets more charge flow in an electric circuit, while restricting it with smaller openings increases its resistance and reduces the current.",
+      "sports": "Imagine running a race with your friends in a obstacle course. The voltage is like a strong push from the starting line, and the current is how fast you can move through the course. As you run, more obstacles (resistance) slow you down, so if you have to go around more obstacles, you'll be slower, just like if you had higher resistance in your circuit, you'd flow less charge (current).",
+      "cooking": "Imagine trying to pump water through a hose with different levels of kinkiness in its coils. The more kinked the coils are, the harder it is for the water to flow. If you have a constant pressure source pushing the water (like a faucet), a hose with many kinks will only allow a small amount of water to pass through compared to one with fewer kinks."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A deck of cards represents a sample space with multiple equally likely outcomes. Drawing one card first and then another card again is like two independent coin tosses: each draw doesn't influence the other, so their probabilities multiply together to give the probability of both events occurring. If you flip a coin three times, the outcome of any single flip is like an independent event in this analogy.",
+      "everyday": "Imagine you have two separate doors in your room: one leads to your bed and the other to a friend's house for a study session. The probability of going straight to bed is 9/10, and the probability of choosing your friend's house is 1/5. Because these choices are independent (you can either go to bed or choose your friend's house, but they're not linked), we multiply their probabilities: 0.9 * 0.2 = 0.18, which means there's a 18% chance you'll end up in both places.",
+      "sports": "Imagine playing two separate coin tosses one after the other: each toss is like flipping a single coin, and the probability of getting heads on one toss is the same as the probability of getting heads on another. If you flip one coin and get heads, it doesn't change whether or not I also flip my coin; they're independent events. To find the probability that both coins land on heads, I multiply the probability of each individual event: 1/2 × 1/2 = 1/4.",
+      "cooking": "Imagine making two cups of coffee: one with sugar and the other without. If you add sugar to your first cup before brewing, it won't affect the second cup's flavor - they're independent events. To find if both are brewed to perfection, you calculate the chances of each happening separately and then multiply those chances together (probability of perfect brew)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_derivative",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "The derivative as an instantaneous rate of change",
+    "standard_explanation": "The derivative of a function at a point measures how fast the function's value is changing at that exact point, which is the slope of the tangent line to the curve there. It is the limit of the average rate of change over an interval as the interval shrinks toward zero. A large derivative means the quantity is changing quickly; a derivative of zero means it is momentarily not changing.",
+    "questions": [
+      {
+        "q": "A ball is thrown straight up. At the highest point of its path, its velocity is momentarily zero. What does this say about the derivative of its height with respect to time at that instant?",
+        "options": {
+          "A": "It is zero",
+          "B": "It is at its largest",
+          "C": "It is negative and large",
+          "D": "It is undefined"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "The derivative of a function at a point equals the slope of:",
+        "options": {
+          "A": "A line joining the two endpoints of the curve",
+          "B": "The tangent line to the curve at that point",
+          "C": "The horizontal axis",
+          "D": "The average of all slopes"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "If the derivative of a quantity is large and positive, the quantity is:",
+        "options": {
+          "A": "Decreasing quickly",
+          "B": "Constant",
+          "C": "Increasing quickly",
+          "D": "At a maximum"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "In the speedometer picture, the average speed over a trip corresponds to what, and the derivative to what?",
+        "options": {
+          "A": "Average speed to the speedometer reading; derivative to total distance",
+          "B": "Average speed to total distance over total time; derivative to the instant speedometer reading",
+          "C": "Both correspond to the speedometer reading",
+          "D": "Average speed to the instant reading; derivative to the trip average"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a car traveling on a straight road at a constant speed. The derivative represents the speed of that car at a specific moment, telling you how fast the distance from your starting point is increasing at exactly that instant, just like the slope of the tangent line to a curve. As the car speeds up or slows down, its instantaneous speed (derivative) increases or decreases, indicating how quickly the distance is changing; when it's momentarily cruising at top speed, the derivative is zero.",
+      "everyday": "Imagine you're making a cup of coffee every morning. The derivative of your coffee-making time is like the rate at which you're pouring water into the pot - as you pour more quickly, the water level rises faster; when you slow down or stop pouring for a moment, the water level doesn't change as much, and then speeds up again as you start moving the pot. This rate of change in your coffee-making time mirrors how fast the amount of coffee changes when you're adding hot water to the grounds, reflecting the instantaneous speed of change at any given moment.",
+      "sports": "Imagine you're playing a game of catch with a friend, where you both throw and catch balls. As you throw a ball, its speed is changing from your hand to yours, but not instantly - there's a moment when the ball stops moving or starts speeding up in that exact instant. The derivative represents how fast this transition happens at any given point, like the moment when you catch the ball; it's what makes a big difference between catching a slow-moving ball and one that zooms by.",
+      "cooking": "Imagine you're making a batch of cookie dough that's supposed to rise evenly and uniformly in your oven. The derivative represents how fast the cookie is rising at any given moment - if it's high, it means the cookie is rising quickly; if it's low, it means it's rising slowly. Just like how a large slope on the graph of your cookie's height over time indicates rapid change, a large derivative in this analogy signifies that the quantity (cookie dough) is changing at an accelerated pace."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_equilibrium",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Dynamic chemical equilibrium",
+    "standard_explanation": "In a reversible reaction, dynamic equilibrium is reached when the forward and backward reactions occur at the same rate, so the concentrations of reactants and products stay constant over time. Equilibrium does not mean the reaction has stopped; both directions continue, but their rates are balanced. Le Chatelier's principle says that if a stress such as concentration or pressure is applied, the equilibrium shifts to partly oppose that change.",
+    "questions": [
+      {
+        "q": "A sealed reaction has reached dynamic equilibrium. Which statement is correct?",
+        "options": {
+          "A": "Both forward and reverse reactions have stopped",
+          "B": "Only the forward reaction continues",
+          "C": "Forward and reverse reactions continue at equal rates",
+          "D": "The reactants have been completely used up"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "In the sink-with-open-drain picture, the constant water level represents:",
+        "options": {
+          "A": "The reaction having stopped",
+          "B": "Equilibrium, where inflow rate equals outflow rate",
+          "C": "A reaction with no products",
+          "D": "An overflowing reaction"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "At equilibrium, extra reactant is suddenly added. By Le Chatelier's principle, the system will:",
+        "options": {
+          "A": "Shift to make more product, opposing the change",
+          "B": "Shift to make more reactant",
+          "C": "Stop reacting entirely",
+          "D": "Explode"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Why is chemical equilibrium described as 'dynamic'?",
+        "options": {
+          "A": "Because the container moves",
+          "B": "Because concentrations keep rising",
+          "C": "Because both reactions keep happening even though net concentrations are steady",
+          "D": "Because it only happens in gases"
+        },
+        "answer": "C"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a seesaw in a playground. When two kids sit on opposite ends and push with equal force, the seesaw balances exactly in the middle. But if one kid suddenly gets up and jumps off, or adds more weight to their side, the seesaw tilts, but not completely - it shifts, yet still wobbles, until balance is restored by adjusting forces on both sides.",
+      "everyday": "Imagine a seesaw in a park where two kids are sitting on opposite ends, pulling each other towards them with equal force. If you add more kids to one side of the seesaw, they will start pulling harder on their own side to try and balance out the weight, but it takes time for everyone to settle down again. Now imagine that if someone jumps off the seesaw or adds or removes a heavy ball from one end, the kids will adjust their pulling force to try and compensate for the change, shifting their position slightly until the balance is restored. This dynamic back-and-forth motion is like the constant reaction of reactants and products in a chemical equilibrium, where changes in concentration cause shifts in the reaction rates.",
+      "sports": "Imagine a football team playing against their arch-rivals in a closely matched match. As the game unfolds, the scores are tied and neither team gains a significant advantage, so they continue to play at an even intensity, with each scoring attempt balanced by the opposing team's defensive efforts. However, if the visiting team suddenly receives a boost of fresh players due to an injury, their overall skill level increases, causing them to score more often. The home team must adjust by applying pressure to prevent this advantage from shifting the scoreboard in favor of the newcomers.",
+      "cooking": "Imagine a batch of cookies in a double boiler, where sugar and eggs are mixed together to create cookie dough. As you stir the mixture, some of the hot water from the boiling pot starts to evaporate, cooling down the mixture slightly. If you add more heat (like increasing the stove's temperature), more sugar molecules will start dissolving into the egg mixture, causing it to become even more sweet. But if you then take away some of that added heat, the reaction reverses: some of the dissolved sugar starts re-forming in the pot as water evaporates again."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "The pH scale for acids and bases",
+    "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+    "questions": [
+      {
+        "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+        "options": {
+          "A": "2 times",
+          "B": "10 times",
+          "C": "100 times",
+          "D": "The same"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A solution has a pH of 9. It is:",
+        "options": {
+          "A": "Acidic",
+          "B": "Neutral",
+          "C": "Basic",
+          "D": "Impossible"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why can a small drop in pH represent a big rise in acidity?",
+        "options": {
+          "A": "Because the scale is logarithmic, each unit is a tenfold change",
+          "B": "Because pH is measured in percentages",
+          "C": "Because pH only applies to strong acids",
+          "D": "Because lower numbers are always basic"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Pure water at room temperature has a pH of 7. This means it is:",
+        "options": {
+          "A": "Strongly acidic",
+          "B": "Neutral",
+          "C": "Strongly basic",
+          "D": "Undefined"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A logarithmic pH scale is like a Richter scale for earthquakes, where each step represents tenfold increase in acidity, just as each step on the Richter scale represents a tenfold increase in earthquake intensity. A pH of 7 is equivalent to an earthquake with magnitude 0 (neutral), values below 7 are equivalent to decreasing intensities (more acidic), and values above 7 are equivalent to increasing intensities (more basic).",
+      "everyday": "Imagine a musical scale where notes get progressively more sour or sweet as you move away from the middle note of C. Just like how a sharp note sounds different from a flat note next to it, acidic solutions sound different from neutral solutions; and just as one octave has ten steps, a pH unit means a tenfold change in acidity.",
+      "sports": "Imagine a game of basketball where you're trying to score against an opponent with varying levels of defense. A defensive player who gives up only one point per shot is like water (pH 7), neutral and not too challenging. As the defender gets tougher, requiring two points per shot, they become like lemon juice (low pH), making it harder to score. Conversely, a teammate who lets in three points per shot would be like baking soda (high pH), making it easy to score against them.",
+      "cooking": "Imagine a kitchen scale for sugar and flour mixes. The pH scale is like this mix ratio, with neutral being equal parts of sugar and flour, acidic being more sugar than flour, and basic being more flour than sugar. Each step down the pH scale is like adding one less unit of flour, making the mixture increasingly concentrated with just sugar (more acidic), while each step up is like adding one more unit of flour, making it increasingly diluted with just sugar (more basic)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Osmosis across a semipermeable membrane",
+    "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+    "questions": [
+      {
+        "q": "A cell is placed in pure water. Water tends to move:",
+        "options": {
+          "A": "Out of the cell, because the cell is more dilute",
+          "B": "Into the cell, because the cell interior is more concentrated",
+          "C": "Neither way, membranes block all water",
+          "D": "Out of the cell, shrinking it"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "What makes a membrane 'semipermeable'?",
+        "options": {
+          "A": "It blocks everything",
+          "B": "It lets everything through equally",
+          "C": "It lets water through but blocks larger dissolved particles",
+          "D": "It only lets salt through"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A raisin swells when soaked in water because:",
+        "options": {
+          "A": "Sugar leaves the raisin",
+          "B": "Water moves in from the dilute surroundings to the concentrated interior",
+          "C": "The skin dissolves",
+          "D": "Air is pumped in"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In which direction does water move during osmosis?",
+        "options": {
+          "A": "From lower water concentration to higher water concentration",
+          "B": "From higher water concentration to lower water concentration",
+          "C": "Always upward",
+          "D": "From basic to acidic solutions"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A semipermeable membrane is like a selectively permeable lunch bag during a picnic: just as water molecules can pass through but larger food particles cannot, and continue to flow from where there's more water (in the cooler shade) to where there's less (by the hot sun), until the bag becomes evenly filled with water. The movement stops when the water level is equal on both sides, just like the lunch bag isn't being refilled once it's full.",
+      "everyday": "A sponge soaks up a salty drink through its pores, but leaves undisturbed its untouched corner, where the saltwater hasn't touched yet, until the saltwater from the soaked area seeps into and balances out with the fresh water in the untouched corner. The pores act like tiny filters that allow only water to pass through, while keeping the salt back. As more salty drink is poured onto one side of the sponge, the clean water moves in until it's evenly distributed on both sides. Eventually, the sponge becomes saturated and no more water can seep into the untouched corner.",
+      "sports": "Imagine a swimmer in a pool with low water levels, trying to move water from one end of the pool to the other through a gate that only allows small balls (water molecules) to pass through while keeping larger pool toys (dissolved particles) out. As the swimmer tries to fill the pool, more and more \"balls\" are drawn from one end where it's plentiful to the other end where it's scarce, until the water levels are balanced, or external pressure stops them.",
+      "cooking": "Think of a semipermeable membrane like a fine-mesh strainer over a bowl of water and sugar. Water molecules can pass through the mesh but large sugar molecules cannot, allowing the water to move from the sugary solution (higher concentration) into the clear water (lower concentration) until equilibrium is reached. The pressure applied to the system is like adding extra water to the bowl, pushing it past the point where it stops moving. Eventually, the water and sugar concentrations become equal, just like when you've extracted as much liquid from a dessert as possible with your strainer."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_natural_selection",
+    "subject": "Biology",
+    "grade": 12,
+    "concept": "Natural selection",
+    "standard_explanation": "Natural selection is the process by which individuals with traits better suited to their environment tend to survive and reproduce more than others, so those helpful traits become more common in the population over generations. It requires variation among individuals, inheritance of traits, and differences in survival and reproduction. Natural selection acts on existing variation; it does not create traits on demand.",
+    "questions": [
+      {
+        "q": "A population of beetles lives on dark tree bark. Birds eat the ones they can see easily. Over generations you would expect:",
+        "options": {
+          "A": "Beetles to choose to become darker",
+          "B": "Darker beetles to become more common because they survive and reproduce more",
+          "C": "All beetles to stay the same colour",
+          "D": "Birds to stop eating beetles"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Which three ingredients does natural selection require?",
+        "options": {
+          "A": "Variation, inheritance, and differences in survival/reproduction",
+          "B": "Strength, speed, and intelligence",
+          "C": "A designer, a goal, and a plan",
+          "D": "Warm climate, water, and sunlight"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A common misconception is that natural selection 'creates' new traits when needed. More accurately, it:",
+        "options": {
+          "A": "Invents traits on demand",
+          "B": "Acts on variation that already exists, favouring helpful traits",
+          "C": "Only removes traits, never spreads them",
+          "D": "Works within a single individual's lifetime"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Antibiotic-resistant bacteria become common in a hospital because:",
+        "options": {
+          "A": "Bacteria decide to resist the drug",
+          "B": "The drug teaches bacteria to resist",
+          "C": "Resistant bacteria survive treatment and reproduce, passing on resistance",
+          "D": "All bacteria are naturally resistant"
+        },
+        "answer": "C"
+      }
+    ],
+    "analogies": {
+      "free": "A hotel's cleaning staff receives new equipment with different broom handles: some are longer and stiffer for heavy-duty cleaning, while others are shorter and more agile for tight spaces. The staff assigns each room a \"guest\" based on its unique needs, and those guests who receive the right broom handle are more likely to be satisfied and return, while unhappy guests may not come back or complain about their stay. Over time, the types of brooms received by guests change as the staff adapts to what works best for each room. This process is similar to how natural selection favors individuals with traits better suited to their environment.",
+      "everyday": "Imagine a household where different breeds of dogs live together. Some dogs are naturally more agile and can run faster than others, while some are better at catching small prey. When an earthquake hits, the house is destroyed but the yard remains intact, providing food for only those dogs that were already well-prepared to hunt there. As time passes, the population of dogs shifts towards having more agile and skilled hunters.",
+      "sports": "A chess tournament where players with stronger opening strategies tend to win more games and get to play in the next round, gradually making their strategy more common among participants over time, as a result of competition that favors existing strengths. This process doesn't create new openings on demand, but rather selects for those already present within the group.",
+      "cooking": "Imagine a community of bakers with varying skills in making a traditional pastry dough recipe. The environment is harsh and unforgiving, requiring a specific balance of ingredients to achieve success. Those who intuitively understand the delicate ratios of flour, sugar, and yeast will produce better results, earning more invitations to share their baked goods at the annual festival, while those with inferior skills struggle to survive. Over time, the bakers' collective recipe adapts to the demands of the environment through a process where successful variations become more widely adopted."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_induction",
+    "subject": "Physics",
+    "grade": 12,
+    "concept": "Electromagnetic induction (Faraday's law)",
+    "standard_explanation": "Electromagnetic induction is the production of a voltage across a conductor when the magnetic field around it changes. Faraday's law states that the induced voltage is proportional to how fast the magnetic flux through a loop changes. A steady magnetic field induces nothing; it is the change in the field, from motion or a varying current, that drives the induced current.",
+    "questions": [
+      {
+        "q": "A bar magnet is held perfectly still inside a coil of wire. The induced current in the coil is:",
+        "options": {
+          "A": "Large and steady",
+          "B": "Zero, because the field is not changing",
+          "C": "Growing over time",
+          "D": "Reversed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "To induce a larger voltage in a coil, you should move the magnet:",
+        "options": {
+          "A": "More slowly",
+          "B": "Faster, so the flux changes more quickly",
+          "C": "Not at all",
+          "D": "Only in a circle"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the wave-pool picture, what does a steady, unchanging magnetic field correspond to?",
+        "options": {
+          "A": "A passing wave that pushes swimmers",
+          "B": "Flat water that pushes nobody",
+          "C": "A stronger swimmer",
+          "D": "A deeper pool"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Which situation will NOT induce a current in a nearby coil?",
+        "options": {
+          "A": "A magnet moving toward the coil",
+          "B": "A magnet moving away from the coil",
+          "C": "A magnet resting motionless beside the coil",
+          "D": "A steadily strengthening electromagnet near the coil"
+        },
+        "answer": "C"
+      }
+    ],
+    "analogies": {
+      "free": "A river flowing into a lake creates ripples that spread outward, similar to how a changing magnetic field induces voltage across a conductor; just as the water's velocity changes cause the ripples, a varying current or motion in the magnetic field causes the induced voltage; a steady magnetic field is like a calm lake with no change, unresponsive to external influences.",
+      "everyday": "Imagine you're filling a bathtub with water from a faucet that's being turned on and off every few seconds. The rate at which water flows into the tub corresponds to how fast the magnetic field changes around it - faster turns mean more water, slower turns mean less. When the faucet stops, but isn't completely closed, water continues to flow in due to inertia, just like a conductor keeps flowing current even after the changing magnetic field has stopped. If the faucet is off and never turned on, no water flows in, illustrating why a steady magnetic field induces nothing.",
+      "sports": "Imagine a goalkeeper standing in front of a goal, their hand covering a small hole that lets in balls. If the goalkeeper is stationary, no ball will go through; but if they move suddenly to block an incoming shot, the ball will fly through the open space created by their movement - the speed and change in the goalkeeper's position directly influence how quickly the ball goes through the goal. Similarly, a changing magnetic field induces a current like the ball flowing through a loop is like the ball going through the hole when the goalkeeper moves.",
+      "cooking": "Imagine you have a pot of water on the stovetop, and you slowly start pouring in oil while stirring it with a spoon. As the oil flows into the pot, its surface area increases, causing more heat to be transferred from the stove to the water. If you suddenly stop pouring or change the direction of the flow, the water's temperature will spike quickly due to the rapid increase in heat transfer; however, if you maintain a steady stream of oil flowing at the same rate, the water won't get any hotter."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_resonance",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Resonance in oscillating systems",
+    "standard_explanation": "Resonance occurs when a system is pushed by a repeating force whose frequency matches the system's own natural frequency of vibration. At that matching frequency, each push adds to the motion at just the right moment, so the amplitude grows large. Pushing at the wrong frequency wastes effort, because some pushes fight the motion instead of helping it.",
+    "questions": [
+      {
+        "q": "A child on a swing goes highest when you push:",
+        "options": {
+          "A": "As hard as possible at random times",
+          "B": "In time with the swing's natural rhythm",
+          "C": "Only when the swing is at the top",
+          "D": "Twice as fast as the swing moves"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Resonance produces a large amplitude when the driving frequency:",
+        "options": {
+          "A": "Is much higher than the natural frequency",
+          "B": "Is much lower than the natural frequency",
+          "C": "Matches the system's natural frequency",
+          "D": "Changes randomly"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why does pushing a swing at the wrong times fail to build height?",
+        "options": {
+          "A": "The pushes are too gentle",
+          "B": "Some pushes oppose the motion instead of adding to it",
+          "C": "Swings cannot resonate",
+          "D": "Gravity turns off"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A singer shatters a glass by singing a note equal to the glass's natural frequency. This is an example of:",
+        "options": {
+          "A": "Reflection",
+          "B": "Resonance",
+          "C": "Refraction",
+          "D": "Insulation"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a musician playing a guitar string in tune with its fundamental frequency, and when they pluck it again at the same note, the vibration amplifies exponentially due to sympathetic resonance; if they play off-tune, the string vibrates out of harmony, resisting further oscillation. As with the guitar string, a system pushed by an external force at its natural frequency of vibration will amplify its motion, while pushing at other frequencies will either dampen or reinforce it in opposing directions.",
+      "everyday": "Imagine a guitar string being plucked in tune with its natural vibrations: at that perfect pitch, each pluck amplifies the existing vibration, making the sound louder and clearer. If you pluck out of tune, the vibration dies down or even reverses direction, wasting your effort. The same principle applies to other oscillating systems like springs or pendulums, where pushing with a force frequency matching their natural frequency will amplify motion, while mismatched frequencies will cancel it out.",
+      "sports": "Imagine a swimmer trying to catch waves in the ocean - when they swim at a speed that matches the wave's period (the distance between successive peaks), they ride the wave with ease and gain momentum, while if they're out of sync, they're swept away or struggle to keep up. Pushing against the wrong frequency is like swimming too fast or too slow for the waves; it either wastes energy or puts you at risk of being tossed around.",
+      "cooking": "Imagine a perfectly tuned pot with a matching metal spoon, where the spoon's frequency of clinking matches the pot's natural resonance when filled with exactly the right amount of liquid. At this perfect frequency, each clink adds to the vibrations, creating a strong echo, while at other frequencies, the clinks either cancel or clash, wasting energy and causing instability in the mixture. When the spoon's frequency is off, it's like trying to mix a batter with a fork that doesn't match its natural rhythm – the results are chaotic and unmixable."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "questions": [
+      {
+        "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "1/3",
+          "D": "8"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A perfectly horizontal (flat) line has a slope of:",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "Infinity",
+          "D": "Negative"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the ramp picture, a steeper ramp corresponds to:",
+        "options": {
+          "A": "A smaller slope",
+          "B": "A larger slope",
+          "C": "Zero slope",
+          "D": "A negative slope"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+        "options": {
+          "A": "Less steep",
+          "B": "Steeper",
+          "C": "Flat",
+          "D": "Going downhill"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a roller coaster with two steep hills (representing the run) and one gentle slope between them (representing the rise). The higher the hill, the steeper the slope, and if the roller coaster goes from one steep hill to the other, its vertical position changes more (rise) for every horizontal distance traveled (run), just like a straight line. A steeper roller coaster track is like a line with a larger slope, while a flat section corresponds to a zero-slope line.",
+      "everyday": "Imagine a water tank filled with different colored liquids. The slope of the liquid's surface is like the steepness of a straight line: the \"rise\" is how much higher one liquid level is than another (e.g., from blue to red), and the \"run\" is how far apart those two levels are horizontally (e.g., across the tank). As you move along the liquid surface, a steeper slope means you're moving up and over more as you travel rightward, just like a straight line.",
+      "sports": "Imagine playing a game of billiards where you shoot the cue ball to hit another ball on a table. The slope of the line representing the path of the cue ball is like how steep the angle of incidence (the angle at which you hit the cue ball) affects its trajectory; a shallower angle means it will roll more horizontally, while a steeper angle makes it curve more sharply towards the target ball.",
+      "cooking": "Imagine making cookies and measuring how quickly the dough rises in height compared to how far you move forward with the mixing spoon. The ratio of rise to run is like the slope: a faster rise means steeper dough, while a slower rise means flatter dough. If your spoon moves sideways more than up, the \"rise\" is actually negative, and if it doesn't move at all, the dough stays flat."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_integral",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "The definite integral as accumulated area",
+    "standard_explanation": "A definite integral of a function between two points gives the signed area between the curve and the horizontal axis over that interval. It can be understood as adding up infinitely many thin slices under the curve. If the function represents a rate, the definite integral accumulates the total amount that has built up over the interval.",
+    "questions": [
+      {
+        "q": "If a function gives the speed of a car over time, the definite integral of that function over a time interval gives:",
+        "options": {
+          "A": "The car's acceleration",
+          "B": "The total distance travelled in that interval",
+          "C": "The top speed",
+          "D": "The slope of the speed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Geometrically, a definite integral represents:",
+        "options": {
+          "A": "The slope of the tangent line",
+          "B": "The signed area between the curve and the horizontal axis",
+          "C": "The height of the curve at one point",
+          "D": "The length of the curve"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the bathtub picture, the tap's changing flow rate corresponds to the function, and the integral corresponds to:",
+        "options": {
+          "A": "How fast the tap changes",
+          "B": "The total water collected",
+          "C": "The temperature of the water",
+          "D": "The size of the tub"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A definite integral is described as adding up:",
+        "options": {
+          "A": "A few large blocks",
+          "B": "Infinitely many thin slices under the curve",
+          "C": "The endpoints only",
+          "D": "The slopes at each point"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine filling a swimming pool with water flowing from a faucet at one end and draining out of a drain at the other. Just as the depth of the water in the pool represents the rate at which water is being added or drained, the definite integral accumulates the total \"depth\" (amount) of that flow over an interval, giving the net amount accumulated.",
+      "everyday": "Imagine filling a swimming pool with water every day for one year. The amount of water added each day is like the function's value at that point (how much water flows in). If you add up all the water added over the whole year, you get the total accumulated area under the curve - if it's positive, it means more water entered than left; if negative, more left than right.",
+      "sports": "Imagine a marathon runner running along a long track with varying inclines and declines, where their speed is represented by the function being integrated. As they run, their accumulated elevation gain (or loss) over the entire course corresponds to the definite integral of their speed function, giving the total amount gained or lost in altitude. Just as adding up the tiny changes in altitude from each meter ran gives the overall elevation change, integrating a function sums up an infinitesimally small area under it at a time, ultimately yielding the accumulated area (or signed area) between the curve and the horizontal axis over any given interval.",
+      "cooking": "Imagine you're making a cake and pouring sugar into a tall jar one teaspoon at a time. If the recipe calls for exactly two teaspoons of sugar in total, but you pour them out over a long period of time, you can think of the amount of sugar you've added as the \"total amount\" built up. Just like how adding more teaspoons of sugar accumulates to give the desired total, integrating a rate function gives the accumulated quantity over an interval - even if it's spread out over a very long time."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_catalyst",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Catalysts and activation energy",
+    "standard_explanation": "A catalyst speeds up a chemical reaction by providing an alternative pathway with a lower activation energy, the energy barrier reactants must overcome to react. The catalyst is not used up in the reaction. By lowering the barrier, more reactant collisions have enough energy to succeed, so the reaction goes faster, without changing how much product is finally possible.",
+    "questions": [
+      {
+        "q": "A catalyst speeds up a reaction mainly by:",
+        "options": {
+          "A": "Raising the activation energy",
+          "B": "Lowering the activation energy barrier",
+          "C": "Being used up quickly",
+          "D": "Heating the reactants permanently"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After a reaction catalysed by a substance finishes, the catalyst is:",
+        "options": {
+          "A": "Completely consumed",
+          "B": "Left essentially unchanged and reusable",
+          "C": "Turned into product",
+          "D": "Destroyed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the tunnel-through-a-hill picture, the tunnel represents:",
+        "options": {
+          "A": "A higher energy barrier",
+          "B": "A lower-energy alternative pathway",
+          "C": "The final product",
+          "D": "The reactants"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A catalyst changes which of the following?",
+        "options": {
+          "A": "The rate of the reaction",
+          "B": "The final amount of product possible",
+          "C": "The identity of the products",
+          "D": "The temperature needed to store the product"
+        },
+        "answer": "A"
+      }
+    ],
+    "analogies": {
+      "free": "A skier on a mountain slope uses a sled with wheels to slide down faster than if they tried to hike uphill; the sled lowers the energy barrier by reducing friction, allowing more skiers to reach a certain speed; it doesn't change where they end up, just how quickly they get there.",
+      "everyday": "A person who knows a shortcut in their neighborhood helps many others find it too, by providing an alternative route that's easier and faster than the original one, without using up any energy themselves to create or maintain the shortcut; they just speed up the journey for everyone, without changing the distance or destination.",
+      "sports": "A skier uses a ski pole to help them navigate downhill by providing an easier route with less friction, allowing more skiers to reach the bottom faster without affecting how many reached the finish line before the last one. The ski pole is not used up in its role; it's merely redeployed to aid another skier. By reducing the hurdle, more skiers have enough speed and momentum to cross the finish line, but none get a head start.",
+      "cooking": "Imagine a recipe for making cookies. A catalyst is like a special spice that helps you mix together ingredients with less effort, allowing more combinations of ingredients to come together quickly and efficiently, but without changing the final product or using up the spice itself. The \"activation energy\" is like stirring the bowl until the ingredients start combining - some stirrings take longer than others, and the catalyst makes it easier for more ingredients to mix well at once."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_mole",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "The mole as a counting unit",
+    "standard_explanation": "A mole is a counting unit in chemistry, like a dozen but far larger: one mole is about 6.02 times ten to the twenty-third particles (atoms, molecules, or ions). Chemists use it because atoms are far too tiny and numerous to count individually. The mole links the number of particles to a mass that can actually be weighed in the laboratory.",
+    "questions": [
+      {
+        "q": "Why do chemists use the mole instead of counting atoms one by one?",
+        "options": {
+          "A": "Atoms are too large to see",
+          "B": "Atoms are far too small and numerous to count individually",
+          "C": "The mole changes size for each element",
+          "D": "Atoms cannot be weighed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A mole is best described as:",
+        "options": {
+          "A": "A unit of temperature",
+          "B": "A fixed, very large count of particles",
+          "C": "A type of atom",
+          "D": "A unit of speed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In what way is a mole like a 'dozen'?",
+        "options": {
+          "A": "Both always equal 12",
+          "B": "Both are a fixed number used for counting, just very different sizes",
+          "C": "Both measure weight",
+          "D": "Both apply only to eggs"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "One mole of any substance always contains:",
+        "options": {
+          "A": "The same mass in grams",
+          "B": "The same fixed number of particles",
+          "C": "12 particles",
+          "D": "A different number for each element"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A train station is like a mole in that just as a train station counts people arriving and departing by grouping them into clusters (a dozen or more), a mole groups atoms together to count their number, making it practical for weighing small masses of substances. Just as trains carry many passengers at once, a mole carries an enormous number of particles. This analogy allows us to understand the concept of a mole as a convenient counting unit in chemistry, rather than trying to count individual atoms.",
+      "everyday": "Imagine a large bag of apples, where each apple represents an atom or particle. Just as you can't count individual apples one by one in the bag, but know that there are many more than dozens, one mole is about 6.02 times ten to the twenty-third units (apples) in mass - just as the weight of the bag of apples corresponds to a measurable amount that can be weighed with a scale.",
+      "sports": "Think of a mole like a large team that plays in a professional soccer league, with about six million players on each team, and imagine trying to count every single player individually; instead, you group them into \"teams\" (moles) that make up the total number of players in the league. This way, just as the team name represents many individual players, one mole represents an incredibly large number of tiny particles like atoms or molecules.",
+      "cooking": "Imagine a baker who needs to measure out exactly 12 teaspoons of sugar for a recipe. To make calculations easier and avoid counting each grain individually, they group sugar into \"scoop units\" - about 1/4 teaspoon per scoop. Just as scoops provide a convenient unit for measuring sugar, the mole provides a convenient unit for counting and weighing chemicals that are too small to measure directly, like atoms or molecules."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "questions": [
+      {
+        "q": "An enzyme speeds up only one particular reaction because:",
+        "options": {
+          "A": "It is very large",
+          "B": "Its active site fits only a specific substrate shape",
+          "C": "It is used up each time",
+          "D": "It works at any temperature"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+        "options": {
+          "A": "Any molecule at all",
+          "B": "Only the matching substrate",
+          "C": "Only heat",
+          "D": "Only water"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Very high temperature can stop an enzyme working because it:",
+        "options": {
+          "A": "Adds more substrate",
+          "B": "Changes the enzyme's shape so the substrate no longer fits",
+          "C": "Speeds the enzyme up forever",
+          "D": "Turns the enzyme into a substrate"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After catalysing its reaction, an enzyme is:",
+        "options": {
+          "A": "Used up and discarded",
+          "B": "Free to catalyse the same reaction again",
+          "C": "Turned into product",
+          "D": "Permanently locked"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A key fits into a specific lock only because both have precisely crafted indentations and protrusions that align with each other; similarly, enzymes fit their substrates due to unique molecular conformations; once bound, the enzyme-substrate complex is shaped in such a way that chemical reactions can occur at an accelerated rate.",
+      "everyday": "Enzymes are like specialized key-cutters in a jewelry store. Each key-cutter has a unique shape that fits only specific keys, allowing them to unlock locks quickly and efficiently. The locksmith's workspace is tailored to their skills, with optimal lighting and temperature conditions; if it gets too hot or cold, the key-cutter becomes ineffective.",
+      "sports": "An enzyme is like a speed-drawing artist who helps draw a precise picture by providing the right pencil and holding the paper in place. The specific shape of the artist's hand (active site) matches only certain pencils (substrates), allowing for the perfect drawing, while extreme conditions like heat or cold make it impossible to hold the paper steady.",
+      "cooking": "An enzyme is like a highly specialized chef who efficiently mixes and stirs a specific recipe, ensuring the desired chemical reaction occurs within a narrow temperature range and pH level, without being consumed by the process, just as a skilled cook carefully controls the conditions to produce a perfect dish."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_homeostasis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Homeostasis and negative feedback",
+    "standard_explanation": "Homeostasis is the maintenance of a stable internal environment in the body despite changes outside. It often works by negative feedback: when a variable such as temperature or blood sugar moves away from its set point, the body triggers responses that push it back toward that point. The correction switches off once the variable returns to normal, keeping conditions within a narrow healthy range.",
+    "questions": [
+      {
+        "q": "Negative feedback keeps a body variable steady by:",
+        "options": {
+          "A": "Pushing it further from the set point",
+          "B": "Triggering responses that return it toward the set point",
+          "C": "Ignoring the change",
+          "D": "Permanently raising the set point"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the thermostat picture, what happens once the room reaches the target temperature?",
+        "options": {
+          "A": "The heater stays on forever",
+          "B": "The correction (heating) switches off",
+          "C": "The room keeps getting hotter",
+          "D": "The thermostat breaks"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "When blood sugar rises after a meal, the body releases insulin to lower it. This is an example of:",
+        "options": {
+          "A": "Positive feedback",
+          "B": "Negative feedback restoring the set point",
+          "C": "Homeostasis failing",
+          "D": "An enzyme lock and key"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Homeostasis maintains internal conditions:",
+        "options": {
+          "A": "Exactly constant with no change ever",
+          "B": "Within a narrow healthy range around a set point",
+          "C": "Equal to the outside environment",
+          "D": "Only when asleep"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A thermostat in a house regulates temperature by turning on or off heating/cooling systems when it detects deviations from a set point, like 20°C, until the desired temperature is reached and maintained within a narrow range, just as our bodies regulate internal conditions through negative feedback mechanisms to maintain homeostasis.",
+      "everyday": "A thermostat in a house maintains a constant temperature, and when it detects that the room has risen above its set point, it triggers the air conditioning system to kick in, cooling the space until the temperature returns to normal; once the desired temperature is reached, the thermostat switches off, allowing the room to warm up if needed.",
+      "sports": "Imagine a goalkeeper in a soccer game who keeps track of the ball's speed and position. When the ball starts moving too fast or getting too close to the goal, the goalkeeper adjusts their stance and body positioning to slow it down. Once the ball returns to its original speed and distance from the goal, the goalkeeper relaxes their guard, no longer needing to intervene, maintaining a stable environment despite changes in the game.",
+      "cooking": "Imagine you're making a cake and want to maintain its consistent temperature of around 180°C. You place a thermometer in the oven and set it at that point, but when you turn on the oven, the temperature quickly rises above 200°C due to heat retention from baking earlier. To correct this, you adjust the oven's thermostat to decrease the temperature, effectively \"pushing\" the actual temperature back toward the desired 180°C. Once the cake has cooled and the thermometer shows a stable reading, you turn off the heating element to maintain the precise temperature."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow.",
+    "analogies": {
+      "free": "A large crowd pushing on a wall exerts less force per square inch than a single person pushing with the same strength, because the wall has a larger surface area to spread out their combined effort. Conversely, a group of people standing shoulder-to-shoulder can exert more pressure as a whole by concentrating their collective force onto a smaller area.",
+      "everyday": "Imagine a large family gathering in a small living room, where everyone is moving around and bumping into each other. If one person stands still with all their weight concentrated on their feet, they can easily push against others or even break the furniture. But if you scatter the same amount of weight among many people standing in different parts of the room, it's much harder to move anyone or make a dent.",
+      "sports": "Imagine a team of soldiers trying to cross a rickety bridge with heavy equipment. If they spread their weight evenly across the bridge, it can hold their collective load without collapsing. However, if they concentrate all their force on one point, the bridge buckles under the pressure. Conversely, if multiple soldiers stand far apart, the bridge is less likely to collapse, as the individual forces are dispersed over a larger area.",
+      "cooking": "Imagine pouring a cup of water into a small bucket versus a large container. The amount of pressure from the water (i.e., its weight pushing down on the bottom) is directly proportional to the surface area in contact with the water, so pouring more water into the smaller bucket creates a much greater \"pressure\" than pouring it into the larger container, even if both buckets are filled to the same level."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface.",
+    "analogies": {
+      "free": "A bowling ball rolling on a bed of sand will move faster than it would on a smooth floor because the sand provides more resistance, slowing it down slightly as it moves forward; similarly, light slows down in denser media like water or glass and bends towards the normal as it enters those mediums, changing direction slightly.",
+      "everyday": "Imagine trying to slide a heavy bowling ball across a table covered with different types of smooth floor surfaces - like polished wood, tile, and rubber. The ball slows down when sliding on the densest surface (wood) and takes a curved path as it reaches the edge, whereas it speeds up on the less dense surface (rubber) and skews away from its original direction. This change in speed results in the ball taking an unusual trajectory, much like light bends around the boundary between two transparent media.",
+      "sports": "Imagine you're playing hockey on a rink with different levels of ice thickness. When your stick hits the water-ice surface, it slows down due to friction and bends towards the center of the rink because its new speed is less than when hitting the smooth ice. In contrast, if you hit the thick ice at the edge, your stick speeds up and bends away from the center, appearing as if the rink has warped.",
+      "cooking": "When pouring a denser syrup like honey into a lighter liquid like water, the surface appears to be broken or irregular because the slower-moving honey molecules at the boundary are pushed towards the normal, while the faster-moving water molecules are pulled away from it. In contrast, when pouring a lighter syrup like oil into the same water, the surface is smooth and flat, as both liquids move at similar speeds. This difference in behavior is due to the change in density of the two liquids, which affects their speed and movement."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_momentum",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Momentum and its conservation",
+    "standard_explanation": "Momentum is the product of an object's mass and its velocity, and it measures how difficult it is to stop a moving object. When no external force acts on a system, its total momentum stays constant, so in a collision the momentum lost by one object is exactly gained by the others. A heavy, fast-moving object has large momentum and needs a large force or a long time to be brought to rest.",
+    "analogies": {
+      "free": "A bowling ball moving down a lane is like an object in physics. The more massive and fast-moving the bowling ball, the harder it hits the pins, just as a heavy, fast-moving object has large momentum and needs a large force to be stopped. When the ball collides with the pins, its energy (represented by the kinetic motion) is transferred from one set of pins to another, conserving the total \"energy\" in the system, just like the momentum of objects conserved in physics.",
+      "everyday": "Imagine you and your friend are on a train, both carrying suitcases. When you push one suitcase against another, if there's nothing pushing or pulling either of you, then neither of your suitcases will budge - their total \"mass\" is still the same, even though they've shifted. But if someone suddenly gets off the train and the train starts moving faster, both of your suitcases will start moving faster too, because their combined \"mass\" (you plus suitcase) just got bigger - or if you get off, one suitcase might slow down while the other picks up speed, but the total \"mass\" remains the same.",
+      "sports": "Imagine playing pool with a heavy, fast-moving cue ball versus a lighter, slower-moving one. The heavier cue ball is harder to stop, requiring more force or time to come to rest, just like a large-momentum object in physics. When you collide the two balls, some of their energy and momentum are transferred to each other, keeping the total \"energy\" of the system constant, unless an external force (like friction) acts on either ball, changing its momentum.",
+      "cooking": "Imagine you have a busy restaurant with multiple cooks working in separate stations. Each cook has their own mixing bowl, and if they all move their bowls at different speeds, the mixture of ingredients (representing momentum) will be harder to stop than if they all moved slowly together, requiring less force to slow them down. If no external force is applied, like a sudden power outage, the total mix in each bowl stays constant; however, when the cooks collide with one another, the momentum gained by one cook's mixture must come from the other bowls, balancing out the system."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_gravitation",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Newton's law of universal gravitation",
+    "standard_explanation": "Every object with mass attracts every other object with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between them. Because of the inverse-square relationship, moving two objects twice as far apart weakens the attraction to one quarter of its original strength. This single law describes both a falling apple and the Moon held in its orbit around the Earth.",
+    "analogies": {
+      "free": "Imagine a string with two weights attached at opposite ends, one end held fixed by a stick while the other end is free to move towards or away from the fixed point, representing the varying distance between objects; as the moving weight approaches the fixed point, its tension increases exponentially, just like the force of gravity between two masses decreases with increasing distance.",
+      "everyday": "Imagine two magnets with different strengths stuck together on a fridge door. When you move the magnets farther apart, the force holding them together weakens and eventually breaks, just like how Newton's law describes the weakening of gravitational force between two objects as they move further away from each other. If you have a stronger magnet, it will stick to the fridge door more tightly than the weaker one, illustrating how mass affects gravitational pull.",
+      "sports": "Imagine playing pool with two friends, John and Emily, standing on opposite sides of a table. The cue ball represents an object, and its force of attraction towards each friend corresponds to the gravitational pull between objects in our universe. If you move the cue ball twice as far from either friend, its attraction weakens, just like the inverse-square relationship in gravity.",
+      "cooking": "Imagine a room with a strong magnet at one end, where you place a small ball of dough. The force between the magnet and the dough is proportional to how strongly you hold the dough against the table (mass), and decreases rapidly as you move the magnet and the dough farther apart (inverse-square law). If you double the distance between them, the force between the magnet and the dough weakens to one-quarter of its original strength."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales.",
+    "analogies": {
+      "free": "A logarithm is like a set of stairs with different rungs representing powers of ten. Each time you climb one rung, you multiply your current number by ten. This staircase compresses an enormous range of values into a manageable scale, making it easier to compare and measure quantities that would be too big or small otherwise, just like how the stairs allow us to ascend smoothly from a quiet room to a very loud concert hall.",
+      "everyday": "Imagine you have a collection of different sizes of folders, where each folder can hold twice as much paper as the previous one. When you label these folders with their capacity in terms of how many papers they can fit (e.g., 1 folder for 2 papers), it's like finding the exponent that turns the base capacity into the actual number of papers. For example, to get from the smallest folder (labelled 2) to a bigger one (labelled 8), you would need to raise 2 to the power of 3, just as you'd move from the \"2\" paper capacity to an \"8\" paper capacity by multiplying or adding the labels.",
+      "sports": "Imagine you're playing a board game where each number on the board represents the power of a fixed player's score multiplier. For example, if a certain number is marked 4, that means the player's score has been multiplied by 2^4 = 16 to reach that point. If someone tells you the multiplier for a certain score, you can use logarithms to figure out what level on the board they're at – it's like using a map to decipher a secret code!",
+      "cooking": "A recipe for making a large batch of cookies calls for a specific amount of yeast, but instead of measuring out an exact number of teaspoons, the baker specifies a \"yeast ratio.\" This ratio represents how many times to multiply the original yeast by, relative to the base unit (1 teaspoon). The logarithm then answers the question: what is this multiplier value?"
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_vectors",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Vectors as magnitude and direction",
+    "standard_explanation": "A vector is a quantity that has both a magnitude and a direction, unlike a scalar, which has magnitude only. Vectors such as force or velocity are combined by joining them head to tail, so two vectors can produce a resultant that is larger, smaller, or in a new direction depending on the angle between them. This is why two forces pulling at an angle do not simply add together as ordinary numbers.",
+    "analogies": {
+      "free": "A compass needle is like a vector because it has both direction and magnitude (strength), just like a force or velocity. When two compass needles point at an angle to each other, they can create a resultant direction that's not simply the sum of their individual directions, but rather depends on how closely aligned they are. Similarly, if you had two forces pulling at the same strength in different directions, combining them would result in a new force acting in a direction determined by the angle between them.",
+      "everyday": "Imagine two people trying to walk together in opposite directions on a sidewalk. If you're both walking at the same speed, the person facing you is essentially \"moving\" into your direction, but if one of you turns left or right, the other's movement becomes more like pushing against them, resulting in a new combined motion that depends on the angle between their paths.",
+      "sports": "Imagine two athletes standing at opposite ends of a track, each holding a baton that represents their individual speed and direction. To determine their combined effect on a shared goal, you place the end of one athlete's baton directly behind the other's, creating a visual representation of the resulting motion. The angle between the bats affects the trajectory of the final goal, with a direct head-to-head collision producing maximum impact, while an angle can result in a curve or even a reversal of direction.",
+      "cooking": "Imagine two team members, Emma and Ryan, working together in a bakery to prepare a cake. Emma can add flour (magnitude) but only in one direction, while Ryan can sprinkle sugar (also magnitude) but from different angles relative to the floor. The more they work together, with their efforts aligned head-to-tail like rows of sprinkles on the counter, the bigger and more evenly layered the finished cake becomes – just as two vectors with the same magnitude combine when they're perfectly aligned, and result in a greater or opposite direction depending on how much they are angled relative to each other."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_function",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Functions, domain and range",
+    "standard_explanation": "A function is a rule that assigns to each input exactly one output, rather like a machine that takes a number and returns a single definite result. The set of permitted inputs is called the domain and the set of possible outputs is called the range. The defining property of a function is that a single input can never be mapped to two different outputs.",
+    "analogies": {
+      "free": "A telephone switchboard is like a function: each phone call represents an input (a unique caller's number), and the operator's response is like an output (the connected party's phone number). The domain of the switchboard consists of all permitted caller numbers, while the range includes only the correct phone numbers that can be dialed. A key property of a telephone switchboard, like functions, ensures that each input leads to exactly one output – in this case, the connection is made once per call.",
+      "everyday": "Imagine a one-way bus route where you can enter at any stop but exit only through one designated door; if you get on the bus at two different stops, you'll still exit through the same door; and getting off at a particular stop always results in your destination being the exact same house, not a different one.",
+      "sports": "Imagine a basketball team's shooting lineup - each player is assigned a specific spot on the court and must shoot from that exact location every time they're called upon to shoot. The court is like the domain: it has boundaries (the free throw line, three-point line) where shots can or cannot be made. Each possible shot outcome corresponds to the range: the points scored. A single player's shooting assignment never changes; they must always shoot from their designated spot to get the same result every time.",
+      "cooking": "Imagine a recipe book where each ingredient is assigned to exactly one dish, and if you add too much or too little of an ingredient, the result changes, but adding more than one ingredient to the same dish always yields the same final product. The list of allowed ingredients that can be used is like the domain, while the variety of dishes you can make with those ingredients corresponds to the range. This recipe book has a crucial property: if you look up an ingredient's corresponding dish, it will give you only one possible result, never two different ones."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_matrix",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "Matrices and matrix multiplication",
+    "standard_explanation": "A matrix is a rectangular array of numbers arranged in rows and columns that can represent data or a whole system of equations compactly. Two matrices are multiplied by combining the rows of the first with the columns of the second, and this multiplication is generally not commutative, so the order in which matrices are multiplied changes the result. Matrices are widely used to rotate and scale shapes and to solve many equations simultaneously.",
+    "analogies": {
+      "free": "A group of people trying to solve a complex puzzle by taking turns adding pieces, where each person has a unique set of clues that correspond only to their own piece, and if the order in which they add their pieces is changed, the resulting solution is drastically different. This process can be repeated multiple times, with each iteration refining the solution, much like how matrix multiplication refines our understanding of a system by combining rows with columns.",
+      "everyday": "Imagine you're planning a dinner party for your family and friends, where each guest has different dietary restrictions and preferences (represented by rows of a matrix). You have two lists: one with all the food options available (columns of a matrix) and another with the number of guests who like/dislike each option. When you plan the menu, you combine the two lists by multiplying them row-by-row (just like matrix multiplication), so that each guest's preferences match only with food options they'll actually eat. This process ensures that your dinner party is well-planned and satisfying for everyone involved.",
+      "sports": "Imagine a quarterback calling plays during a football game. They dictate a series of rows (the \"calls\") for each receiver on their team, specifying which route they should run. When receiving these calls, the receivers must line up in a predetermined formation that matches the number and type of routes (rows) called. If the quarterback's call changes while the receivers are already lined up according to previous calls, the whole game is disrupted – just like matrix multiplication changes the result if it's done out of order.",
+      "cooking": "Imagine a recipe book (matrix) as a collection of ingredient lists arranged in rows and columns, where each number corresponds to the quantity of an ingredient needed for a specific dish. When you want to make a cake, you need to multiply the ingredient list from one recipe by the ingredient list from another recipe that describes how to combine the ingredients - if you do it in reverse order or with the wrong combination, your cake will turn out completely different!"
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic.",
+    "analogies": {
+      "free": "A thermos flask is a container that stores hot or cold liquid inside a vacuum-sealed space. The insulation in a thermos reduces heat transfer between the inner and outer containers, allowing the temperature to remain constant for a long time. In an exothermic reaction, like burning fuel, energy is released from the reactants to the surroundings, much like how the thermos releases trapped heat. Conversely, an endothermic reaction absorbs energy from its surroundings, similar to how the thermos insulates and prevents heat from escaping.",
+      "everyday": "Think of exothermic reactions like heating up a bed on a winter morning. You put in energy (heat from the heater) and the system (your body) gets warmer as the cold outside is replaced with warmth inside. In contrast, putting ice packs in your lunchbox on a hot summer day is like an endothermic reaction - you take in energy (cooling from the ice pack) to cool down something that would otherwise get hotter.",
+      "sports": "Imagine a basketball game where you're playing against your sibling. In an exothermic scenario, you score more baskets than they do, so you gain energy and your team's excitement level increases, while your sibling's is depleted, making them seem tired. Conversely, in an endothermic situation, you keep missing shots while they sink three-pointers, draining your own energy and leaving your team exhausted, but energizing their bench.",
+      "cooking": "Imagine you are making a cake in the oven. An exothermic reaction is like whipping heavy cream: when the cream gets more aerated, its potential energy (the energy of movement) turns into kinetic energy (the energy of motion), which manifests as heat and makes your hands warm. In contrast, melting butter on the stovetop is an endothermic process: the molecules in the butter gain energy from the heat, becoming less dense and cooling down."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_redox",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Oxidation and reduction (redox)",
+    "standard_explanation": "Oxidation is the loss of electrons by a substance and reduction is the gain of electrons, and the two always happen together because the electrons released by one species must be accepted by another. The substance that loses electrons is said to be oxidised and acts as the reducing agent, while the substance that gains them is reduced and acts as the oxidising agent. Everyday examples of redox reactions include iron rusting and the reactions inside a battery.",
+    "analogies": {
+      "free": "A ship sailing away from a dock loses mass as water flows out of its hull, but at the same time, the surrounding water gains mass and pressure as the ship moves away, illustrating how oxidation (loss of electrons) and reduction (gain of electrons) are intertwined processes in a redox reaction.",
+      "everyday": "Imagine a household where you buy two essential services: Electricity and Water Supply. When you plug your phone into a power outlet (Electricity), the outlet \"donates\" some of its electrons to charge the battery inside. Meanwhile, as the water in your shower pipe flows out, it takes those same electrons from the outlet's reservoir, making itself full of energy. This way, electricity is both \"donated\" and taken away, while water supply gets energized and used up, mirroring the redox relationship between oxidation and reduction.",
+      "sports": "Imagine a basketball team trying to score by passing the ball to their teammate on the opposing team. The teammate with the ball is like an oxidising agent, receiving the electrons (energy) and allowing them to be transferred for scoring. Meanwhile, a player who passes the ball but doesn't get any credit for it is like an oxidised substance, having lost its energy value by giving up the electrons.",
+      "cooking": "Imagine a baker taking flour (iron) and adding water to make dough, while simultaneously using yeast (oxygen from the air) that's been left out to ferment, releasing carbon dioxide gas (electrons). The flour dough is oxidized as the oxygen reacts with it, causing discoloration and spoilage. Meanwhile, the yeast is reduced by the oxygen released during fermentation, allowing it to activate and produce more CO2. This process of flour turning dark and yeast producing bubbles mirrors how oxidation and reduction occur together in chemical reactions."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_ideal_gas",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "The ideal gas law",
+    "standard_explanation": "The ideal gas law, written PV = nRT, links the pressure, volume, amount, and temperature of a gas. At a fixed temperature, increasing the volume lowers the pressure because the same number of molecules strike the container walls less often, while at fixed volume, heating the gas raises the pressure because the molecules move faster and hit the walls harder. The law treats gas particles as tiny points that do not attract one another.",
+    "analogies": {
+      "free": "Imagine a library where books (molecules) are stored on shelves (container walls). At a fixed shelf capacity, adding more books lowers the pressure on each book because they're not as crowded, while heating the library raises the pressure on each book because the books move around and collide with the shelves harder.",
+      "everyday": "Imagine you're at a crowded shopping mall on a Saturday afternoon. If everyone moves closer together to grab the last discounted item, the air pressure in your lungs increases because more of your lung tissue is being pushed by the same amount of air molecules. But if you open up some space by standing further away from the crowd and grabbing the item, the pressure decreases because there's less crowded air pushing against your lungs, even though there are still the same number of molecules present.",
+      "sports": "Imagine a basketball player trying to score in a crowded court with many opponents - as they move further away from the hoop, fewer of them are in their way at any given time, and thus scoring is easier; but as more players enter the court, their chances of being blocked or intercepted decrease significantly. Conversely, when the opposing team brings on an extra player, the defender must deal with many opponents trying to block their shot simultaneously, increasing the difficulty of scoring - similarly, heating a gas increases its kinetic energy, allowing molecules to collide and push against the container walls more effectively at higher temperatures.",
+      "cooking": "Imagine a perfectly efficient oven that can distribute heat evenly throughout. When you add more room for air to expand, the heat from the oven strikes fewer of the cooler surfaces, resulting in less intense warmth (lower pressure). Conversely, when the door is closed and the air is sealed, the increased temperature causes the molecules of heat to collide more frequently with the inner surfaces, intensifying the warmth (higher pressure)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_covalent_bond",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Covalent bonding",
+    "standard_explanation": "A covalent bond forms when two atoms share one or more pairs of electrons so that each atom effectively fills its outer electron shell. The sharing holds the atoms together because the nuclei of both atoms are attracted to the same shared electrons lying between them. Covalent bonding usually occurs between non-metal atoms, as in molecules of water, oxygen, and carbon dioxide.",
+    "analogies": {
+      "free": "A pair of people living together in a small apartment share a kitchen space, with each person contributing their own food and cooking utensils to create a comfortable environment for both. Just as they need to coordinate their activities to avoid conflicts over shared space, electrons in a covalent bond must \"coordinate\" their movement to maintain the stability of the molecule. Similarly, just as the presence of the kitchen (shared space) and individual contributions (food and utensils) help keep the relationship harmonious, the attractive force between nuclei and electrons in a covalent bond keeps the atoms together.",
+      "everyday": "Two people living together in a small apartment share their furniture and household chores. Each person contributes some of their belongings and responsibilities, which are then used jointly for mutual benefit - they both get to enjoy a comfortable living space and a sense of responsibility. In this shared arrangement, each individual's desire for comfort and stability is met by the shared resources (furniture, chores), just as two atoms' outer electron shells are filled when they share electrons in a covalent bond, leading to mutual attraction and stability between them.",
+      "sports": "Imagine two soccer players, each with their own goal to reach in front of them. They decide to work together by taking turns kicking the ball that's being passed back and forth between them, allowing both players to advance closer to their respective goals while holding the ball in a stable position. The shared movement helps them stay connected and move forward together, just like electrons are shared between atoms to form covalent bonds.",
+      "cooking": "Imagine two people working together in a bakery to decorate a cake. They share their colors of icing by combining them into one swirly design, with each person's color complementing the other's to create a visually appealing effect. The shared color represents the shared electrons between the atoms, and just as the combined colors stay in harmony, the attraction between the nuclei and the shared electrons holds the atoms together in covalent bonds."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth.",
+    "analogies": {
+      "free": "A solar panel converts sunlight into electrical energy by exciting electrons in a semiconductor material, which are then stored as chemical bonds in a battery, just like plants store light energy in glucose molecules and release oxygen through cellular respiration.",
+      "everyday": "A power plant charges your phone by converting chemical energy stored in batteries into electrical energy, just like a green leaf converts light energy from sunlight into chemical energy stored in glucose molecules, which are then used to fuel growth and other cellular processes.",
+      "sports": "Imagine a soccer team playing two matches: one against themselves and one against an opposing team. The match against themselves is like photosynthesis, where the team uses their own energy (stored in their muscles) to convert food (glucose) into new, powerful energy stores (chemical bonds). Meanwhile, they also use this energy to fuel their daily activities (growth and respiration), just as plants release oxygen as a byproduct of photosynthesis. This stored energy is like the glucose that plants use later for growth and respiration.",
+      "cooking": "Imagine a chef using sunlight as fuel for an oven to bake bread. The baker adds flour (carbon dioxide) and water to the dough, just like plants add carbon dioxide and water to photosynthesize glucose. As the sun's energy heats up the mixture, it transforms into a delicious loaf of bread with stored chemical energy in its bonds – this is similar to how sunlight powers the conversion of CO2 and H2O into glucose. The oxygen released during baking is released as a byproduct into the kitchen air."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_dna_replication",
+    "subject": "Biology",
+    "grade": 12,
+    "concept": "DNA replication",
+    "standard_explanation": "DNA replication is the process by which a cell copies its DNA before it divides, so that each daughter cell receives a complete set of instructions. The double helix unwinds and each original strand acts as a template, with new complementary bases pairing adenine with thymine and cytosine with guanine. Because every new molecule keeps one old strand and one newly built strand, replication is described as semiconservative.",
+    "analogies": {
+      "free": "Imagine a tailor making two identical suits for a wedding guest. The original suit is laid out on a rack, with matching pieces of fabric (the DNA strands) that need to be copied and sewn together again. As the tailor works, one piece of fabric remains untouched, while the other is used as a template to create an exact duplicate; this process results in two identical suits, where each suit keeps some original material and adds new material (new base pairs).",
+      "everyday": "Imagine you're making a copy of your favorite video game console manual. You take one old page as a template and attach new pages with different instructions, so that each new page has both an original instruction on one side and a brand-new instruction on the other. The original page acts like the DNA's old strand, while the new page is like the newly replicated DNA molecule, with its own \"old\" part (from the template) and its \"new\" part (the instructions you just added).",
+      "sports": "Imagine a basketball team preparing for a championship game. They review their playbook and create an exact replica of it, using one original copy as a guide and building on the other to ensure every play is identical, with complementary \"plays\" (A-T and G-C) mirroring each other on both copies, so that when the teams face off, they're ready for whatever strategy comes next.",
+      "cooking": "Imagine a baker making two identical batches of cookies using a recipe card as a template. Each original batch's cookie sheet is used as a template, and the new ingredients (flour, sugar, etc.) are added to create a complementary copy on each sheet; this process ensures that every new cookie keeps one old ingredient sheet and one newly mixed sheet. As the baker creates two identical batches from the same recipe card, it's like replication - one original strand is kept, and one new strand is synthesized based on its complement."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_mitosis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Mitosis (cell division)",
+    "standard_explanation": "Mitosis is the division of a cell nucleus that produces two daughter nuclei, each carrying the same number and type of chromosomes as the parent cell. The chromosomes are first duplicated, then lined up in the middle of the cell and pulled to opposite ends, so that each new cell ends up genetically identical to the original. Mitosis is the basis of growth, the repair of damaged tissue, and asexual reproduction.",
+    "analogies": {
+      "free": "A loaf of bread being halved into two identical pieces, with each piece duplicated before the halves are separated, so that both new pieces have the same amount and type of ingredients as the original loaf. The dough is lined up in the middle of the board and pulled to opposite ends, allowing each new piece to be just as nutritious and consistent as the original. Just as the two loaves are genetically identical, the two cells produced through mitosis have the same genetic material.",
+      "everyday": "Imagine a row of identical twin dolls, each with an exact duplicate of the other's clothes and accessories. The parents take one doll out of its box, put on new clothes and accessories, and then make a perfect copy of the modified doll, giving it to another friend. This process is like mitosis: the original doll represents the parent cell with original DNA, while the two identical dolls represent the daughter cells with copied DNA; just as the friend receives an exact replica of the modified doll, each new cell receives an exact genetic duplicate of the parent cell.",
+      "sports": "Imagine two teams of six players each, lined up side by side, with identical uniforms and equipment. The referee at each end of the field duplicates the sets of instructions (uniforms) on both sides, then places them in a straight line down the middle. As the game begins, the referees pick up one set of instructions from each side and pull them apart to opposite ends of the field, ensuring that each team has an identical duplicate set of instructions at each end. This results in two teams with complete sets of instructions, just like two cells with identical genetic material after mitosis.",
+      "cooking": "Imagine a recipe that doubles all ingredients, and then divides them equally between two identical mixing bowls. The doubled ingredients are carefully arranged in one bowl, then transferred to both bowls, resulting in two perfectly identical mixtures, each with the same amount and type of ingredients as the original. This process ensures that every new batch is genetically identical to the last one, just like mitosis."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_neuron",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Nerve impulse and the action potential",
+    "standard_explanation": "A neuron carries information as a brief electrical impulse, called an action potential, that travels along the length of the cell. The impulse is only triggered when a stimulus is strong enough to cross a threshold, and once triggered it fires completely rather than partially, an all-or-nothing response. When the impulse reaches the end of the neuron it is passed on chemically to the next cell across a tiny gap called a synapse.",
+    "analogies": {
+      "free": "A water dam releasing a burst of water at full pressure is like an action potential in a neuron: once the pressure exceeds a certain threshold, the entire reservoir releases its water (the impulse travels fully), and if the pressure falls below that threshold, the water stops flowing (the impulse is interrupted). The \"water\" represents the electrical charge, the dam represents the neuron, and the pressure represents the membrane potential. When the pressure reaches the end of the dam, it's released into a channel representing the synapse.",
+      "everyday": "Imagine a water pipe in your home with a pressure sensor at one end. When enough water flows through the pipe (the stimulus), the pressure reaches a certain threshold, and suddenly the entire pipe is filled with water (the action potential). Once the water starts flowing, it keeps going all the way to the other end of the pipe, and only when it reaches the end does it stop and flow into another connected pipe (synapse), allowing information to be passed on.",
+      "sports": "A soccer team's forward player kicks a ball down the field at full speed only if they reach a certain threshold of strength, and once started, the player runs to the end of the field with complete energy rather than slowing down or stopping. The kick is transmitted to the next player through a small gap (the goal line), who then passes the ball forward along with its own momentum.",
+      "cooking": "A batch of yeast dough is mixed and left to sit for a bit, waiting for just enough pressure or temperature to cause it to rise rapidly - once activated, it will continue to expand fully until the baking time is up, regardless of how much more pressure is applied afterwards. The yeast cells act as \"triggers\" that start this chain reaction, which travels along the length of the dough like a wave, eventually reaching the edge and being transmitted to the next layer through tiny gaps between them."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_friction",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Friction",
+    "standard_explanation": "Friction is a force that opposes the relative motion, or attempted motion, between two surfaces in contact. It arises because no surface is perfectly smooth, so the tiny irregularities of the two surfaces interlock and resist sliding. Friction lets us walk and grip objects, but it also wastes energy as heat and gradually wears surfaces down.",
+    "analogies": {
+      "free": "A zipper's grip on a fabric is similar to friction on two surfaces in contact, where tiny irregularities on the surfaces interlock and resist sliding, causing energy to be wasted as heat and gradually wearing down the surfaces over time. Just as the zipper's grip holds strong against attempted motion, but can be worn out with repeated use, friction acts to oppose motion between surfaces, allowing us to walk or grip objects.",
+      "everyday": "Imagine trying to pour sand into a container with a rough bottom - the sand will not smoothly flow but instead tend to stick and resist being poured, illustrating how friction acts as an opposing force that slows down or prevents motion between surfaces in contact. Just like how the sand grains catch on the rough surface, tiny irregularities on two surfaces can get stuck together, creating resistance to sliding.",
+      "sports": "Imagine trying to slide a ball across a rough tennis court versus a smooth one - just as friction slows down your sliding motion on the rough court, your opponent's shots are slowed by their own ball rolling more smoothly on the soft surface. Similarly, the tiny bumps and imperfections on two surfaces work like uneven terrain, making it harder for objects to glide past each other, slowing them down.",
+      "cooking": "When you try to slide a slippery egg on a plate of fine sand, the sand particles grab onto each other and resist being displaced by the egg's movement, causing the egg to slow down and eventually come to rest. As the egg tries to move, its surface is in constant contact with the sand particles, making it harder for it to glide smoothly. This interaction between the egg and the sand particles is similar to how friction arises when two surfaces are in contact, with the tiny irregularities of the surfaces causing them to resist relative motion. The energy wasted as heat due to friction is like the energy used to try to push the egg forward against the resistance of the sand particles."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_density",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Density and floating",
+    "standard_explanation": "Density is the amount of mass packed into a given volume, calculated as mass divided by volume. An object floats in a fluid if its density is less than the fluid's and sinks if it is greater, which is why a steel ship full of air floats while a solid steel block sinks. Density is also why oil forms a layer on top of water.",
+    "analogies": {
+      "free": "The island of Atlantis floats on water because its total weight is less than the combined weight of the earth that makes up the sea floor and the surrounding landmass, allowing the buoyant force to support it; similarly, a steel ship full of air will float even though it appears heavier without the buoyant lift.",
+      "everyday": "Imagine a backpack floating on top of a box of books in your closet - if the backpack weighs the same as the books but has more volume, it will float; if it's heavier and more compact, it won't. This happens because the amount of \"stuff\" (weight) packed into the backpack is less than what's packed into the books. Similarly, a ship full of air is less dense than water because it has more space between its parts, while a solid steel block is denser, making it sink.",
+      "sports": "Imagine a game of pool where you have different colored balls of various weights and volumes, each representing an object in water. The blue ball with a large volume but smaller weight will float on top of the table because its \"density\" (weight/volume) is lower than that of the green ball below it, which sinks. If you were to add more blue balls or replace some green ones, the table's surface would change, illustrating how density affects an object's behavior in water.",
+      "cooking": "Imagine you're making a cake batter with flour, sugar, and air bubbles. If the air bubbles are evenly distributed throughout the batter, the cake will rise quickly but be heavy for its size; if they're mostly on top, the cake will rise slowly and light as a feather. Similarly, when an object is fully submerged in a liquid (like oil), it's like all those air bubbles are packed tightly together - the density of the object matches that of the liquid. But if some spaces remain empty (like air bubbles rising to the surface), the object will float because its overall mass isn't as heavy for the volume it occupies."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_waves",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Wave frequency and wavelength",
+    "standard_explanation": "A wave carries energy from one place to another without carrying matter along with it. Its wavelength is the distance between successive crests and its frequency is how many crests pass a point each second, and the two multiply together to give the wave's speed. For a fixed speed, a higher frequency means a shorter wavelength.",
+    "analogies": {
+      "free": "A train traveling at a fixed speed along a track has regular intervals between passing over a fixed point, which represent its wavelength. The number of these intervals that pass by in one second is equivalent to its frequency. Just as the speed of the train can be constant but its interval of passage change depending on its speed, the product of wavelength and frequency determines the wave's speed, with higher frequencies corresponding to shorter wavelengths.",
+      "everyday": "A bus driver is traveling at a fixed speed down a straight road, while simultaneously passing a series of identical bus stops along the way. The frequency of these bus stops (how often they appear) increases as the bus driver accelerates; conversely, if the speed decreases, more time passes between each stop. At a constant speed, there is a direct trade-off between how frequently the bus stops appear and how far apart they are: faster buses have closer stops.",
+      "sports": "Imagine a goalkeeper in soccer trying to defend against multiple ball-bouncing opponents at once. The frequency is like how many times an opponent kicks the ball past the goalkeeper in one second - more frequent kicks mean harder to defend. The wavelength is equivalent to the distance between two consecutive kicks, and if the speed of the kick is constant (the goalkeeper's reaction time), a faster frequency means shorter distance between kicks.",
+      "cooking": "Imagine you're making cookies in a conveyor belt oven that moves at a constant speed of 5 meters per second. If the conveyor belt has crests (ridges) every 2 seconds, that's like the frequency of the waves - many crests pass your point of observation each second. The distance between two consecutive crests on the conveyor belt represents the wavelength of the oven - it would be the same as the length of the belt if you were to measure from crest to crest, and shorter belts mean more frequent crests passing by at the same speed."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_doppler",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "The Doppler effect",
+    "standard_explanation": "The Doppler effect is the change in the observed frequency of a wave when the source and the observer move relative to each other. As a source approaches, its waves are bunched up so the frequency rises, and as it moves away they are stretched so the frequency falls. This is why a siren sounds higher-pitched as an ambulance approaches and lower once it has passed.",
+    "analogies": {
+      "free": "Two runners are on a track, one is standing still and throwing balls straight at each other, while the other runner is running towards them with increasing speed. As the runner approaches, they catch more balls per second because their motion shortens the time between throws, making the observed frequency of caught balls higher than if the runner was standing still. Conversely, when the runner runs away from them, they catch fewer balls per second due to an increased time gap, resulting in a lower frequency.",
+      "everyday": "Imagine you're on a train with a friend who's standing still on the platform. As the train speeds up, your friend hears your voice getting louder and higher-pitched, like a siren. When the train slows down or stops, your voice sounds normal to them, but as it starts moving forward again, they hear your voice get slightly lower in pitch.",
+      "sports": "Imagine two runners, one chasing and one being chased, on a straight track. As the chaser approaches, they both sprint in unison, causing their footsteps to overlap, making the observed pace appear faster. When they pass each other, the chaser slows down slightly as if the pace were still increasing, while the pursued runner speeds up, but now their footsteps are less frequent, making the observed pace seem slower.",
+      "cooking": "Imagine you're whipping up a meringue in a mixing bowl as an ambulance approaches, and then continues on its route while you stop whisking - the rapid motion of the whip increases the air pockets within the meringue, causing it to rise faster, but once the ambulance is out of sight, you slowly decrease the speed, allowing the air bubbles to relax and settle, resulting in a slower rise. As the siren passes by outside your window, its pitch changes - as it speeds up, it's like adding more sugar to the meringue, making it sound sweeter, but when it slows down, the added sugar is released, leaving it sounding less sweet."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_series_parallel",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Series and parallel circuits",
+    "standard_explanation": "In a series circuit the components are joined end to end, so the same current flows through each one and the supply voltage is shared among them. In a parallel circuit each component is connected across the same two points, so each receives the full voltage while the current splits between the branches. Adding more parallel branches lowers the total resistance of the circuit.",
+    "analogies": {
+      "free": "A train traveling along a narrow-gauge railroad tracks is like a series circuit: each car has the same gauge track and shares the same speed limit (current), while a fork in the tracks represents a parallel branch where the train splits into two separate tracks, receiving full voltage (speed) from each. Just as adding more parallel branches reduces the total resistance of the railroad track, adding more parallel circuits decreases the total resistance of the electrical circuit, making it easier to complete the loop and reducing energy losses.",
+      "everyday": "Imagine you're filling two identical buckets with water at opposite ends of a table, but both buckets are connected to the same hose. In one bucket, all the water flows in from the hose and can't flow out until the other bucket is full; this is like a series circuit where the supply voltage (water pressure) is shared among components. In the other bucket, you can turn on multiple hoses at the same time, allowing water to fill up faster and spreading out to each branch, which is similar to a parallel circuit where each component receives the full voltage and current splits between branches. When you add more hoses (branches), the flow of water becomes less restricted, making it easier for both buckets to fill up simultaneously.",
+      "sports": "Imagine you're playing a relay race with four runners: Alice, Bob, Charlie, and David. In series, each runner gets the same amount of water (voltage) to drink from the bottle as they run by, but only one can carry water at a time; if Alice drops her cup, Bob takes over, and so on. As more runners join the relay, the total capacity of the \"water\" is still shared equally among them, but it's harder for each runner to carry all the water because there are more mouths to feed (or cups to hold). Adding a parallel track allows Alice, Bob, and Charlie to carry their own share of water at the same time.",
+      "cooking": "Imagine you're making two batches of cookies in separate rooms, each with its own electric mixer connected to a single power outlet. If all mixers are working at full speed, they share the same power from the outlet and can't be different strengths; however, if you add more mixers, one that receives half the total power can still work as well as the others because it only needs half the strength, much like how adding parallel branches reduces the total resistance in a circuit."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_projectile",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Projectile motion",
+    "standard_explanation": "Projectile motion is the curved path of an object thrown near the Earth's surface, once it is moving under gravity alone. Its horizontal motion continues at constant velocity while its vertical motion accelerates downward, and the two motions are independent of each other. Combining them produces the characteristic parabolic trajectory.",
+    "analogies": {
+      "free": "A car on a circular track drives in two independent directions: one along the circumference and the other towards the center, with the former maintaining constant speed while the latter increasing in velocity due to friction, ultimately tracing an elliptical path around the circle's center. As the driver accelerates or brakes, both speeds are affected, leading to a curved trajectory. The circular track represents the Earth, while the car corresponds to the projectile, illustrating how gravity affects its motion separately in two directions.",
+      "everyday": "Imagine you throw a stone across a room, and as it moves horizontally with constant speed, its trajectory is curved by the force of your hand pushing it, much like how gravity curves the path of an object under motion near the Earth's surface. As you move your throwing hand forward, the stone initially follows a straight line but then changes direction, illustrating how the horizontal velocity remains constant while the vertical motion accelerates downward due to gravity. The curved trajectory is similar to the parabolic path taken by the projectile, with the force of your throw acting as the equivalent of gravity.",
+      "sports": "Imagine a tennis serve being thrown upwards with equal speed and direction as its horizontal motion continues parallel to the ground at that same speed. The upward motion decelerates due to gravity, while the horizontal motion remains constant in speed and direction, resulting in an arcing trajectory that combines both motions into one parabolic path.",
+      "cooking": "Imagine throwing a cookie dough ball horizontally across a countertop. As long as you don't stop pushing it with your hand, the cookie dough ball keeps moving horizontally at a constant speed, while when it reaches the edge of the counter and lets go, it starts falling down due to gravity, following a curved path that combines both its horizontal and vertical motions. The cookie dough ball's trajectory is like the parabolic curve of a projectile in physics."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_thermal_expansion",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Thermal expansion",
+    "standard_explanation": "Most materials expand when heated and contract when cooled, because their particles vibrate more vigorously at higher temperatures and push one another slightly further apart. This is why small gaps are left in railway tracks and bridges, and why a tight metal jar lid loosens when run under hot water. Different materials expand by different amounts for the same rise in temperature.",
+    "analogies": {
+      "free": "Imagine a crowded dance floor where people are standing in rows. When more people arrive (heat), they spread out and take up more space, causing gaps between them. As some leave or move to a different spot (cooling), their neighbors slide into the empty spaces, closing the gaps. The amount of space each person takes up varies depending on how many others are there and where they're standing.",
+      "everyday": "Imagine trying to squeeze a balloon and then releasing it after heating it up with a hair dryer - it becomes larger due to the increased molecular motion and expands further away from its original shape than other objects of similar size that remain cold, like a wooden spoon or an ice cube.",
+      "sports": "Imagine a basketball team trying to fit into a smaller and smaller room as they all stand up and stretch their arms out to their full height; the room's size is like the material's length, and its temperature affects how tightly the players can fit together. As the temperature increases, the players take an extra step back to create more space between them, just like materials expand when heated. Conversely, when the team gets cold, they shrink a bit closer together, illustrating contraction upon cooling.",
+      "cooking": "Imagine a batch of yeast dough rising in temperature, causing the tiny air bubbles trapped within its structure to swell and spread apart as they gain energy from the heat. As the dough cools down, these same bubbles collapse back into their original spaces, reducing the overall volume of the dough. Different types of dough react differently to temperature changes: some expand more quickly than others, while others shrink or remain nearly unchanged. This variation in response to temperature is similar to how different materials respond to heat."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_magnetism",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Magnetic field of a current",
+    "standard_explanation": "An electric current produces a magnetic field that circles around the wire carrying it. Winding the wire into a coil concentrates this field and makes an electromagnet, whose strength can be switched on and off and increased by adding more turns or more current. This link between electricity and magnetism is what makes motors and generators work.",
+    "analogies": {
+      "free": "A bar magnet is similar to a current-carrying wire because both produce a field that surrounds them, with lines of force emanating from the north pole and entering at the south pole, just like how air flows around the Earth when it rotates on its axis, creating wind. As you add more turns or twists to a coil of wire, it's like wrapping more and more bar magnets together, concentrating their fields and making an electromagnet stronger.",
+      "everyday": "A fan blowing air through a row of closely packed hairpins creates a stronger airflow that wraps around each pin, similar to how a current flows through a wire creating a magnetic field that circles around it, and adding more pins (or turns) increases the strength of this \"airflow\". Just as the pins can be rearranged or removed to turn off the airflow, changing the number of hairpins or applying more pressure can control the magnetic field.",
+      "sports": "A basketball player holding a jump rope creates a circular motion with the rope, just like an electric current generates a magnetic field around its path. When the player jumps higher and faster, their rope motion gets stronger and more intense. Adding another rope to create a double loop increases the force of the pull, much like increasing the number of turns in a coil enhances the magnetic field's strength.",
+      "cooking": "Imagine whipping cream in a stand mixer, where spinning the beaters creates a swirling motion that mixes and aerates the cream. As you add more beaters or increase the mixer's speed, the swirls become tighter and stronger, making it easier to whip the cream into a stiff peak. Similarly, when electric current flows through a wire, it generates a magnetic field around it, which can be concentrated by adding more \"beaters\" (wire turns) or increasing its strength (current)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_pythagoras",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "The Pythagoras theorem",
+    "standard_explanation": "The Pythagoras theorem states that in a right-angled triangle the square of the longest side, the hypotenuse, equals the sum of the squares of the other two sides. This lets you calculate any one side of a right-angled triangle when the other two are known. It is the basis for measuring straight-line distances in the plane.",
+    "analogies": {
+      "free": "A right-angled triangle is like a door with two hinges on opposite sides, and the hypotenuse is the length of the rope that holds the door in place, stretching between both hinges; when you know the lengths of the doors, you can calculate the length of the rope using the Pythagoras theorem.",
+      "everyday": "Imagine you're trying to reach a top shelf in your closet, and you measure the distance from the floor to the shelf (the hypotenuse) using a ruler. Now, let's say you know how long your arm is (one side of the triangle) and how far away the shelf is from where you are standing (the other side). Using these two measurements, you can calculate exactly how far up your body you need to stretch to reach the top shelf by finding the length of the diagonal path (the hypotenuse). This diagonal path represents the distance you'd travel if you stretched straight up.",
+      "sports": "Imagine a game of pool where you're trying to get the cue ball into the corner pocket. The distance from the middle of the table to one end is like one side, the distance from the other end to the opposite corner is like the other side, and the line connecting those two points is like the hypotenuse. When you know how long those two sides are, you can calculate exactly where the cue ball needs to be struck to hit the corner pocket with precision.",
+      "cooking": "Imagine a rectangular cake pan that you need to fill with flour. The diagonal of the pan represents the hypotenuse, while the two shorter sides represent the length and width of the pan. When you know the lengths of these two sides, you can use them to calculate the distance along the diagonal (hypotenuse) needed to cover the entire surface area of the cake using the flour. This distance is directly related to how much flour you'll need to buy."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_quadratic",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Quadratic equations",
+    "standard_explanation": "A quadratic equation has the form a x squared plus b x plus c equals zero and generally has two solutions, the values of x that make it true. Its graph is a parabola, and the solutions are the points where that parabola crosses the horizontal axis. They can be found by factoring, by completing the square, or with the quadratic formula.",
+    "analogies": {
+      "free": "A boat on a lake has two equilibrium positions with respect to the water's surface: one where it is floating at rest, and another where it is submerged, depending on the depth of the water and its weight. Just as the boat can be in either equilibrium position for different values of the depth (a x squared), it will oscillate between these two states (solutions) if it is pushed off course from one point to another with respect to the lake's surface (horizontal axis). Similarly, finding the equilibrium positions requires knowledge of the boat's weight (b x) and the lake's depth (c), just as solving a quadratic equation involves knowing its coefficients.",
+      "everyday": "A quadratic equation is like a bouncing ball with two different speeds of descent: one speed for how fast you fall when the ball is going up and another for how fast you fall when the ball is coming down. The ball's path under gravity can be represented as a parabola, and finding where it touches the ground (i.e., where x=0) gives you the two \"speeds\" or solutions of the equation.",
+      "sports": "Imagine playing a game of pool with two pockets, one on either side of the table. You shoot a ball at an angle, and its path can be described by two numbers: the slope (rise over run) and the distance from the pocket where it lands. Just as the ball has two possible paths to reach each pocket, a quadratic equation generally has two solutions, which correspond to the points on the \"table\" where the curve crosses the \"ramps\" of the table; solving the equation is like calculating the angle at which you need to shoot the ball to hit those ramps.",
+      "cooking": "Imagine you're making a cake recipe that requires flour (ax²), sugar (bx), and eggs (c). To make the perfect cake, you need to find the right proportions of these ingredients so that when you mix them together and bake, they turn out just right – not too sweet, not too dry. The solutions for x are like finding the right oven temperature: if it's too high or too low, the cake won't rise properly."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_ap",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Arithmetic progressions",
+    "standard_explanation": "An arithmetic progression is a sequence of numbers in which each term differs from the one before it by a fixed amount called the common difference. Because the step is constant, any term can be found directly from the first term and the common difference without listing them all. Its running total grows in an even, predictable way.",
+    "analogies": {
+      "free": "Imagine a train traveling along a straight track at a constant speed, with each station being a number in the sequence. The distance between consecutive stations is like the common difference - if you know how far apart they are, you can calculate the position of any other station. If you start at one station and keep adding the fixed distance to get to the next one, you'll eventually arrive at another station with the same starting point. This predictable journey represents an arithmetic progression.",
+      "everyday": "Imagine you're saving money each month in a savings account. Each time you deposit money, it's always the same amount - let's say $50 - and this fixed amount is like the common difference in an arithmetic progression. If you know how much you saved last month ($50) and the monthly deposit amount ($50), you can easily calculate your total savings after any number of months without having to add up each individual deposit.",
+      "sports": "Imagine a friend who is consistently beating you in a regular game of basketball by a fixed margin each time. If you know how many points you're behind after one game and how many points your opponent scores per game, you can calculate exactly how many points you'll be behind at any point in the future or even the previous game simply by adding the common difference (points scored per game) to the initial deficit.",
+      "cooking": "Imagine you're making a batch of cookies and each cookie requires an additional 1/3 cup of sugar as you move from one batch to the next. If you start with 2 cups of sugar for the first batch, adding 1/3 cup more than the previous batch will give you the amount needed for the second batch. To find out how much sugar is needed for any specific batch, you just need to know how many batches are in between and multiply the initial amount by (1 + 1/3 + ...), where each \"1\" represents a full cup of sugar added, and each \"1/3\" represents an additional quarter cup. This process results in an even, predictable increase in sugar needed as you bake more cookies."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_trigonometry",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Trigonometric ratios",
+    "standard_explanation": "Trigonometry relates the angles of a right-angled triangle to the ratios of its sides through the sine, cosine, and tangent of an angle. For a given angle these ratios stay the same regardless of the triangle's size, so they can be used to find unknown sides or angles. They let us measure heights and distances that cannot be reached directly.",
+    "analogies": {
+      "free": "A DJ adjusts equalizer knobs on a mixing console to balance sound frequencies for a live concert, just as trigonometric ratios help you find missing sides or angles in a right-angled triangle by balancing the proportions of its side lengths to angle measures. The sine, cosine, and tangent functions are like three dials that correspond to specific frequency ranges, allowing you to fine-tune the mix for perfect harmony. By using these ratios, you can \"tune\" your measurements to get an accurate picture, just as a DJ tunes in to create a balanced sound.",
+      "everyday": "Imagine you're trying to adjust the TV in a room where your angle of view is changing as you move around. The ratio of how far away the TV is from its wall (its 'adjacent' side) to how high off the ground it is (its 'opposite' side) stays constant, just like the sine and cosine ratios in trigonometry - these ratios help you find the height or distance of the TV by using known measurements.",
+      "sports": "Imagine a quarterback throwing passes on a football field. The ratio of the distance from the line of scrimmage (the height) to the width of the field at that point (the adjacent side) is like the sine of an angle in a right-angled triangle, and the ratio of the distance from the line of scrimmage to the target player's location (the opposite side) is like the tangent of that angle. The quarterback throws with precision using this relationship to calculate the trajectory of the ball.",
+      "cooking": "Imagine you're a chef trying to find the height of a tall cake on a tiered stand. You position yourself at eye level with the top of the stand and take note of how much of the cake's edge is visible above your head. This angle and the corresponding amount of cake above your eyes remain consistent no matter how high or low you place the stand – it's like measuring a constant ratio, just as sine, cosine, and tangent in triangles help us figure out unknown sides or angles by relating them to the known ones."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_sets",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Sets and set operations",
+    "standard_explanation": "A set is a well-defined collection of distinct objects called its elements. Sets can be combined by union (all elements in either set) and intersection (elements common to both), and one set can be a subset of another. Set language gives a precise way to describe and reason about groups of things.",
+    "analogies": {
+      "free": "A library's book collection and a file cabinet in an office both organize and categorize items, similar to how sets organize and categorize distinct objects, with union being like combining two folders into one and intersection being like looking for a specific document within those combined folders, and a subset of a set is like a section within the library or file cabinet that contains all relevant documents.",
+      "everyday": "Imagine your room is a set of clothes you own. When you put all the clothes from two different sets (like your school and work outfits) together in one place, that's like taking the union of those two sets - everything is now in the same space. If you have a favorite sweater that you only wear on weekends, that sweater is like an element common to both sets, since it appears in both.",
+      "sports": "Imagine you're playing a game of pool with two players, Alex and Ben. The union of their scores is like combining both games into one: if Alex has scored 10 points and Ben has scored 8 in separate games, their combined score is 18 points. The intersection of their scores is like finding the common ground between them: if they both have a score of 5 in the same game, that's where their scores overlap.",
+      "cooking": "Imagine you have two cookie cutters in your kitchen, one for hearts and one for stars. When you bake cookies using both cutters, you get a set of heart-shaped cookies and a separate set of star-shaped cookies. If you combine both sets, you'll get all the cookies - some will be heart-shaped and others will be star-shaped. A cookie cutter is considered a subset of another if it's completely inside or matches up perfectly with that other cutter."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_complex",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Complex numbers",
+    "standard_explanation": "A complex number has a real part and an imaginary part, written a plus b i, where i is defined so that i squared equals minus one. Complex numbers extend the ordinary number line into a two-dimensional plane and allow every polynomial equation to have a solution. They are added like vectors and multiplied using the rule for i.",
+    "analogies": {
+      "free": "A complex number is like a map with two directions: north (real part) and east (imaginary part), where moving \"east\" changes direction but not distance from the starting point, just as in navigation, i^2 represents a turn-around or reversing direction, allowing for every possible route to be explored.",
+      "everyday": "Think of a complex number like a coordinate on a map where you have two axes: one for directions (like north-south) and another for distances from home (like east-west). Just as every direction in the world has both an east-west component and a north-south component, every point on this map has both a real part (east-west distance) and an imaginary part (north-south direction), allowing you to pinpoint any location in two dimensions. This coordinate system is so powerful that it can even help solve puzzles like finding the shortest path from home to a nearby store by using multiple directions and distances.",
+      "sports": "A complex number is like a two-dimensional golfer who moves only horizontally (real part) and can jump vertically (imaginary part), where the rules of motion are such that if they move too far up or down, their position wraps around to the opposite side in a circle with radius 1. This allows them to hit every shot on the course, including ones that seem impossible for a single swing, and their movements combine like vectors from different directions.",
+      "cooking": "Think of a complex number as a recipe for making cookies. The real part is like the amount of flour needed (a measurable quantity), while the imaginary part is like adding a pinch of magic ingredient that changes the flavor and texture (not directly measured). When you combine two recipes (add complex numbers), you're combining ingredients in different ways, but the result is still a single recipe. And just as multiplying cookies by a certain amount will always produce more cookies with the same \"flavor\" (real part unchanged), multiplying a complex number by another one changes its \"flavor\" (imaginary part) without affecting its overall \"quantity\" (real part)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_limits",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Limits of a function",
+    "standard_explanation": "A limit describes the value a function approaches as its input approaches some point, even if the function is not actually defined at that point. It captures the idea of getting arbitrarily close to a value without necessarily reaching it. Limits are the foundation on which continuity and the whole of calculus are built.",
+    "analogies": {
+      "free": "Imagine a ship approaching a rocky coastline. As the ship gets closer and closer to the shore, its trajectory may not be perfectly straight or even smooth, but it will still get arbitrarily close to the edge of the water without actually touching it - in this case, the \"edge\" represents the value that the function is approaching, while the \"shore\" represents the point at which the input approaches. The limit of the function's behavior as the ship (input) approaches the shore (point) is like the depth of the water at that point: a specific value that the ship will never quite reach but gets infinitely close to.",
+      "everyday": "Imagine driving your car towards a stop sign at exactly 30 km/h. As you get closer and closer to the stop sign, but don't actually reach or cross its edge, you're getting arbitrarily close to stopping - in fact, your speed is approaching zero. Even though you haven't reached a complete stop, you can say that as you approach the stop sign, your speed is approaching 0 km/h, which means it's \"close\" to being stopped. This is similar to what happens with limits of functions: they describe how a function behaves as its input approaches a certain point, even if the function isn't defined there.",
+      "sports": "Imagine you're playing a game of darts, throwing your dart closer and closer to a fixed target on the wall, but not quite hitting it. As you throw more times, your throws get progressively closer to the center of the board, where the bullseye is, even though you never actually land on that spot. The value of the limit represents the distance from the center of the board that all your throws seem to be converging towards, like an arrow pointing towards a target.",
+      "cooking": "Imagine a recipe for making cookies that involves adding ingredients in a specific order. As you approach the exact temperature where the eggs should be mixed with the butter (the point), the cookie dough gets arbitrarily close to perfectly smooth and consistent texture, but never actually reaches it, as if it's always just one degree shy of perfection. The limit represents this ideal value that the cookie dough approaches but doesn't quite reach at the precise point."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_permutation",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Permutations and combinations",
+    "standard_explanation": "A permutation is an arrangement of objects in which the order matters, while a combination is a selection in which the order does not. Counting permutations and combinations lets us work out how many ways events can occur without listing every one. They underpin the probability of arrangements and selections.",
+    "analogies": {
+      "free": "Imagine a recipe book with different ingredients and their corresponding quantities: if you have multiple spices of the same type (e.g., red pepper flakes), arranging them in a particular order matters for the final dish; but if you're selecting which set of spices to use together, the order doesn't change the outcome. This is similar to how permutations count the different ways objects can be arranged while combinations count the different selections that yield the same result.",
+      "everyday": "Imagine you have a bunch of different colored keys for your piano: red, blue, green, and yellow. To play a specific song, you need to arrange these keys in a particular order - first the red key, then the blue, and so on. You can only use each color once, but if you want to add more notes to the song, say another blue note, you're free to choose any of the available keys as long as they match the existing one, without changing their order.",
+      "sports": "Imagine selecting a team of three players from a group of five talented athletes for a soccer match. The order in which you choose them matters - if you pick Player A first, then B second, and C third, that's one possible lineup. On the other hand, picking Players A, B, and C regardless of order is like selecting two starting players and a substitute, where only the selection counts, not the sequence.",
+      "cooking": "Imagine you're making a cake with three ingredients: flour, sugar, and eggs. You have to choose which three ingredients will be in your final mix. If you care about the order of those three ingredients (i.e., \"flour-sugar-eggs\" is different from \"sugar-flour-eggs\"), then you need a special count for when things matter: permutations. But if all that matters is whether or not flour, sugar, and eggs are in your mix, regardless of order, you just need to know how many ways three ingredients can be chosen without repeating any: combinations."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_atomic_structure",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "Atomic structure",
+    "standard_explanation": "An atom has a tiny, dense nucleus of positively charged protons and neutral neutrons, surrounded by negatively charged electrons. The number of protons decides which element the atom is, while the electrons occupy shells around the nucleus and determine how the atom bonds. Almost all of the atom's mass is in the nucleus, yet almost all of its volume is empty space.",
+    "analogies": {
+      "free": "A solar system is like an atom, with the sun (nucleus) at its center and planets orbiting around it. Just as planets have varying distances from the sun to determine their size and temperature, protons in the nucleus determine which element an atom is and electrons occupy shells (or energy levels) that can be filled or empty. The mass of the sun (nucleus) far exceeds the combined masses of all planets (protons, neutrons), yet its volume is relatively small compared to the vast distances between planets, just as the nucleus is tiny compared to the \"empty\" space around it.",
+      "everyday": "A small house has a tiny central furnace with bricks and stones that hold most of its mass, but there's an empty hallway around the furnace where you can walk without touching anything solid, and in this hallway, there are lots of smaller rooms for different activities - just like how protons live in the nucleus, electrons live in shells (or energy levels) around the outside of the atom.",
+      "sports": "Imagine a basketball team, where the nucleus is like the coach (firmly in charge), surrounded by players (electrons) who orbit around them on the court. The number of players on the team (protons) determines its overall strength and identity, just as the number of protons in an atom decides which element it is. Most of the \"mass\" or \"equipment\" for the game (the nucleus) is concentrated in one area, but most of the actual playing space (empty space around the nucleus) is largely empty and not used.",
+      "cooking": "Imagine a tiny, dense ball (nucleus) at the center of an atom, surrounded by swirling clouds of tiny particles (electrons) that zip around it in different paths. Just as you can't see inside these cloudy layers to determine their contents, electrons don't occupy fixed positions – they jump between them in a dynamic dance. The number of protons is like the recipe for your favorite cookie: it determines what flavor you get when you mix it with other ingredients, and the arrangement of electrons is like how many cookies you add on top versus inside to make them hold together just right."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_periodic_trends",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Periodic table trends",
+    "standard_explanation": "The periodic table arranges the elements by increasing atomic number so that elements with similar properties fall into the same column, or group. Across a period the atoms become smaller and attract electrons more strongly, while down a group they become larger and lose electrons more easily. These trends let chemists predict how an unfamiliar element will behave.",
+    "analogies": {
+      "free": "A row in a spreadsheet arranges data by increasing order of magnitude, so similar values fall into the same column, while moving down a row the numbers get larger and less precise, just like elements becoming larger and losing electrons more easily across a period. When comparing different rows, you can see trends in how the numbers change as you move left or right. This trend helps predict what data will look like at larger scales, just like chemists use periodic table trends to predict element properties.",
+      "everyday": "Think of a staircase with people of different ages and physical abilities standing on each step. As you go up the stairs (across a period), each person gets smaller (the atoms become smaller) and has to work harder to climb, while going down the stairs (down a group) makes it easier for everyone to move around, even if they're not as energetic or coordinated. The people at the bottom of the staircase have more freedom to move and lose their balance easily, just like elements in lower groups tend to lose electrons more easily.",
+      "sports": "Imagine a basketball tournament where teams are arranged by their overall strength, with stronger teams in one bracket and weaker ones in another. As you move across rows of brackets, the teams become more evenly matched but still favor shorter players who can dodge opponents more effectively, whereas down columns, longer players with greater reach have an easier time dominating games.",
+      "cooking": "Imagine a row of mixing bowls labeled by their size, each containing a different batter made from flour, sugar, and eggs. As you move down the row, the batters become thicker and more likely to spill over when poured, indicating elements that are larger and lose electrons more easily. Meanwhile, moving across the row, the batters become thinner and more prone to splashing when mixed, illustrating elements with similar properties due to their atomic number. This analogy reflects how elements' properties change as you move up or down a group in the periodic table."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_acid_base",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Acids, bases, and neutralization",
+    "standard_explanation": "An acid releases hydrogen ions in solution while a base accepts them or releases hydroxide ions, and when the two react they neutralize each other to form a salt and water. How strong an acid or base is depends on how completely it ionizes in water. Neutralization is why an antacid tablet relieves excess stomach acid.",
+    "analogies": {
+      "free": "A battery's positive terminal is like a strong acid, releasing electrons (protons) into its surroundings, while its negative terminal is like a base, attracting and holding on to those electrons, and when connected to another device, they neutralize each other to form no net charge, much like how an antacid tablet relieves excess stomach acid by neutralizing it.",
+      "everyday": "A strong battery and a weak battery are like an acid and a base: just as the battery releases its charge (or \"hydrogen ions\") when connected to another device, an acid releases hydrogen ions in solution; and just as a strong battery holds its charge longer, a strong acid remains ionized for a longer time in water. A base is like a sponge that absorbs these released ions, neutralizing them.",
+      "sports": "A basketball player (acid) dribbles a ball down the court and passes it to an opponent (base), who catches it and returns it to the player. If both players are very skilled at passing and catching, they create a neutral zone where no one can score or gain an advantage. When an unskilled player (strong acid) tries to pass to their teammate, it's intercepted by an opposing team member (base with low skill), but if the unskilled player is replaced by someone more skilled, the passing becomes easier and more effective. In this game, a strong player can \"neutralize\" the opponent, creating a point where neither team has an advantage.",
+      "cooking": "Imagine a strong base like baking soda reacting with a weak acid like lemon juice in a recipe for a cake. The baking soda (base) absorbs hydrogen ions from the lemon juice (acid), neutralizing them and forming carbon dioxide gas, which makes the batter rise. A very strong base like washing soda would completely absorb all the hydrogen ions, making it \"super neutral\"."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_ionic_bond",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Ionic bonding",
+    "standard_explanation": "An ionic bond forms when one atom transfers one or more electrons to another, creating a positive ion and a negative ion that attract each other strongly. This usually happens between a metal, which loses electrons, and a non-metal, which gains them, as in common salt. The compounds formed are rigid crystals with high melting points.",
+    "analogies": {
+      "free": "A strongly charged positive ion is like a ball with one less rubber band holding it together, while a negatively charged ion is like an inflated balloon with extra rubber bands stretched tight around it - these two objects will attract each other and stick together, forming a stable cluster that can withstand significant pressure before they start to separate.",
+      "everyday": "Imagine a strong magnet attracting paper clips together, with each paper clip representing an ion - one positive (metallic) and one negative (non-metallic). The magnet (positive ion) loses its electrons to become strongly attracted to the paper clip (negative ion), holding it in place. Similarly, when metal and non-metal atoms come together, their ions are strongly attracted, forming a rigid structure that holds them together like the paper clips held by the magnet.",
+      "sports": "Imagine a game of tug-of-war between two teams: Team Metal and Team Non-Metal. When Team Metal loses some players (electrons), they become positively charged, while Team Non-Metal gains new members who are negatively charged. The positively charged metal team is drawn to the negatively charged non-metal team, forming a strong bond that holds them together like an unbreakable rope in the middle of the playing field.",
+      "cooking": "Imagine a recipe for making saltwater cookies: a metal \"baker\" loses its precious sugar (electrons) to create a positively charged cookie cutter, while a non-metal \"sugar supplier\" gains those same electrons to form a negatively charged cookie dough. The loss and gain of electrons create an attractive force between the two, allowing them to stick together like perfectly mixed cookie dough, forming a rigid crystal structure that's hard to break apart."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_rate_reaction",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Rate of reaction and collision theory",
+    "standard_explanation": "The rate of a chemical reaction is how quickly reactants are turned into products, and it depends on how often and how energetically the reacting particles collide. Raising the temperature, increasing the concentration, or adding a catalyst all raise the collision rate or lower the energy barrier, so the reaction speeds up. Only collisions with enough energy and the right orientation actually lead to a reaction.",
+    "analogies": {
+      "free": "A crowded dance floor with a bouncer: Imagine a room full of people (reactant particles) trying to get past a doorman (energy barrier). If more people arrive (increased concentration), and the bouncer is more relaxed (lower energy barrier), or if someone helps them (catalyst), then more people can successfully dance together (form products) in a short amount of time.",
+      "everyday": "Imagine trying to get your parents to watch a movie you want to see at home. If they're in different rooms and not paying attention, the chances of them both walking into the same room where the movie is playing are low. But if the TV is on and the door is open, and also if it's a favorite show that everyone wants to see, more people are likely to pass by the room at the same time. If you know how to make them less distracted or get them to come into the room faster, like using a phone call or making the movie start earlier, you can increase the chances of them both watching it together.",
+      "sports": "Imagine two basketball players trying to score a basket. The player who is close enough and has the right speed (energy) can successfully dunk the ball into the hoop. If more players are on the court, or if the net's mesh gets bigger (lower energy barrier), more shots will go in - even if some aren't perfect dunks, they still count. But a defender standing too far away or not moving fast enough can block most shots.",
+      "cooking": "Imagine you're making cookies with flour, sugar, and eggs. If the mixing bowl is cold, the ingredients won't combine easily, but if you add heat from a microwave or oven, they'll mix faster and form a solid cookie. The more ingredients you add to the bowl, the thicker the dough becomes, allowing the cookies to come together better when baked at high temperatures. Adding an extra spoonful of baking powder is like adding a catalyst that helps the cookies rise quickly and evenly."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_electrolysis",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Electrolysis",
+    "standard_explanation": "Electrolysis uses an electric current to drive a chemical change that would not happen on its own, splitting a compound into simpler substances. Positive ions move to the negative electrode and negative ions to the positive electrode, where they gain or lose electrons and are discharged. It is used to extract reactive metals and to electroplate objects with a thin metal layer.",
+    "analogies": {
+      "free": "A car battery is like an electrolysis device: just as the positive terminal attracts positively charged metal ions and the negative terminal attracts negatively charged ones, a car battery attracts electrons to create a flow that \"drives\" a chemical change, allowing the car's electrical system to function. The process is similar to how electrolysis splits a compound into simpler substances by attracting ions to the electrodes where they gain or lose electrons.",
+      "everyday": "When you leave a bottle of soda on your kitchen counter overnight, carbon dioxide in the drink turns into bubbles, releasing carbon dioxide gas back into the air. This is similar to how electrolysis helps release metals from their compounds by applying an electric current, causing the metal ions to move and gain or lose electrons, much like the way carbon dioxide molecules are released from the soda solution. In both cases, an external energy source (electricity) facilitates a chemical reaction that wouldn't happen on its own.",
+      "sports": "A basketball player is standing near a charging station with two goalposts of opposite signs: one positive and one negative. When an electric current flows through the court, the positive players (ions) are drawn to the negative goalpost and get energized, gaining speed and moving towards it, while the negative players are pulled to the positive goalpost and lose energy, slowing down as they approach it. This movement helps \"score\" a new substance at each goalpost, much like how ions are separated into their constituent parts during electrolysis.",
+      "cooking": "Imagine trying to dissolve sugar in a pot of water with a spoon, but instead of stirring, you use an electric whisk that rapidly shakes and stirs the mixture at each end of the pot. At one end, the whisk breaks down the disordered sugar molecules into ordered ones, releasing energy as heat, while at the other end, it gathers the newly formed molecules from the water, creating a concentrated solution."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_isotopes",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "Isotopes",
+    "standard_explanation": "Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons. They therefore share almost all chemical properties but differ in mass, and some isotopes are unstable and radioactive. The atomic mass of an element is the average mass of its naturally occurring isotopes.",
+    "analogies": {
+      "free": "A piano with different keys having the same letter name but varying in length represents isotopes of an element: they share similar musical notes (chemical properties) but differ in pitch (mass). Just as a single piano can have multiple keys, one element can have multiple isotopes. Some keys may be sharp or flat, just like some isotopes are unstable and radioactive. The average \"piano tone\" (atomic mass) is determined by the proportions of each key.",
+      "everyday": "Think of isotopes like different sizes of money: if two coins are made from the same metal and have the same denomination (same number of protons), they'll both behave similarly in everyday transactions, but one might be slightly heavier or lighter than the other due to the size of its metal pieces (neutrons). Just as you wouldn't notice a difference between these coins unless you weighed them, isotopes won't show a significant difference in chemical behavior unless their instability is observed.",
+      "sports": "Think of atoms as different players on a basketball team, where each player has the same number of dribbling skills (protons) but can have varying amounts of energy stored in their muscles (neutrons). Just like how some players might be superstars with high scores, while others are benchwarmers with low scores, isotopes are atoms of the same element with different \"energy levels\" due to varying numbers of neutrons. When we average out the scores of all the players on the team, that's similar to calculating the atomic mass of an element as the average energy level (mass) of its naturally occurring isotopes.",
+      "cooking": "Imagine you're making a cake recipe that calls for flour made from wheat. Some bakers use wheat with 100 grains of outer husk and 60 inner kernels, while others use wheat with 120 grains of outer husk and 60 inner kernels – both are wheat of the same variety, but their masses differ slightly due to the varying number of grains in the husks; when you mix them together, they behave similarly, making the cake similar in taste and texture."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_states_matter",
+    "subject": "Chemistry",
+    "grade": 8,
+    "concept": "States of matter and kinetic theory",
+    "standard_explanation": "The kinetic theory pictures all matter as made of tiny particles that are in constant motion, with the amount of motion increasing as the temperature rises. In a solid the particles only vibrate in fixed positions, in a liquid they move around while staying close together, and in a gas they move freely and far apart. Adding or removing heat moves a substance between these states.",
+    "analogies": {
+      "free": "A crowd of people waiting for a bus at a bus stop is like matter in solid state: they are stationary and don't move much, but they still vibrate slightly due to anxiety or anticipation. When someone arrives with a new group of passengers, the crowd becomes more dynamic as individuals start moving around each other; if the bus leaves, everyone moves freely away from the stop. Adding more people to the crowd makes it even more disorganized and chaotic.",
+      "everyday": "Imagine a group of friends at a party: in a solid state, they're all standing still and close together, chatting quietly about their weekend plans; in a liquid state, they're moving around each other, laughing and dancing, but staying within arm's reach; in a gas state, they're running freely, bumping into each other and having a wild time with no clear boundaries.",
+      "sports": "Imagine a group of dancers performing on stage - in a solid state, they're standing still and perfectly aligned, with only slight swaying movements; in a liquid state, they move around each other in a fluid, swirling pattern; in a gas state, they dance freely across the stage, moving randomly and rapidly. As more energy is added to the dancers, their movements become more energetic and unpredictable, shifting from solid to liquid to gas states, just like the particles of matter do as temperature increases or decreases.",
+      "cooking": "Imagine a busy dance party in a kitchen where pots and pans are like particles moving around each other. In a solid state, they're all lined up on the counter, stationary but vibrating slightly like the beat of the music. As you add heat (like turning up the music), they start to move around more freely, swirling together in a liquid-like dance. When it's time to let out some steam, they burst apart into individual pots and pans moving randomly, just like gas molecules."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_respiration",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Cellular respiration",
+    "standard_explanation": "Cellular respiration is the process by which cells release the energy stored in glucose to power their activities. In the presence of oxygen, glucose is broken down into carbon dioxide and water, releasing a large amount of usable energy. It is essentially the reverse of photosynthesis and goes on continuously in living cells.",
+    "analogies": {
+      "free": "A power plant generates electricity by burning coal or natural gas in a furnace, converting chemical energy into electrical energy that powers homes and devices. This process is similar to how cells convert glucose into usable energy through cellular respiration, where oxygen acts as fuel to amplify the reaction, much like an air blower increases airflow for more efficient combustion. Just as the power plant continuously burns coal and gas to produce electricity, living cells continually break down glucose in the presence of oxygen to sustain their activities.",
+      "everyday": "Your car's battery is like a cell, releasing energy from gasoline (like glucose) through a series of chemical reactions that produce carbon dioxide and water as byproducts, much like how your car's engine uses gasoline to power its movements. Just as you need fuel to drive your car, cells require the stored energy in glucose to function properly. When your car runs out of gasoline, it is no longer able to move - similarly, when cellular respiration is depleted, the cell can no longer generate energy and dies.",
+      "sports": "A soccer team is fueled by a large reserve of energy, stored in its collective endurance and stamina, just as cells are fueled by glucose. As players make repeated sprints up and down the field, their energy stores are gradually depleted, much like how cellular respiration breaks down glucose to release usable energy. When oxygen-rich air provides an extra boost of speed and agility, the team's performance improves dramatically, mirroring how oxygen enhances the efficiency of cellular respiration. The continuous effort of the players corresponds to the ongoing process of cellular respiration in living cells.",
+      "cooking": "Think of cellular respiration like a fire in your fireplace: you feed it fuel (glucose), and when it's burning well, it releases heat (energy) that warms the room. Just as a fire needs oxygen to keep burning, cells need oxygen to \"burn\" glucose efficiently; without enough oxygen, the process falters. As the fuel is consumed, ashes remain (carbon dioxide and water are released)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_digestion",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Human digestion",
+    "standard_explanation": "Digestion is the breakdown of large, insoluble food molecules into small, soluble ones that the body can absorb into the blood. Mechanical action and digestive enzymes work along the gut, with each enzyme breaking down a particular type of food such as starch, protein, or fat. The absorbed nutrients then supply energy and building materials for the body.",
+    "analogies": {
+      "free": "A rock crusher with a hammer and chisel is like the human stomach and its digestive enzymes, breaking down hard stones (food) into smaller, more manageable pieces that can be absorbed and utilized by a plant or animal, just as nutrients are broken down from food to be used by the body. The hammer and chisel represent the mechanical action of chewing and mixing with enzymes, while the rock crusher represents the stomach's acidic environment and digestive processes.",
+      "everyday": "Imagine a city where different types of buildings are constructed using various materials: concrete for skyscrapers, steel for bridges, and wood for houses. A strong construction crew uses specialized tools to break down and dismantle these buildings into raw materials like sand, metal scraps, and wooden planks, which can then be used to build new structures or sold as resources. This process involves the use of different 'tools' - in this case, special 'demolition experts' (enzymes) that target specific types of materials (starch, protein, fat), just like how different demolition experts are needed for different buildings.",
+      "sports": "Imagine a strong goalkeeper in soccer who expertly blocks and deflects incoming balls with their gloves. Similarly, enzymes are like specialized defenders that \"block\" and break down tough, large food molecules into smaller, more manageable pieces that can be easily absorbed by the body's \"net\" (the bloodstream). Each type of enzyme is like a defender specializing in tackling specific types of opponents (e.g., a defender against sticky, long-range shots - like starch - or a defender against fast-moving, agile opponents - like protein).",
+      "cooking": "You are mixing a cake batter and then feeding it into a stand mixer with various attachments - one for kneading, another for beating cream, and another for chopping nuts. The mixer's attachments correspond to the different types of digestive enzymes that break down starches, proteins, and fats in food, just as the attachments help mix different ingredients together. As the batter is mixed, its components become well combined and evenly distributed, much like how nutrients are broken down into smaller molecules that can be absorbed by the body. The final product - a delicious cake - corresponds to the energy and building materials supplied to the body from digested food."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_circulation",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Blood circulation",
+    "standard_explanation": "The circulatory system carries blood around the body through a network of vessels, driven by the pumping of the heart. Arteries carry blood away from the heart at high pressure, veins return it, and tiny capillaries let oxygen and nutrients pass out to the cells. The heart pumps oxygen-poor blood to the lungs and oxygen-rich blood to the rest of the body.",
+    "analogies": {
+      "free": "A city's sewer system is like a circulatory system: wastewater (oxygen-poor blood) flows out of a central pumping station (heart), through narrow pipes (capillaries), and into larger vessels (arteries and veins), where it's collected, cleaned, and eventually returned to the pumping station. Similarly, oxygen-rich water (oxygen-rich blood) is pumped from the same source to other areas, while wastewater is sent to treatment facilities like the lungs.",
+      "everyday": "Water flowing through a plumbing system, with the water pump as the heart, pipes branching out like arteries and returning to the main pipe as veins, allowing water to seep into individual taps (faucets) representing cells, just like oxygen is distributed. The pump pushes low-pressure water to the drains for treatment in the waterworks, and high-pressure water to the showers for use by people.",
+      "sports": "The circulatory system is like a highway system for delivering goods (oxygen and nutrients) from a central warehouse (the heart) to individual houses (cells), with delivery trucks (arteries and veins) bringing back empty containers (oxygen-poor blood) to be refilled at the depot. The highway has multiple lanes, with fast-moving lanes (high-pressure arteries) for priority deliveries, slower lanes (veins) for collection of return cargo, and tiny intersections (capillaries) where goods are exchanged between delivery trucks and individual houses.",
+      "cooking": "The circulatory system is like a piping hot soup being transported through pipes of different sizes and temperatures. The heart is the boiler that pumps the hot soup (oxygen-poor blood) to the cooling chambers (lungs), where it cools down, then re-pumps it as warmer broth (oxygen-rich blood) into smaller vessels for serving (capillaries) to various parts of the kitchen (body)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_mendel",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Mendelian inheritance",
+    "standard_explanation": "Mendelian inheritance explains how characteristics pass from parents to offspring through discrete units now called genes. Each individual carries two versions of each gene, and a dominant version masks the effect of a recessive one when both are present. This is why a trait can seem to disappear in one generation and reappear in the next.",
+    "analogies": {
+      "free": "A deck of cards with two suits, hearts and diamonds, is shuffled and distributed evenly between two players, representing the parents, each with a unique combination of suits (e.g., heart-5 and diamond-8), which determines the characteristics (like heart being red or diamond being black) that are passed on to their offspring when they inherit one card from each parent.",
+      "everyday": "Imagine a bookshelf in your home with two identical books side by side: one with a red cover and one with a blue cover. Each book represents a gene, and each book has two copies of its color - one dominant (red) and one recessive (blue). When you place both books together on the shelf, they appear as if the whole shelf is blue, even though there's also a red one hiding underneath. But if you take away one book and replace it with a new copy that only has the dominant red color, suddenly the entire shelf seems to turn red again.",
+      "sports": "Imagine you're playing a game of chess with two players, Grandmaster A and Master B. Each player has all the pieces on their side (the genes), but what's remarkable is that each piece can have one of two versions: a king (dominant) or a pawn (recessive). When both players have a king on the board, it doesn't matter if you also have pawns - your opponent's kings will still win. But when Grandmaster A only has pawns and Master B has kings, it seems like the game is lost, but then Master B loses one of his kings in the next round, allowing Grandmaster A to \"inherit\" his pawn version and potentially turn the game around.",
+      "cooking": "Consider a recipe for making chocolate cake, where two types of ingredients - flour (dominant) and sugar (recessive) - are combined in different proportions. If you use too much flour, the result is a dense cake; if you use just enough to balance with an equal amount of sugar, it's smooth and fluffy. When you pass on this recipe from one generation to the next, some people may inherit the dominant \"flour\" trait (resulting in denser cakes), while others inherit the recessive \"sugar\" trait (resulting in fluffier cakes). As generations change, these traits can sometimes seem to disappear and reappear due to the mixing of different genetic recipes."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_immune",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "The immune response",
+    "standard_explanation": "The immune system defends the body against disease-causing microbes. White blood cells recognize foreign invaders, some engulfing them directly and others producing antibodies that mark specific microbes for destruction. After an infection the body keeps a memory of the invader, so it can respond much faster if the same microbe returns.",
+    "analogies": {
+      "free": "A city's defense system is designed to recognize and respond to invaders, with guards scanning the borders for suspicious activity, some forming a patrol to capture and detain intruders while others create a list of known threats to alert future waves of defenders. As repeated attacks are made, the guards become more skilled at recognizing the attackers' tactics and can mount a swift response if they return, recalling specific details from past encounters. Over time, the city's defense system adapts, remembering the patterns and weaknesses of its most frequent foes.",
+      "everyday": "A household's defense system against intruders uses a combination of physical guards (like bouncers at the front door) that recognize suspicious strangers and either apprehend them or warn others (by sounding an alarm), while also keeping a record of specific types of invaders to speed up future responses. After a known scammer visits, the security team updates their database with more information about that particular thief, so they can be faster and stronger in case it returns.",
+      "sports": "The immune response is like a basketball team defending against a rival team. The white blood cells are like the defenders who recognize and mark the opponent's players (microbes) for elimination, while the antibodies are like the referee's whistle that signals the crowd to remove those players from the game. After the first half of the match, if the same opponent returns, the team remembers its strengths and weaknesses, so it can mount a faster and more effective defense.",
+      "cooking": "Imagine your body's cells are a batch of fresh cookies, and foreign invaders are unwelcome guests who crash a dinner party. The white blood cells are like the hosts who recognize these intruders, sending out alerts to warn other guests (like antibodies) about the suspicious visitors. Once identified, some \"cookies\" (white blood cells) engulf and remove the invaders, while others mark specific types of cookies for extra caution in future gatherings."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_food_chain",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Food chains and energy flow",
+    "standard_explanation": "A food chain shows how energy and nutrients pass from one organism to the next as one is eaten by another, starting with producers such as green plants. At each step much of the energy is lost as heat, so food chains rarely have more than a few links. In nature these feeding relationships interconnect into a food web.",
+    "analogies": {
+      "free": "A solar panel converts sunlight into electrical energy, where a significant amount is lost as heat. The electrical energy is then sent through wires with some loss of efficiency, and finally, most of the remaining power is used in an appliance like a light bulb to produce visible light, which is essentially just another form of electromagnetic radiation.",
+      "everyday": "Think of a food chain like a row of dominoes falling down a staircase. Each domino represents an organism, and when one falls, it knocks over the next one in line, passing energy (or \"domino momentum\") from one to the other. However, as each domino falls, some of its energy is lost at the bottom step (like heat escaping up the staircase), so the chain typically doesn't have more than a few strong connections.",
+      "sports": "Imagine a relay race with four runners, each carrying a baton representing energy. The first runner (producer) starts at one end of the track and passes the baton to the second runner (herbivore), who then hands it to the third runner (carnivore). However, as each runner runs, they're bound to lose some of their speed and momentum due to friction from the ground; this energy is dissipated as heat. Eventually, only a few runners can complete the entire race before exhaustion sets in.",
+      "cooking": "Imagine a bakery where bread is made using flour and yeast. The baker starts by mixing flour with water, creating a dough that eventually becomes bread. However, much of the energy from the flour (in the form of heat) is lost during this process as steam rises off the surface, leaving behind only the baked loaf. Just like how there are few recipes with more than three steps in between making dough and baking bread, food chains in nature often have short links due to energy loss."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_transpiration",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Transpiration in plants",
+    "standard_explanation": "Transpiration is the loss of water vapour from a plant, mainly through tiny pores called stomata in the leaves. As water evaporates from the leaves it pulls a continuous column of water up from the roots through the stem, carrying dissolved minerals with it. This upward flow also helps to cool the plant.",
+    "analogies": {
+      "free": "A sponge sitting in a bowl of water, with a small hole at the bottom and a narrow tube leading from the sponge's top through the tube into a container above it, illustrating how moisture is drawn up the sponge by evaporation from its surface.",
+      "everyday": "Evaporation of water in a sink is like transpiration in plants, where as hot air rises out of the sink carrying water droplets with it, so too does the rising CO2 from stomata in leaves carry water vapour upwards through the stem, cooling the plant just as the cooled air cools down.",
+      "sports": "Imagine a team of water molecules working together in unison like a relay team at a track meet. As one molecule reaches the finish line (the leaf surface), it quickly \"exchanges\" places with another molecule waiting behind, allowing that new molecule to sprint towards the next checkpoint (stomata). Meanwhile, all the other molecules on the track are pulled up by their teammates carrying water and minerals, creating a continuous chain effect. This teamwork not only keeps the team hydrated but also speeds them along, helping them stay cool under pressure.",
+      "cooking": "Imagine a tea infuser suspended in a pot of boiling water, slowly releasing steam into the air and pulling up more hot water from the pot through a network of tubes to the infuser's base. As the steam escapes, it cools down the surrounding air and helps distribute heat throughout the pot, creating a continuous cycle. Similarly, transpiration occurs when water vapour is released from plant leaves (the tea infuser) into the atmosphere, pulling up more water from the roots through the stem (the tubes) and cooling the plant in the process."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_hormones",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Hormones and the endocrine system",
+    "standard_explanation": "Hormones are chemical messengers made by glands and carried in the blood to target organs, where they control slow, long-term processes such as growth and the regulation of blood sugar. Unlike nerve signals, which are fast and short-lived, hormonal signals act more slowly but their effects last much longer. Insulin, which lowers blood sugar, is a familiar example.",
+    "analogies": {
+      "free": "A postman delivers mail in a neighborhood where houses are far apart, and it takes days for the mail to reach each house. Each house has a mailbox that is connected to a central sorting office by a network of roads. The mail (letters) in the mail truck represents hormones being carried in the blood, while the houses represent target organs, and the sorting office represents the endocrine glands that produce and regulate hormones. Just as the postman's route takes time to deliver the mail to each house, hormonal signals take time to reach their targets and have long-lasting effects.",
+      "everyday": "A mailman's delivery route compares to the hormonal system: just as the mailman delivers letters in batches throughout the day, hormones are secreted by glands and released into the bloodstream in periodic batches; their effects spread through the body like a slow-moving postal service, taking longer to reach their destinations but having a lasting impact.",
+      "sports": "A football team's coaching staff sends a team captain to the other end of the field with a message about when to pass or run the ball, and that captain must wait for a response from the defense before deciding what to do next. If the coach wants the team to start running more, he might send multiple captains with increasing urgency, but they won't change their minds until the defense responds. Once the response comes back, the captains follow the new instructions carefully, making sure not to mess up again. The delayed response from the defense is like the slower effect of hormones on our bodies.",
+      "cooking": "Think of hormones like yeast in a dough recipe. Just as yeast ferments sugars and produces carbon dioxide gas slowly over time, causing bread to rise gradually, hormones released by glands ferment or trigger chemical reactions within target organs, producing lasting changes that shape growth and metabolism over hours, days, or even years. This slow but steady fermentation process is similar to how hormonal signals regulate blood sugar levels in the body, much like yeast helps control the rising of dough."
+    },
+    "generator": "llama3.2:3b"
+  }
+]

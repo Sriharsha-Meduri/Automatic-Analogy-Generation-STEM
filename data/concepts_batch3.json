@@ -1,0 +1,114 @@
+[
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow."
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface."
+  },
+  {
+    "id": "phy_momentum",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Momentum and its conservation",
+    "standard_explanation": "Momentum is the product of an object's mass and its velocity, and it measures how difficult it is to stop a moving object. When no external force acts on a system, its total momentum stays constant, so in a collision the momentum lost by one object is exactly gained by the others. A heavy, fast-moving object has large momentum and needs a large force or a long time to be brought to rest."
+  },
+  {
+    "id": "phy_gravitation",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Newton's law of universal gravitation",
+    "standard_explanation": "Every object with mass attracts every other object with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between them. Because of the inverse-square relationship, moving two objects twice as far apart weakens the attraction to one quarter of its original strength. This single law describes both a falling apple and the Moon held in its orbit around the Earth."
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales."
+  },
+  {
+    "id": "mat_vectors",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Vectors as magnitude and direction",
+    "standard_explanation": "A vector is a quantity that has both a magnitude and a direction, unlike a scalar, which has magnitude only. Vectors such as force or velocity are combined by joining them head to tail, so two vectors can produce a resultant that is larger, smaller, or in a new direction depending on the angle between them. This is why two forces pulling at an angle do not simply add together as ordinary numbers."
+  },
+  {
+    "id": "mat_function",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Functions, domain and range",
+    "standard_explanation": "A function is a rule that assigns to each input exactly one output, rather like a machine that takes a number and returns a single definite result. The set of permitted inputs is called the domain and the set of possible outputs is called the range. The defining property of a function is that a single input can never be mapped to two different outputs."
+  },
+  {
+    "id": "mat_matrix",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "Matrices and matrix multiplication",
+    "standard_explanation": "A matrix is a rectangular array of numbers arranged in rows and columns that can represent data or a whole system of equations compactly. Two matrices are multiplied by combining the rows of the first with the columns of the second, and this multiplication is generally not commutative, so the order in which matrices are multiplied changes the result. Matrices are widely used to rotate and scale shapes and to solve many equations simultaneously."
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic."
+  },
+  {
+    "id": "che_redox",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Oxidation and reduction (redox)",
+    "standard_explanation": "Oxidation is the loss of electrons by a substance and reduction is the gain of electrons, and the two always happen together because the electrons released by one species must be accepted by another. The substance that loses electrons is said to be oxidised and acts as the reducing agent, while the substance that gains them is reduced and acts as the oxidising agent. Everyday examples of redox reactions include iron rusting and the reactions inside a battery."
+  },
+  {
+    "id": "che_ideal_gas",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "The ideal gas law",
+    "standard_explanation": "The ideal gas law, written PV = nRT, links the pressure, volume, amount, and temperature of a gas. At a fixed temperature, increasing the volume lowers the pressure because the same number of molecules strike the container walls less often, while at fixed volume, heating the gas raises the pressure because the molecules move faster and hit the walls harder. The law treats gas particles as tiny points that do not attract one another."
+  },
+  {
+    "id": "che_covalent_bond",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Covalent bonding",
+    "standard_explanation": "A covalent bond forms when two atoms share one or more pairs of electrons so that each atom effectively fills its outer electron shell. The sharing holds the atoms together because the nuclei of both atoms are attracted to the same shared electrons lying between them. Covalent bonding usually occurs between non-metal atoms, as in molecules of water, oxygen, and carbon dioxide."
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth."
+  },
+  {
+    "id": "bio_dna_replication",
+    "subject": "Biology",
+    "grade": 12,
+    "concept": "DNA replication",
+    "standard_explanation": "DNA replication is the process by which a cell copies its DNA before it divides, so that each daughter cell receives a complete set of instructions. The double helix unwinds and each original strand acts as a template, with new complementary bases pairing adenine with thymine and cytosine with guanine. Because every new molecule keeps one old strand and one newly built strand, replication is described as semiconservative."
+  },
+  {
+    "id": "bio_mitosis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Mitosis (cell division)",
+    "standard_explanation": "Mitosis is the division of a cell nucleus that produces two daughter nuclei, each carrying the same number and type of chromosomes as the parent cell. The chromosomes are first duplicated, then lined up in the middle of the cell and pulled to opposite ends, so that each new cell ends up genetically identical to the original. Mitosis is the basis of growth, the repair of damaged tissue, and asexual reproduction."
+  },
+  {
+    "id": "bio_neuron",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Nerve impulse and the action potential",
+    "standard_explanation": "A neuron carries information as a brief electrical impulse, called an action potential, that travels along the length of the cell. The impulse is only triggered when a stimulus is strong enough to cross a threshold, and once triggered it fires completely rather than partially, an all-or-nothing response. When the impulse reaches the end of the neuron it is passed on chemically to the next cell across a tiny gap called a synapse."
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "id": "probe_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that current is directly proportional to voltage and inversely proportional to resistance (V = I R). For a fixed voltage, higher resistance means a smaller current.",
+    "generator": "probe",
+    "analogies": {
+      "good": "Voltage is like the water pressure in a pipe, current is the rate at which water flows, and resistance is how narrow the pipe is: for a fixed pressure, a narrower pipe (more resistance) lets less water flow, so the current is smaller.",
+      "decent": "A circuit is like people walking down a corridor. Voltage is how hard they are pushed from behind and resistance is how narrow the corridor is, so a narrower corridor lets fewer people pass each second.",
+      "vague": "Electricity is a bit like a river: it just flows along from one place to another, going wherever the land takes it.",
+      "wrong": "Resistance is like adding an extra battery to the circuit. The more resistance you add, the harder it pushes the charges, so a higher resistance always makes a larger current flow."
+    }
+  },
+  {
+    "id": "probe_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "When one object exerts a force on a second object, the second exerts an equal and opposite force on the first. The two forces act on different objects, so they do not cancel.",
+    "generator": "probe",
+    "analogies": {
+      "good": "When you jump off a small boat onto a dock, you push backward on the boat and the boat pushes you forward with an equal force. The two forces are equal and opposite but act on different things, which is why you move one way and the boat drifts the other.",
+      "decent": "Rowing a boat shows it well: the oar pushes the water backward, and the water pushes the oar, and so the boat, forward by the same amount.",
+      "vague": "For every action there is a reaction, so things in life always come back around in a kind of chain of cause and effect.",
+      "wrong": "In any push, the action force is always a little bigger than the reaction force, and that leftover extra force is exactly what makes the object start to move."
+    }
+  },
+  {
+    "id": "probe_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Probability of independent events",
+    "standard_explanation": "Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is the product of their individual probabilities.",
+    "generator": "probe",
+    "analogies": {
+      "good": "Two independent events are like flipping a coin and rolling a die at the same time: the coin landing heads does not change the die, so to get heads AND a six you multiply the chances, one half times one sixth.",
+      "decent": "Independent events are like two separate vending machines standing side by side: what one machine gives you has no effect on the other, so the chance of a particular pair is the two chances multiplied together.",
+      "vague": "Probability is like trying to guess what will happen tomorrow: some things are more likely than others and you can never be completely sure.",
+      "wrong": "For two independent events you add their probabilities, so the chance of getting heads (one half) and a six (one sixth) is one half plus one sixth, which is two thirds."
+    }
+  },
+  {
+    "id": "probe_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Green plants use light energy captured by chlorophyll to convert carbon dioxide and water into glucose and oxygen, storing the light energy as chemical energy in the glucose.",
+    "generator": "probe",
+    "analogies": {
+      "good": "A leaf is like a tiny solar-powered kitchen: it uses sunlight as the energy source to cook carbon dioxide and water into sugar, and it releases oxygen as a by-product of the cooking.",
+      "decent": "Photosynthesis is like charging a battery using a solar panel: the plant captures the sun's energy and stores it in chemical form (sugar) to be used later.",
+      "vague": "Plants are like living things that just grow bigger and greener when you remember to put them somewhere sunny and water them.",
+      "wrong": "In photosynthesis the plant breathes in oxygen and sunlight and burns its sugar to release carbon dioxide, and that is how it makes its energy from the light."
+    }
+  },
+  {
+    "id": "probe_equilibrium",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Dynamic chemical equilibrium",
+    "standard_explanation": "In a reversible reaction at equilibrium, the forward and backward reactions occur at equal rates, so the amounts of reactants and products stay constant even though both reactions continue.",
+    "generator": "probe",
+    "analogies": {
+      "good": "Equilibrium is like a crowded two-way footbridge where people cross in both directions at exactly the same rate: the number on each side stays steady even though individuals are constantly moving across.",
+      "decent": "It is like an up escalator and a down escalator running together: as many people go up as come down each minute, so the number of people on each floor stays about the same.",
+      "vague": "Equilibrium is a bit like a seesaw that finally settles level in the middle once everything is fair and balanced.",
+      "wrong": "At equilibrium the forward and backward reactions have both completely stopped, so nothing is happening in the mixture any more and the chemicals just sit there unchanged."
+    }
+  }
+]

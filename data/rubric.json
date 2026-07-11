@@ -1,0 +1,58 @@
+{
+  "name": "STEM Analogy Quality Rubric (SAQR)",
+  "version": "1.1",
+  "scale": "Each dimension is scored from 1 to 5 (1 = absent/poor, 2 = weak, 3 = adequate, 4 = good, 5 = excellent). Use the full range; reserve 5 for genuinely excellent cases and give low scores where the analogy is weak.",
+  "instructions_for_raters": "You are given a STEM concept, a standard explanation of it, and an analogy meant to help a school student (roughly Class 8 to 12) understand it. Score the analogy on each dimension from 1 to 5 using the anchored descriptions below. Judge the analogy as a teaching aid for that concept, not as writing in general. Score each dimension independently and use the full range.",
+  "dimensions": [
+    {
+      "key": "conceptual_accuracy",
+      "name": "Conceptual accuracy",
+      "question": "Does the analogy map correctly onto the target concept, so that the important relationships in the concept correspond to matching relationships in the analogy?",
+      "anchors": {
+        "1": "The analogy is wrong or maps to the wrong idea; following it would teach an incorrect concept.",
+        "3": "The analogy captures the main relationship correctly, with minor gaps.",
+        "5": "The analogy maps the key relationships of the concept faithfully and precisely."
+      }
+    },
+    {
+      "key": "clarity",
+      "name": "Clarity",
+      "question": "Would a school student find the analogy easy to follow, and does it actually make the concept easier to grasp than the bare explanation?",
+      "anchors": {
+        "1": "Confusing or harder to follow than the concept itself.",
+        "3": "Clear and does help understanding.",
+        "5": "Immediately clear and noticeably illuminates the concept."
+      }
+    },
+    {
+      "key": "memorability",
+      "name": "Memorability",
+      "question": "Is the analogy vivid, concrete, and relatable enough that a student is likely to remember it and, through it, the concept?",
+      "anchors": {
+        "1": "Bland or abstract; nothing to hold onto.",
+        "3": "Concrete and reasonably sticky.",
+        "5": "Vivid, concrete, and highly memorable."
+      }
+    },
+    {
+      "key": "non_misleading",
+      "name": "Absence of misleading simplification",
+      "question": "Does the analogy avoid introducing misconceptions? A good analogy either does not break down in a harmful way, or its limits are not likely to mislead a student.",
+      "anchors": {
+        "1": "Introduces a clear misconception a student would plausibly carry away.",
+        "3": "Mostly safe; minor over-simplification unlikely to mislead.",
+        "5": "No misleading simplification; the analogy breaks down only in ways a student would not over-extend."
+      }
+    },
+    {
+      "key": "overall_usefulness",
+      "name": "Overall usefulness",
+      "question": "All things considered, how useful is this analogy for teaching this concept to a school student?",
+      "anchors": {
+        "1": "Not useful; better to omit it.",
+        "3": "Useful; a fair teacher would include it.",
+        "5": "Highly useful; a strong teaching aid."
+      }
+    }
+  ]
+}

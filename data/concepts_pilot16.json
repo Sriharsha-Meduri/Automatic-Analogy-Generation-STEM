@@ -1,0 +1,882 @@
+[
+ {
+  "id": "phy_newton3",
+  "subject": "Physics",
+  "grade": 9,
+  "concept": "Newton's third law of motion",
+  "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+  "analogies": {
+   "eli12": "Imagine you are on a skateboard and you push hard against a wall. The wall pushes you back just as hard, and you roll away. You pushed the wall, but it was the wall's push on you that made you move. Every push comes with an equal push back.",
+   "sports": "When a swimmer pushes the water backward with their hands and feet, the water pushes the swimmer forward with an equal force. The swimmer never touches the finish line directly; they move only because the water shoves back exactly as hard as they shove it.",
+   "cooking": "Press a lump of dough down onto the counter and the counter presses back up into the dough with the same force, which is why the dough flattens rather than sinking through. Your hand and the counter push on each other equally and in opposite directions.",
+   "everyday": "When you step off a small boat onto a dock, the boat slides backward as you step forward. Your foot pushes the boat back, and the boat pushes you forward by the same amount, so both of you move in opposite directions."
+  },
+  "questions": [
+   {
+    "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+    "options": {
+     "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+     "B": "It pushes against the vacuum of space",
+     "C": "Gravity from distant stars pulls it forward",
+     "D": "It cannot accelerate without air"
+    },
+    "answer": "A"
+   },
+   {
+    "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+    "options": {
+     "A": "The Earth's gravity pulling the book down",
+     "B": "The book pushing down on the table",
+     "C": "The weight of the book",
+     "D": "The table pushing down on the floor"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Why do action and reaction forces not cancel out to give zero motion?",
+    "options": {
+     "A": "They are unequal in size",
+     "B": "One is always larger than the other",
+     "C": "They act on two different objects, not the same one",
+     "D": "Reaction forces are imaginary"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+    "options": {
+     "A": "Smaller, because the car is lighter",
+     "B": "Equal in magnitude and opposite in direction",
+     "C": "Larger, because the car stops suddenly",
+     "D": "Zero, because the car is pushed backward"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "phy_ohm",
+  "subject": "Physics",
+  "grade": 10,
+  "concept": "Ohm's law and electrical resistance",
+  "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+  "analogies": {
+   "eli12": "Think of water in a pipe. Voltage is how hard the water is being pushed, current is how much water flows each second, and resistance is how narrow the pipe is. Push harder and more water flows; make the pipe narrower and less water flows.",
+   "sports": "Picture runners on a track. Voltage is the starting whistle urging them on, current is how many runners cross the line each second, and resistance is a set of hurdles. Add more hurdles and fewer runners get through per second, even with the same loud whistle.",
+   "cooking": "Imagine squeezing sauce through a piping bag. How hard you squeeze is the voltage, how much sauce comes out per second is the current, and a narrow nozzle is the resistance. A narrower nozzle lets out less sauce for the same squeeze.",
+   "everyday": "Think of people leaving a stadium through doors. The crowd's eagerness to leave is the voltage, the number of people passing per second is the current, and narrow doorways are the resistance. Narrower doors let fewer people out per second."
+  },
+  "questions": [
+   {
+    "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+    "options": {
+     "A": "Double",
+     "B": "Stay the same",
+     "C": "Halve",
+     "D": "Become zero"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+    "options": {
+     "A": "Wire X has higher resistance",
+     "B": "Wire X has lower resistance",
+     "C": "Wire X has higher voltage across it",
+     "D": "Nothing, current does not depend on resistance"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+    "options": {
+     "A": "How hard the water is pushed",
+     "B": "How much water flows per second",
+     "C": "How narrow the pipe is",
+     "D": "The total amount of water"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "To increase the current in a circuit without changing the resistance, you should:",
+    "options": {
+     "A": "Increase the voltage",
+     "B": "Decrease the voltage",
+     "C": "Add more resistance",
+     "D": "Disconnect the battery"
+    },
+    "answer": "A"
+   }
+  ]
+ },
+ {
+  "id": "mat_probability",
+  "subject": "Mathematics",
+  "grade": 10,
+  "concept": "Basic probability of independent events",
+  "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+  "analogies": {
+   "eli12": "Think of two separate bags of marbles. Picking a red marble from the first bag does not change what is in the second bag. To find the chance of red from both, you multiply the chance from each bag, because the two picks do not talk to each other.",
+   "sports": "Imagine taking two penalty kicks. Whether the first goes in does not change your chance on the second. To find the chance of scoring both, you multiply the two separate chances, since each kick stands on its own.",
+   "cooking": "Picture flipping two pancakes. Whether the first lands neatly does not affect the second flip. The chance both land perfectly is the chance for one times the chance for the other, because each flip is its own event.",
+   "everyday": "Think of two different traffic lights on separate roads. One being red does not change the other. The chance both are red when you reach them is the chance of each being red multiplied together, since the lights are unconnected."
+  },
+  "questions": [
+   {
+    "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+    "options": {
+     "A": "1/2",
+     "B": "1/6",
+     "C": "1/12",
+     "D": "1/8"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "Events A and B are independent. Which statement is true?",
+    "options": {
+     "A": "If A happens, B becomes more likely",
+     "B": "The outcome of A does not affect the probability of B",
+     "C": "A and B cannot both happen",
+     "D": "P(A and B) = P(A) + P(B)"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+    "options": {
+     "A": "0.7",
+     "B": "0.1",
+     "C": "0.5",
+     "D": "0.25"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Why do we multiply probabilities for two independent events rather than add them?",
+    "options": {
+     "A": "Because addition is only for impossible events",
+     "B": "Because we want the chance that both occur together, narrowing the outcomes",
+     "C": "Because multiplication always gives a larger number",
+     "D": "Because the events affect each other"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "mat_derivative",
+  "subject": "Mathematics",
+  "grade": 11,
+  "concept": "The derivative as an instantaneous rate of change",
+  "standard_explanation": "The derivative of a function at a point measures how fast the function's value is changing at that exact point, which is the slope of the tangent line to the curve there. It is the limit of the average rate of change over an interval as the interval shrinks toward zero. A large derivative means the quantity is changing quickly; a derivative of zero means it is momentarily not changing.",
+  "analogies": {
+   "eli12": "Imagine watching a car's speedometer. The average speed over a whole trip is total distance over total time, but the speedometer shows how fast you are going at this single instant. The derivative is like the speedometer reading for any changing quantity.",
+   "sports": "Think of a sprinter. Their average speed is the race distance divided by the total time, but their speed right as they cross the halfway line is different. The derivative is that exact speed at one moment, not the average over the race.",
+   "cooking": "Picture heating a pot of soup. The average temperature rise over ten minutes is one number, but how fast the temperature is climbing at exactly the third minute is another. The derivative is that instant rate of climbing at a chosen moment.",
+   "everyday": "Think of the numbers on your phone's battery. The average drain over the day is one thing, but how fast the battery is dropping right now, while you stream a video, is the instant rate. The derivative captures that right-now rate."
+  },
+  "questions": [
+   {
+    "q": "A ball is thrown straight up. At the highest point of its path, its velocity is momentarily zero. What does this say about the derivative of its height with respect to time at that instant?",
+    "options": {
+     "A": "It is zero",
+     "B": "It is at its largest",
+     "C": "It is negative and large",
+     "D": "It is undefined"
+    },
+    "answer": "A"
+   },
+   {
+    "q": "The derivative of a function at a point equals the slope of:",
+    "options": {
+     "A": "A line joining the two endpoints of the curve",
+     "B": "The tangent line to the curve at that point",
+     "C": "The horizontal axis",
+     "D": "The average of all slopes"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "If the derivative of a quantity is large and positive, the quantity is:",
+    "options": {
+     "A": "Decreasing quickly",
+     "B": "Constant",
+     "C": "Increasing quickly",
+     "D": "At a maximum"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "In the speedometer picture, the average speed over a trip corresponds to what, and the derivative to what?",
+    "options": {
+     "A": "Average speed to the speedometer reading; derivative to total distance",
+     "B": "Average speed to total distance over total time; derivative to the instant speedometer reading",
+     "C": "Both correspond to the speedometer reading",
+     "D": "Average speed to the instant reading; derivative to the trip average"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "che_equilibrium",
+  "subject": "Chemistry",
+  "grade": 11,
+  "concept": "Dynamic chemical equilibrium",
+  "standard_explanation": "In a reversible reaction, dynamic equilibrium is reached when the forward and backward reactions occur at the same rate, so the concentrations of reactants and products stay constant over time. Equilibrium does not mean the reaction has stopped; both directions continue, but their rates are balanced. Le Chatelier's principle says that if a stress such as concentration or pressure is applied, the equilibrium shifts to partly oppose that change.",
+  "analogies": {
+   "eli12": "Imagine two rooms joined by a door, with kids running both ways. Equilibrium is when the same number cross each way every minute, so each room's count stays steady, even though kids keep moving. Nothing has stopped; the two flows just match.",
+   "sports": "Think of a tug-of-war where both teams pull equally hard, so the rope stays still. The rope is not still because everyone stopped pulling; it is still because the two efforts are perfectly balanced, just like the forward and backward reactions.",
+   "cooking": "Picture a sink filling while the drain is open. When water pours in at the same rate it drains out, the level stays constant even though water keeps flowing. Equilibrium is that steady level, not an empty or overflowing sink.",
+   "everyday": "Think of an escalator with people walking up while it carries some down. If equal numbers move each way each minute, the crowd on the escalator stays the same size, even though everyone is still moving."
+  },
+  "questions": [
+   {
+    "q": "A sealed reaction has reached dynamic equilibrium. Which statement is correct?",
+    "options": {
+     "A": "Both forward and reverse reactions have stopped",
+     "B": "Only the forward reaction continues",
+     "C": "Forward and reverse reactions continue at equal rates",
+     "D": "The reactants have been completely used up"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "In the sink-with-open-drain picture, the constant water level represents:",
+    "options": {
+     "A": "The reaction having stopped",
+     "B": "Equilibrium, where inflow rate equals outflow rate",
+     "C": "A reaction with no products",
+     "D": "An overflowing reaction"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "At equilibrium, extra reactant is suddenly added. By Le Chatelier's principle, the system will:",
+    "options": {
+     "A": "Shift to make more product, opposing the change",
+     "B": "Shift to make more reactant",
+     "C": "Stop reacting entirely",
+     "D": "Explode"
+    },
+    "answer": "A"
+   },
+   {
+    "q": "Why is chemical equilibrium described as 'dynamic'?",
+    "options": {
+     "A": "Because the container moves",
+     "B": "Because concentrations keep rising",
+     "C": "Because both reactions keep happening even though net concentrations are steady",
+     "D": "Because it only happens in gases"
+    },
+    "answer": "C"
+   }
+  ]
+ },
+ {
+  "id": "che_ph",
+  "subject": "Chemistry",
+  "grade": 10,
+  "concept": "The pH scale for acids and bases",
+  "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+  "analogies": {
+   "eli12": "Think of pH like a volume knob for sourness. In the middle it is neutral, turning one way gets more and more sour (acidic) and the other way more soapy (basic). But each click of the knob multiplies the strength by ten, so small number changes are big jumps.",
+   "sports": "Imagine a scoreboard where each single point actually means ten times as many goals. Moving from a score of 4 to a score of 3 is not one goal more; it is ten times more. The pH scale packs tenfold jumps into each single step like that.",
+   "cooking": "Think of adding lemon to water. Neutral water is pH 7. Each time you make it one pH unit more sour, you have effectively made it ten times as acidic, so going from pH 5 to pH 3 is a hundred times sourer, not just a little.",
+   "everyday": "Think of earthquake magnitude numbers. A magnitude 6 is not slightly stronger than a magnitude 5; it is ten times stronger. pH works the same way: each unit down the scale is ten times more acidic than the one before."
+  },
+  "questions": [
+   {
+    "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+    "options": {
+     "A": "2 times",
+     "B": "10 times",
+     "C": "100 times",
+     "D": "The same"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "A solution has a pH of 9. It is:",
+    "options": {
+     "A": "Acidic",
+     "B": "Neutral",
+     "C": "Basic",
+     "D": "Impossible"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "Why can a small drop in pH represent a big rise in acidity?",
+    "options": {
+     "A": "Because the scale is logarithmic, each unit is a tenfold change",
+     "B": "Because pH is measured in percentages",
+     "C": "Because pH only applies to strong acids",
+     "D": "Because lower numbers are always basic"
+    },
+    "answer": "A"
+   },
+   {
+    "q": "Pure water at room temperature has a pH of 7. This means it is:",
+    "options": {
+     "A": "Strongly acidic",
+     "B": "Neutral",
+     "C": "Strongly basic",
+     "D": "Undefined"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "bio_osmosis",
+  "subject": "Biology",
+  "grade": 9,
+  "concept": "Osmosis across a semipermeable membrane",
+  "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+  "analogies": {
+   "eli12": "Imagine a crowded room and an empty room joined by a door that only lets small kids through, not the big furniture. The small kids (water) spread out until both rooms feel equally crowded, moving from the emptier side toward the packed side.",
+   "sports": "Think of a stadium with two stands separated by a turnstile that only fans can pass, not the seats. Fans shuffle from the emptier stand to the fuller one until both stands are equally packed, the way water moves to balance concentration.",
+   "cooking": "Put a wilted piece of lettuce in plain water and it becomes crisp. Water slips through the leaf's membranes from the plain water outside, where water is plentiful, into the saltier cells inside, until things balance out.",
+   "everyday": "Think of two connected water tanks, one full and one low, joined by a filter that blocks sand but lets water through. Water flows from the fuller tank into the lower one until the levels even out, just as water crosses the membrane."
+  },
+  "questions": [
+   {
+    "q": "A cell is placed in pure water. Water tends to move:",
+    "options": {
+     "A": "Out of the cell, because the cell is more dilute",
+     "B": "Into the cell, because the cell interior is more concentrated",
+     "C": "Neither way, membranes block all water",
+     "D": "Out of the cell, shrinking it"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "What makes a membrane 'semipermeable'?",
+    "options": {
+     "A": "It blocks everything",
+     "B": "It lets everything through equally",
+     "C": "It lets water through but blocks larger dissolved particles",
+     "D": "It only lets salt through"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "A raisin swells when soaked in water because:",
+    "options": {
+     "A": "Sugar leaves the raisin",
+     "B": "Water moves in from the dilute surroundings to the concentrated interior",
+     "C": "The skin dissolves",
+     "D": "Air is pumped in"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In which direction does water move during osmosis?",
+    "options": {
+     "A": "From lower water concentration to higher water concentration",
+     "B": "From higher water concentration to lower water concentration",
+     "C": "Always upward",
+     "D": "From basic to acidic solutions"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "bio_natural_selection",
+  "subject": "Biology",
+  "grade": 12,
+  "concept": "Natural selection",
+  "standard_explanation": "Natural selection is the process by which individuals with traits better suited to their environment tend to survive and reproduce more than others, so those helpful traits become more common in the population over generations. It requires variation among individuals, inheritance of traits, and differences in survival and reproduction. Natural selection acts on existing variation; it does not create traits on demand.",
+  "analogies": {
+   "eli12": "Imagine a class where students who happen to be good at a game get to play more, and they teach their tricks to the next group. Over time, more and more players use those winning tricks, not because anyone planned it, but because the winners passed them on.",
+   "sports": "Think of a football league where teams with better strategies win more matches and get copied by others. Season after season, the successful strategies spread across the league, while losing ones fade, without any single referee choosing them.",
+   "cooking": "Picture a food stall street where dishes customers love sell out and get copied by neighbouring stalls, while unpopular dishes disappear. Over months, the street fills with crowd-pleasing dishes, shaped by who kept selling, not by a planner.",
+   "everyday": "Think of phone apps in a store. Apps people find useful get downloaded and recommended, so they spread, while clumsy apps get deleted and vanish. The 'fittest' apps become common through use, not because the store designed them that way."
+  },
+  "questions": [
+   {
+    "q": "A population of beetles lives on dark tree bark. Birds eat the ones they can see easily. Over generations you would expect:",
+    "options": {
+     "A": "Beetles to choose to become darker",
+     "B": "Darker beetles to become more common because they survive and reproduce more",
+     "C": "All beetles to stay the same colour",
+     "D": "Birds to stop eating beetles"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Which three ingredients does natural selection require?",
+    "options": {
+     "A": "Variation, inheritance, and differences in survival/reproduction",
+     "B": "Strength, speed, and intelligence",
+     "C": "A designer, a goal, and a plan",
+     "D": "Warm climate, water, and sunlight"
+    },
+    "answer": "A"
+   },
+   {
+    "q": "A common misconception is that natural selection 'creates' new traits when needed. More accurately, it:",
+    "options": {
+     "A": "Invents traits on demand",
+     "B": "Acts on variation that already exists, favouring helpful traits",
+     "C": "Only removes traits, never spreads them",
+     "D": "Works within a single individual's lifetime"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Antibiotic-resistant bacteria become common in a hospital because:",
+    "options": {
+     "A": "Bacteria decide to resist the drug",
+     "B": "The drug teaches bacteria to resist",
+     "C": "Resistant bacteria survive treatment and reproduce, passing on resistance",
+     "D": "All bacteria are naturally resistant"
+    },
+    "answer": "C"
+   }
+  ]
+ },
+ {
+  "id": "phy_induction",
+  "subject": "Physics",
+  "grade": 12,
+  "concept": "Electromagnetic induction (Faraday's law)",
+  "standard_explanation": "Electromagnetic induction is the production of a voltage across a conductor when the magnetic field around it changes. Faraday's law states that the induced voltage is proportional to how fast the magnetic flux through a loop changes. A steady magnetic field induces nothing; it is the change in the field, from motion or a varying current, that drives the induced current.",
+  "analogies": {
+   "eli12": "Imagine a windmill that only spins when the wind is changing speed, not when it blows steadily. A magnet sitting still near a wire does nothing, but a magnet that is moving, getting stronger or weaker to the wire, pushes a current, just as changing wind turns the blades.",
+   "sports": "Think of a wave pool. Swimmers get pushed only when a new wave rolls through, not when the water sits flat. A steady magnetic field is flat water; a moving or changing field is the passing wave that shoves the current along.",
+   "cooking": "Picture a spoon in soup. Holding it still does nothing, but sloshing it back and forth makes the soup swirl. A still magnet near a coil makes no current; only a moving, changing magnet stirs a current into the wire.",
+   "everyday": "Think of automatic doors that open only when you move toward them, not when you stand still nearby. Standing still is a steady field and nothing happens; moving is the changing field that triggers the response, like an induced current."
+  },
+  "questions": [
+   {
+    "q": "A bar magnet is held perfectly still inside a coil of wire. The induced current in the coil is:",
+    "options": {
+     "A": "Large and steady",
+     "B": "Zero, because the field is not changing",
+     "C": "Growing over time",
+     "D": "Reversed"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "To induce a larger voltage in a coil, you should move the magnet:",
+    "options": {
+     "A": "More slowly",
+     "B": "Faster, so the flux changes more quickly",
+     "C": "Not at all",
+     "D": "Only in a circle"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the wave-pool picture, what does a steady, unchanging magnetic field correspond to?",
+    "options": {
+     "A": "A passing wave that pushes swimmers",
+     "B": "Flat water that pushes nobody",
+     "C": "A stronger swimmer",
+     "D": "A deeper pool"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Which situation will NOT induce a current in a nearby coil?",
+    "options": {
+     "A": "A magnet moving toward the coil",
+     "B": "A magnet moving away from the coil",
+     "C": "A magnet resting motionless beside the coil",
+     "D": "A steadily strengthening electromagnet near the coil"
+    },
+    "answer": "C"
+   }
+  ]
+ },
+ {
+  "id": "phy_resonance",
+  "subject": "Physics",
+  "grade": 11,
+  "concept": "Resonance in oscillating systems",
+  "standard_explanation": "Resonance occurs when a system is pushed by a repeating force whose frequency matches the system's own natural frequency of vibration. At that matching frequency, each push adds to the motion at just the right moment, so the amplitude grows large. Pushing at the wrong frequency wastes effort, because some pushes fight the motion instead of helping it.",
+  "analogies": {
+   "eli12": "Think of pushing a friend on a swing. If you push exactly when the swing comes back to you, it goes higher and higher. Push at random times and you sometimes stop it. Matching the swing's rhythm is resonance.",
+   "sports": "Imagine a crowd doing a stadium wave. If everyone stands at just the right beat, the wave grows huge and travels smoothly. Stand at the wrong time and the wave fizzles. Timing the pushes to the natural rhythm is resonance.",
+   "cooking": "Picture jiggling a bowl of jelly. Shake it at its own wobble speed and the wobble grows big; shake too fast or too slow and it barely moves. Matching the jelly's natural wobble is resonance.",
+   "everyday": "Think of bouncing a car by pushing down on the bumper. Push in time with the car's natural bounce and it rocks a lot; push randomly and little happens. Hitting the natural rhythm is resonance."
+  },
+  "questions": [
+   {
+    "q": "A child on a swing goes highest when you push:",
+    "options": {
+     "A": "As hard as possible at random times",
+     "B": "In time with the swing's natural rhythm",
+     "C": "Only when the swing is at the top",
+     "D": "Twice as fast as the swing moves"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Resonance produces a large amplitude when the driving frequency:",
+    "options": {
+     "A": "Is much higher than the natural frequency",
+     "B": "Is much lower than the natural frequency",
+     "C": "Matches the system's natural frequency",
+     "D": "Changes randomly"
+    },
+    "answer": "C"
+   },
+   {
+    "q": "Why does pushing a swing at the wrong times fail to build height?",
+    "options": {
+     "A": "The pushes are too gentle",
+     "B": "Some pushes oppose the motion instead of adding to it",
+     "C": "Swings cannot resonate",
+     "D": "Gravity turns off"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "A singer shatters a glass by singing a note equal to the glass's natural frequency. This is an example of:",
+    "options": {
+     "A": "Reflection",
+     "B": "Resonance",
+     "C": "Refraction",
+     "D": "Insulation"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "mat_slope",
+  "subject": "Mathematics",
+  "grade": 9,
+  "concept": "Slope of a straight line",
+  "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+  "analogies": {
+   "eli12": "Think of walking up a ramp. Slope is how many steps up you climb for every step forward you take. A gentle ramp gives a small slope; a steep ramp gives a big one; flat ground gives zero.",
+   "sports": "Imagine a ski run. Slope is how much you drop for every metre you move across the hill. A bunny slope has a small number; a black-diamond run has a large one. A flat cross-country stretch is slope zero.",
+   "cooking": "Picture a tilted baking tray. Slope is how much higher one end sits for every centimetre along the tray. Tilt it a little for a small slope; prop it up steeply for a large one; lay it flat for zero.",
+   "everyday": "Think of a wheelchair ramp. Slope is the height it climbs divided by its length along the ground. Ramps must have a small, gentle slope; a staircase would be a very large slope."
+  },
+  "questions": [
+   {
+    "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+    "options": {
+     "A": "2",
+     "B": "3",
+     "C": "1/3",
+     "D": "8"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "A perfectly horizontal (flat) line has a slope of:",
+    "options": {
+     "A": "1",
+     "B": "0",
+     "C": "Infinity",
+     "D": "Negative"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the ramp picture, a steeper ramp corresponds to:",
+    "options": {
+     "A": "A smaller slope",
+     "B": "A larger slope",
+     "C": "Zero slope",
+     "D": "A negative slope"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+    "options": {
+     "A": "Less steep",
+     "B": "Steeper",
+     "C": "Flat",
+     "D": "Going downhill"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "mat_integral",
+  "subject": "Mathematics",
+  "grade": 12,
+  "concept": "The definite integral as accumulated area",
+  "standard_explanation": "A definite integral of a function between two points gives the signed area between the curve and the horizontal axis over that interval. It can be understood as adding up infinitely many thin slices under the curve. If the function represents a rate, the definite integral accumulates the total amount that has built up over the interval.",
+  "analogies": {
+   "eli12": "Imagine filling a bathtub where the tap's flow rate changes over time. The integral of the flow rate is the total water collected, found by adding up all the little bits that flowed in each moment.",
+   "sports": "Think of a cyclist whose speed varies during a ride. The integral of speed over time is the total distance covered, built up by summing the tiny distances travelled in each instant.",
+   "cooking": "Picture pouring sugar at a changing rate into a bowl. The integral of the pouring rate is the total sugar in the bowl, the sum of every small amount added over the whole time.",
+   "everyday": "Think of your phone's data use, which speeds up and slows down through the day. The integral of the data rate is the total gigabytes used, the accumulation of all the small amounts moment by moment."
+  },
+  "questions": [
+   {
+    "q": "If a function gives the speed of a car over time, the definite integral of that function over a time interval gives:",
+    "options": {
+     "A": "The car's acceleration",
+     "B": "The total distance travelled in that interval",
+     "C": "The top speed",
+     "D": "The slope of the speed"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Geometrically, a definite integral represents:",
+    "options": {
+     "A": "The slope of the tangent line",
+     "B": "The signed area between the curve and the horizontal axis",
+     "C": "The height of the curve at one point",
+     "D": "The length of the curve"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the bathtub picture, the tap's changing flow rate corresponds to the function, and the integral corresponds to:",
+    "options": {
+     "A": "How fast the tap changes",
+     "B": "The total water collected",
+     "C": "The temperature of the water",
+     "D": "The size of the tub"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "A definite integral is described as adding up:",
+    "options": {
+     "A": "A few large blocks",
+     "B": "Infinitely many thin slices under the curve",
+     "C": "The endpoints only",
+     "D": "The slopes at each point"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "che_catalyst",
+  "subject": "Chemistry",
+  "grade": 11,
+  "concept": "Catalysts and activation energy",
+  "standard_explanation": "A catalyst speeds up a chemical reaction by providing an alternative pathway with a lower activation energy, the energy barrier reactants must overcome to react. The catalyst is not used up in the reaction. By lowering the barrier, more reactant collisions have enough energy to succeed, so the reaction goes faster, without changing how much product is finally possible.",
+  "analogies": {
+   "eli12": "Imagine a tall hill between two towns. A catalyst is like digging a tunnel through the hill, so travellers need far less energy to cross. The hill's two sides stay the same height; the trip just becomes easier, so more people make it.",
+   "sports": "Think of a high hurdle on a track. A catalyst is like lowering the hurdle, so many more runners can clear it and finish. The start and end lines do not move; more runners simply get over the smaller barrier.",
+   "cooking": "Picture a stiff jar lid. A catalyst is like a rubber grip that makes opening it far easier, so more people can open the jar quickly. The jar and its contents are unchanged; only the effort needed drops.",
+   "everyday": "Think of a locked gate on a path. A catalyst is like leaving the gate ajar, so far more walkers pass through without struggling. The path's start and end are the same; only the barrier in the middle is easier."
+  },
+  "questions": [
+   {
+    "q": "A catalyst speeds up a reaction mainly by:",
+    "options": {
+     "A": "Raising the activation energy",
+     "B": "Lowering the activation energy barrier",
+     "C": "Being used up quickly",
+     "D": "Heating the reactants permanently"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "After a reaction catalysed by a substance finishes, the catalyst is:",
+    "options": {
+     "A": "Completely consumed",
+     "B": "Left essentially unchanged and reusable",
+     "C": "Turned into product",
+     "D": "Destroyed"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the tunnel-through-a-hill picture, the tunnel represents:",
+    "options": {
+     "A": "A higher energy barrier",
+     "B": "A lower-energy alternative pathway",
+     "C": "The final product",
+     "D": "The reactants"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "A catalyst changes which of the following?",
+    "options": {
+     "A": "The rate of the reaction",
+     "B": "The final amount of product possible",
+     "C": "The identity of the products",
+     "D": "The temperature needed to store the product"
+    },
+    "answer": "A"
+   }
+  ]
+ },
+ {
+  "id": "che_mole",
+  "subject": "Chemistry",
+  "grade": 9,
+  "concept": "The mole as a counting unit",
+  "standard_explanation": "A mole is a counting unit in chemistry, like a dozen but far larger: one mole is about 6.02 times ten to the twenty-third particles (atoms, molecules, or ions). Chemists use it because atoms are far too tiny and numerous to count individually. The mole links the number of particles to a mass that can actually be weighed in the laboratory.",
+  "analogies": {
+   "eli12": "Think of the word 'dozen', which always means 12, whether eggs or pencils. A mole is just a much bigger fixed number for counting atoms, the way a dozen is a fixed number for counting eggs.",
+   "sports": "Imagine counting a huge crowd in a stadium by counting full sections instead of individual people. A mole is like one enormous 'section' of atoms, a fixed count that lets you handle vast numbers without counting one by one.",
+   "cooking": "Think of buying rice by the sack rather than counting grains. A mole is a fixed 'sack' of particles, always the same number, so chemists deal in sacks instead of counting impossibly tiny grains.",
+   "everyday": "Think of a ream of paper, which always means 500 sheets. A mole is just a fixed count like a ream, only enormous, used because atoms are far too small and many to count sheet by sheet."
+  },
+  "questions": [
+   {
+    "q": "Why do chemists use the mole instead of counting atoms one by one?",
+    "options": {
+     "A": "Atoms are too large to see",
+     "B": "Atoms are far too small and numerous to count individually",
+     "C": "The mole changes size for each element",
+     "D": "Atoms cannot be weighed"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "A mole is best described as:",
+    "options": {
+     "A": "A unit of temperature",
+     "B": "A fixed, very large count of particles",
+     "C": "A type of atom",
+     "D": "A unit of speed"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In what way is a mole like a 'dozen'?",
+    "options": {
+     "A": "Both always equal 12",
+     "B": "Both are a fixed number used for counting, just very different sizes",
+     "C": "Both measure weight",
+     "D": "Both apply only to eggs"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "One mole of any substance always contains:",
+    "options": {
+     "A": "The same mass in grams",
+     "B": "The same fixed number of particles",
+     "C": "12 particles",
+     "D": "A different number for each element"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "bio_enzyme",
+  "subject": "Biology",
+  "grade": 10,
+  "concept": "Enzymes as biological catalysts",
+  "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+  "analogies": {
+   "eli12": "Think of a lock and key. An enzyme is the lock, and only the matching key (its substrate) fits the keyhole (the active site). Once the key turns the reaction happens, and the lock is ready to be used again with another key.",
+   "sports": "Imagine a specialised glove that only catches one shape of ball. The enzyme is the glove, its substrate the ball; only the right ball fits and gets processed. The glove is not worn out and can catch the next matching ball.",
+   "cooking": "Think of a cookie cutter shaped for one design. The enzyme is the cutter, the dough its substrate; only dough pressed into that exact shape is cut. The cutter is not consumed and can shape the next piece of dough.",
+   "everyday": "Think of a puzzle piece that snaps into just one spot. The enzyme is the empty slot, its substrate the matching piece; only the correctly shaped piece fits and the task is done. The slot stays ready for another matching piece."
+  },
+  "questions": [
+   {
+    "q": "An enzyme speeds up only one particular reaction because:",
+    "options": {
+     "A": "It is very large",
+     "B": "Its active site fits only a specific substrate shape",
+     "C": "It is used up each time",
+     "D": "It works at any temperature"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+    "options": {
+     "A": "Any molecule at all",
+     "B": "Only the matching substrate",
+     "C": "Only heat",
+     "D": "Only water"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Very high temperature can stop an enzyme working because it:",
+    "options": {
+     "A": "Adds more substrate",
+     "B": "Changes the enzyme's shape so the substrate no longer fits",
+     "C": "Speeds the enzyme up forever",
+     "D": "Turns the enzyme into a substrate"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "After catalysing its reaction, an enzyme is:",
+    "options": {
+     "A": "Used up and discarded",
+     "B": "Free to catalyse the same reaction again",
+     "C": "Turned into product",
+     "D": "Permanently locked"
+    },
+    "answer": "B"
+   }
+  ]
+ },
+ {
+  "id": "bio_homeostasis",
+  "subject": "Biology",
+  "grade": 11,
+  "concept": "Homeostasis and negative feedback",
+  "standard_explanation": "Homeostasis is the maintenance of a stable internal environment in the body despite changes outside. It often works by negative feedback: when a variable such as temperature or blood sugar moves away from its set point, the body triggers responses that push it back toward that point. The correction switches off once the variable returns to normal, keeping conditions within a narrow healthy range.",
+  "analogies": {
+   "eli12": "Think of a thermostat heating a room. If it gets too cold, the heater turns on; once it is warm enough, the heater turns off. The body keeps temperature and other things steady the same way, switching corrections on and off.",
+   "sports": "Imagine a coach keeping a team's effort steady. If players tire and slow down, the coach pushes them; if they overheat, the coach rests them. The corrections stop once the pace is back to normal, like negative feedback.",
+   "cooking": "Think of a cook adjusting a flame under a simmering pot. Too hot and boiling over, they lower it; too cool and it stops simmering, they raise it. Each correction ends once the simmer is just right, keeping it steady.",
+   "everyday": "Think of cruise control in a car. Going uphill and slowing, it adds gas; speeding downhill, it eases off. Once the speed is back to the set value, the correction stops, just as the body returns a variable to its set point."
+  },
+  "questions": [
+   {
+    "q": "Negative feedback keeps a body variable steady by:",
+    "options": {
+     "A": "Pushing it further from the set point",
+     "B": "Triggering responses that return it toward the set point",
+     "C": "Ignoring the change",
+     "D": "Permanently raising the set point"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "In the thermostat picture, what happens once the room reaches the target temperature?",
+    "options": {
+     "A": "The heater stays on forever",
+     "B": "The correction (heating) switches off",
+     "C": "The room keeps getting hotter",
+     "D": "The thermostat breaks"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "When blood sugar rises after a meal, the body releases insulin to lower it. This is an example of:",
+    "options": {
+     "A": "Positive feedback",
+     "B": "Negative feedback restoring the set point",
+     "C": "Homeostasis failing",
+     "D": "An enzyme lock and key"
+    },
+    "answer": "B"
+   },
+   {
+    "q": "Homeostasis maintains internal conditions:",
+    "options": {
+     "A": "Exactly constant with no change ever",
+     "B": "Within a narrow healthy range around a set point",
+     "C": "Equal to the outside environment",
+     "D": "Only when asleep"
+    },
+    "answer": "B"
+   }
+  ]
+ }
+]

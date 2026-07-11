@@ -1,0 +1,1122 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "mat_derivative",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "The derivative as an instantaneous rate of change",
+    "standard_explanation": "The derivative of a function at a point measures how fast the function's value is changing at that exact point, which is the slope of the tangent line to the curve there. It is the limit of the average rate of change over an interval as the interval shrinks toward zero. A large derivative means the quantity is changing quickly; a derivative of zero means it is momentarily not changing.",
+    "questions": [
+      {
+        "q": "A ball is thrown straight up. At the highest point of its path, its velocity is momentarily zero. What does this say about the derivative of its height with respect to time at that instant?",
+        "options": {
+          "A": "It is zero",
+          "B": "It is at its largest",
+          "C": "It is negative and large",
+          "D": "It is undefined"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "The derivative of a function at a point equals the slope of:",
+        "options": {
+          "A": "A line joining the two endpoints of the curve",
+          "B": "The tangent line to the curve at that point",
+          "C": "The horizontal axis",
+          "D": "The average of all slopes"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "If the derivative of a quantity is large and positive, the quantity is:",
+        "options": {
+          "A": "Decreasing quickly",
+          "B": "Constant",
+          "C": "Increasing quickly",
+          "D": "At a maximum"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "In the speedometer picture, the average speed over a trip corresponds to what, and the derivative to what?",
+        "options": {
+          "A": "Average speed to the speedometer reading; derivative to total distance",
+          "B": "Average speed to total distance over total time; derivative to the instant speedometer reading",
+          "C": "Both correspond to the speedometer reading",
+          "D": "Average speed to the instant reading; derivative to the trip average"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "che_equilibrium",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Dynamic chemical equilibrium",
+    "standard_explanation": "In a reversible reaction, dynamic equilibrium is reached when the forward and backward reactions occur at the same rate, so the concentrations of reactants and products stay constant over time. Equilibrium does not mean the reaction has stopped; both directions continue, but their rates are balanced. Le Chatelier's principle says that if a stress such as concentration or pressure is applied, the equilibrium shifts to partly oppose that change.",
+    "questions": [
+      {
+        "q": "A sealed reaction has reached dynamic equilibrium. Which statement is correct?",
+        "options": {
+          "A": "Both forward and reverse reactions have stopped",
+          "B": "Only the forward reaction continues",
+          "C": "Forward and reverse reactions continue at equal rates",
+          "D": "The reactants have been completely used up"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "In the sink-with-open-drain picture, the constant water level represents:",
+        "options": {
+          "A": "The reaction having stopped",
+          "B": "Equilibrium, where inflow rate equals outflow rate",
+          "C": "A reaction with no products",
+          "D": "An overflowing reaction"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "At equilibrium, extra reactant is suddenly added. By Le Chatelier's principle, the system will:",
+        "options": {
+          "A": "Shift to make more product, opposing the change",
+          "B": "Shift to make more reactant",
+          "C": "Stop reacting entirely",
+          "D": "Explode"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Why is chemical equilibrium described as 'dynamic'?",
+        "options": {
+          "A": "Because the container moves",
+          "B": "Because concentrations keep rising",
+          "C": "Because both reactions keep happening even though net concentrations are steady",
+          "D": "Because it only happens in gases"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "The pH scale for acids and bases",
+    "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+    "questions": [
+      {
+        "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+        "options": {
+          "A": "2 times",
+          "B": "10 times",
+          "C": "100 times",
+          "D": "The same"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A solution has a pH of 9. It is:",
+        "options": {
+          "A": "Acidic",
+          "B": "Neutral",
+          "C": "Basic",
+          "D": "Impossible"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why can a small drop in pH represent a big rise in acidity?",
+        "options": {
+          "A": "Because the scale is logarithmic, each unit is a tenfold change",
+          "B": "Because pH is measured in percentages",
+          "C": "Because pH only applies to strong acids",
+          "D": "Because lower numbers are always basic"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Pure water at room temperature has a pH of 7. This means it is:",
+        "options": {
+          "A": "Strongly acidic",
+          "B": "Neutral",
+          "C": "Strongly basic",
+          "D": "Undefined"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Osmosis across a semipermeable membrane",
+    "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+    "questions": [
+      {
+        "q": "A cell is placed in pure water. Water tends to move:",
+        "options": {
+          "A": "Out of the cell, because the cell is more dilute",
+          "B": "Into the cell, because the cell interior is more concentrated",
+          "C": "Neither way, membranes block all water",
+          "D": "Out of the cell, shrinking it"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "What makes a membrane 'semipermeable'?",
+        "options": {
+          "A": "It blocks everything",
+          "B": "It lets everything through equally",
+          "C": "It lets water through but blocks larger dissolved particles",
+          "D": "It only lets salt through"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A raisin swells when soaked in water because:",
+        "options": {
+          "A": "Sugar leaves the raisin",
+          "B": "Water moves in from the dilute surroundings to the concentrated interior",
+          "C": "The skin dissolves",
+          "D": "Air is pumped in"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In which direction does water move during osmosis?",
+        "options": {
+          "A": "From lower water concentration to higher water concentration",
+          "B": "From higher water concentration to lower water concentration",
+          "C": "Always upward",
+          "D": "From basic to acidic solutions"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "bio_natural_selection",
+    "subject": "Biology",
+    "grade": 12,
+    "concept": "Natural selection",
+    "standard_explanation": "Natural selection is the process by which individuals with traits better suited to their environment tend to survive and reproduce more than others, so those helpful traits become more common in the population over generations. It requires variation among individuals, inheritance of traits, and differences in survival and reproduction. Natural selection acts on existing variation; it does not create traits on demand.",
+    "questions": [
+      {
+        "q": "A population of beetles lives on dark tree bark. Birds eat the ones they can see easily. Over generations you would expect:",
+        "options": {
+          "A": "Beetles to choose to become darker",
+          "B": "Darker beetles to become more common because they survive and reproduce more",
+          "C": "All beetles to stay the same colour",
+          "D": "Birds to stop eating beetles"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Which three ingredients does natural selection require?",
+        "options": {
+          "A": "Variation, inheritance, and differences in survival/reproduction",
+          "B": "Strength, speed, and intelligence",
+          "C": "A designer, a goal, and a plan",
+          "D": "Warm climate, water, and sunlight"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A common misconception is that natural selection 'creates' new traits when needed. More accurately, it:",
+        "options": {
+          "A": "Invents traits on demand",
+          "B": "Acts on variation that already exists, favouring helpful traits",
+          "C": "Only removes traits, never spreads them",
+          "D": "Works within a single individual's lifetime"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Antibiotic-resistant bacteria become common in a hospital because:",
+        "options": {
+          "A": "Bacteria decide to resist the drug",
+          "B": "The drug teaches bacteria to resist",
+          "C": "Resistant bacteria survive treatment and reproduce, passing on resistance",
+          "D": "All bacteria are naturally resistant"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": "phy_induction",
+    "subject": "Physics",
+    "grade": 12,
+    "concept": "Electromagnetic induction (Faraday's law)",
+    "standard_explanation": "Electromagnetic induction is the production of a voltage across a conductor when the magnetic field around it changes. Faraday's law states that the induced voltage is proportional to how fast the magnetic flux through a loop changes. A steady magnetic field induces nothing; it is the change in the field, from motion or a varying current, that drives the induced current.",
+    "questions": [
+      {
+        "q": "A bar magnet is held perfectly still inside a coil of wire. The induced current in the coil is:",
+        "options": {
+          "A": "Large and steady",
+          "B": "Zero, because the field is not changing",
+          "C": "Growing over time",
+          "D": "Reversed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "To induce a larger voltage in a coil, you should move the magnet:",
+        "options": {
+          "A": "More slowly",
+          "B": "Faster, so the flux changes more quickly",
+          "C": "Not at all",
+          "D": "Only in a circle"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the wave-pool picture, what does a steady, unchanging magnetic field correspond to?",
+        "options": {
+          "A": "A passing wave that pushes swimmers",
+          "B": "Flat water that pushes nobody",
+          "C": "A stronger swimmer",
+          "D": "A deeper pool"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Which situation will NOT induce a current in a nearby coil?",
+        "options": {
+          "A": "A magnet moving toward the coil",
+          "B": "A magnet moving away from the coil",
+          "C": "A magnet resting motionless beside the coil",
+          "D": "A steadily strengthening electromagnet near the coil"
+        },
+        "answer": "C"
+      }
+    ]
+  },
+  {
+    "id": "phy_resonance",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Resonance in oscillating systems",
+    "standard_explanation": "Resonance occurs when a system is pushed by a repeating force whose frequency matches the system's own natural frequency of vibration. At that matching frequency, each push adds to the motion at just the right moment, so the amplitude grows large. Pushing at the wrong frequency wastes effort, because some pushes fight the motion instead of helping it.",
+    "questions": [
+      {
+        "q": "A child on a swing goes highest when you push:",
+        "options": {
+          "A": "As hard as possible at random times",
+          "B": "In time with the swing's natural rhythm",
+          "C": "Only when the swing is at the top",
+          "D": "Twice as fast as the swing moves"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Resonance produces a large amplitude when the driving frequency:",
+        "options": {
+          "A": "Is much higher than the natural frequency",
+          "B": "Is much lower than the natural frequency",
+          "C": "Matches the system's natural frequency",
+          "D": "Changes randomly"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why does pushing a swing at the wrong times fail to build height?",
+        "options": {
+          "A": "The pushes are too gentle",
+          "B": "Some pushes oppose the motion instead of adding to it",
+          "C": "Swings cannot resonate",
+          "D": "Gravity turns off"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A singer shatters a glass by singing a note equal to the glass's natural frequency. This is an example of:",
+        "options": {
+          "A": "Reflection",
+          "B": "Resonance",
+          "C": "Refraction",
+          "D": "Insulation"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "questions": [
+      {
+        "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "1/3",
+          "D": "8"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A perfectly horizontal (flat) line has a slope of:",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "Infinity",
+          "D": "Negative"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the ramp picture, a steeper ramp corresponds to:",
+        "options": {
+          "A": "A smaller slope",
+          "B": "A larger slope",
+          "C": "Zero slope",
+          "D": "A negative slope"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+        "options": {
+          "A": "Less steep",
+          "B": "Steeper",
+          "C": "Flat",
+          "D": "Going downhill"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "mat_integral",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "The definite integral as accumulated area",
+    "standard_explanation": "A definite integral of a function between two points gives the signed area between the curve and the horizontal axis over that interval. It can be understood as adding up infinitely many thin slices under the curve. If the function represents a rate, the definite integral accumulates the total amount that has built up over the interval.",
+    "questions": [
+      {
+        "q": "If a function gives the speed of a car over time, the definite integral of that function over a time interval gives:",
+        "options": {
+          "A": "The car's acceleration",
+          "B": "The total distance travelled in that interval",
+          "C": "The top speed",
+          "D": "The slope of the speed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Geometrically, a definite integral represents:",
+        "options": {
+          "A": "The slope of the tangent line",
+          "B": "The signed area between the curve and the horizontal axis",
+          "C": "The height of the curve at one point",
+          "D": "The length of the curve"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the bathtub picture, the tap's changing flow rate corresponds to the function, and the integral corresponds to:",
+        "options": {
+          "A": "How fast the tap changes",
+          "B": "The total water collected",
+          "C": "The temperature of the water",
+          "D": "The size of the tub"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A definite integral is described as adding up:",
+        "options": {
+          "A": "A few large blocks",
+          "B": "Infinitely many thin slices under the curve",
+          "C": "The endpoints only",
+          "D": "The slopes at each point"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "che_catalyst",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Catalysts and activation energy",
+    "standard_explanation": "A catalyst speeds up a chemical reaction by providing an alternative pathway with a lower activation energy, the energy barrier reactants must overcome to react. The catalyst is not used up in the reaction. By lowering the barrier, more reactant collisions have enough energy to succeed, so the reaction goes faster, without changing how much product is finally possible.",
+    "questions": [
+      {
+        "q": "A catalyst speeds up a reaction mainly by:",
+        "options": {
+          "A": "Raising the activation energy",
+          "B": "Lowering the activation energy barrier",
+          "C": "Being used up quickly",
+          "D": "Heating the reactants permanently"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After a reaction catalysed by a substance finishes, the catalyst is:",
+        "options": {
+          "A": "Completely consumed",
+          "B": "Left essentially unchanged and reusable",
+          "C": "Turned into product",
+          "D": "Destroyed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the tunnel-through-a-hill picture, the tunnel represents:",
+        "options": {
+          "A": "A higher energy barrier",
+          "B": "A lower-energy alternative pathway",
+          "C": "The final product",
+          "D": "The reactants"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A catalyst changes which of the following?",
+        "options": {
+          "A": "The rate of the reaction",
+          "B": "The final amount of product possible",
+          "C": "The identity of the products",
+          "D": "The temperature needed to store the product"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": "che_mole",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "The mole as a counting unit",
+    "standard_explanation": "A mole is a counting unit in chemistry, like a dozen but far larger: one mole is about 6.02 times ten to the twenty-third particles (atoms, molecules, or ions). Chemists use it because atoms are far too tiny and numerous to count individually. The mole links the number of particles to a mass that can actually be weighed in the laboratory.",
+    "questions": [
+      {
+        "q": "Why do chemists use the mole instead of counting atoms one by one?",
+        "options": {
+          "A": "Atoms are too large to see",
+          "B": "Atoms are far too small and numerous to count individually",
+          "C": "The mole changes size for each element",
+          "D": "Atoms cannot be weighed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A mole is best described as:",
+        "options": {
+          "A": "A unit of temperature",
+          "B": "A fixed, very large count of particles",
+          "C": "A type of atom",
+          "D": "A unit of speed"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In what way is a mole like a 'dozen'?",
+        "options": {
+          "A": "Both always equal 12",
+          "B": "Both are a fixed number used for counting, just very different sizes",
+          "C": "Both measure weight",
+          "D": "Both apply only to eggs"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "One mole of any substance always contains:",
+        "options": {
+          "A": "The same mass in grams",
+          "B": "The same fixed number of particles",
+          "C": "12 particles",
+          "D": "A different number for each element"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "questions": [
+      {
+        "q": "An enzyme speeds up only one particular reaction because:",
+        "options": {
+          "A": "It is very large",
+          "B": "Its active site fits only a specific substrate shape",
+          "C": "It is used up each time",
+          "D": "It works at any temperature"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+        "options": {
+          "A": "Any molecule at all",
+          "B": "Only the matching substrate",
+          "C": "Only heat",
+          "D": "Only water"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Very high temperature can stop an enzyme working because it:",
+        "options": {
+          "A": "Adds more substrate",
+          "B": "Changes the enzyme's shape so the substrate no longer fits",
+          "C": "Speeds the enzyme up forever",
+          "D": "Turns the enzyme into a substrate"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After catalysing its reaction, an enzyme is:",
+        "options": {
+          "A": "Used up and discarded",
+          "B": "Free to catalyse the same reaction again",
+          "C": "Turned into product",
+          "D": "Permanently locked"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "bio_homeostasis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Homeostasis and negative feedback",
+    "standard_explanation": "Homeostasis is the maintenance of a stable internal environment in the body despite changes outside. It often works by negative feedback: when a variable such as temperature or blood sugar moves away from its set point, the body triggers responses that push it back toward that point. The correction switches off once the variable returns to normal, keeping conditions within a narrow healthy range.",
+    "questions": [
+      {
+        "q": "Negative feedback keeps a body variable steady by:",
+        "options": {
+          "A": "Pushing it further from the set point",
+          "B": "Triggering responses that return it toward the set point",
+          "C": "Ignoring the change",
+          "D": "Permanently raising the set point"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the thermostat picture, what happens once the room reaches the target temperature?",
+        "options": {
+          "A": "The heater stays on forever",
+          "B": "The correction (heating) switches off",
+          "C": "The room keeps getting hotter",
+          "D": "The thermostat breaks"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "When blood sugar rises after a meal, the body releases insulin to lower it. This is an example of:",
+        "options": {
+          "A": "Positive feedback",
+          "B": "Negative feedback restoring the set point",
+          "C": "Homeostasis failing",
+          "D": "An enzyme lock and key"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Homeostasis maintains internal conditions:",
+        "options": {
+          "A": "Exactly constant with no change ever",
+          "B": "Within a narrow healthy range around a set point",
+          "C": "Equal to the outside environment",
+          "D": "Only when asleep"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow."
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface."
+  },
+  {
+    "id": "phy_momentum",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Momentum and its conservation",
+    "standard_explanation": "Momentum is the product of an object's mass and its velocity, and it measures how difficult it is to stop a moving object. When no external force acts on a system, its total momentum stays constant, so in a collision the momentum lost by one object is exactly gained by the others. A heavy, fast-moving object has large momentum and needs a large force or a long time to be brought to rest."
+  },
+  {
+    "id": "phy_gravitation",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Newton's law of universal gravitation",
+    "standard_explanation": "Every object with mass attracts every other object with a force that is proportional to the product of their masses and inversely proportional to the square of the distance between them. Because of the inverse-square relationship, moving two objects twice as far apart weakens the attraction to one quarter of its original strength. This single law describes both a falling apple and the Moon held in its orbit around the Earth."
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales."
+  },
+  {
+    "id": "mat_vectors",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Vectors as magnitude and direction",
+    "standard_explanation": "A vector is a quantity that has both a magnitude and a direction, unlike a scalar, which has magnitude only. Vectors such as force or velocity are combined by joining them head to tail, so two vectors can produce a resultant that is larger, smaller, or in a new direction depending on the angle between them. This is why two forces pulling at an angle do not simply add together as ordinary numbers."
+  },
+  {
+    "id": "mat_function",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Functions, domain and range",
+    "standard_explanation": "A function is a rule that assigns to each input exactly one output, rather like a machine that takes a number and returns a single definite result. The set of permitted inputs is called the domain and the set of possible outputs is called the range. The defining property of a function is that a single input can never be mapped to two different outputs."
+  },
+  {
+    "id": "mat_matrix",
+    "subject": "Mathematics",
+    "grade": 12,
+    "concept": "Matrices and matrix multiplication",
+    "standard_explanation": "A matrix is a rectangular array of numbers arranged in rows and columns that can represent data or a whole system of equations compactly. Two matrices are multiplied by combining the rows of the first with the columns of the second, and this multiplication is generally not commutative, so the order in which matrices are multiplied changes the result. Matrices are widely used to rotate and scale shapes and to solve many equations simultaneously."
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic."
+  },
+  {
+    "id": "che_redox",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Oxidation and reduction (redox)",
+    "standard_explanation": "Oxidation is the loss of electrons by a substance and reduction is the gain of electrons, and the two always happen together because the electrons released by one species must be accepted by another. The substance that loses electrons is said to be oxidised and acts as the reducing agent, while the substance that gains them is reduced and acts as the oxidising agent. Everyday examples of redox reactions include iron rusting and the reactions inside a battery."
+  },
+  {
+    "id": "che_ideal_gas",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "The ideal gas law",
+    "standard_explanation": "The ideal gas law, written PV = nRT, links the pressure, volume, amount, and temperature of a gas. At a fixed temperature, increasing the volume lowers the pressure because the same number of molecules strike the container walls less often, while at fixed volume, heating the gas raises the pressure because the molecules move faster and hit the walls harder. The law treats gas particles as tiny points that do not attract one another."
+  },
+  {
+    "id": "che_covalent_bond",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Covalent bonding",
+    "standard_explanation": "A covalent bond forms when two atoms share one or more pairs of electrons so that each atom effectively fills its outer electron shell. The sharing holds the atoms together because the nuclei of both atoms are attracted to the same shared electrons lying between them. Covalent bonding usually occurs between non-metal atoms, as in molecules of water, oxygen, and carbon dioxide."
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth."
+  },
+  {
+    "id": "bio_dna_replication",
+    "subject": "Biology",
+    "grade": 12,
+    "concept": "DNA replication",
+    "standard_explanation": "DNA replication is the process by which a cell copies its DNA before it divides, so that each daughter cell receives a complete set of instructions. The double helix unwinds and each original strand acts as a template, with new complementary bases pairing adenine with thymine and cytosine with guanine. Because every new molecule keeps one old strand and one newly built strand, replication is described as semiconservative."
+  },
+  {
+    "id": "bio_mitosis",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Mitosis (cell division)",
+    "standard_explanation": "Mitosis is the division of a cell nucleus that produces two daughter nuclei, each carrying the same number and type of chromosomes as the parent cell. The chromosomes are first duplicated, then lined up in the middle of the cell and pulled to opposite ends, so that each new cell ends up genetically identical to the original. Mitosis is the basis of growth, the repair of damaged tissue, and asexual reproduction."
+  },
+  {
+    "id": "bio_neuron",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "Nerve impulse and the action potential",
+    "standard_explanation": "A neuron carries information as a brief electrical impulse, called an action potential, that travels along the length of the cell. The impulse is only triggered when a stimulus is strong enough to cross a threshold, and once triggered it fires completely rather than partially, an all-or-nothing response. When the impulse reaches the end of the neuron it is passed on chemically to the next cell across a tiny gap called a synapse."
+  },
+  {
+    "id": "phy_friction",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Friction",
+    "standard_explanation": "Friction is a force that opposes the relative motion, or attempted motion, between two surfaces in contact. It arises because no surface is perfectly smooth, so the tiny irregularities of the two surfaces interlock and resist sliding. Friction lets us walk and grip objects, but it also wastes energy as heat and gradually wears surfaces down."
+  },
+  {
+    "id": "phy_density",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Density and floating",
+    "standard_explanation": "Density is the amount of mass packed into a given volume, calculated as mass divided by volume. An object floats in a fluid if its density is less than the fluid's and sinks if it is greater, which is why a steel ship full of air floats while a solid steel block sinks. Density is also why oil forms a layer on top of water."
+  },
+  {
+    "id": "phy_waves",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Wave frequency and wavelength",
+    "standard_explanation": "A wave carries energy from one place to another without carrying matter along with it. Its wavelength is the distance between successive crests and its frequency is how many crests pass a point each second, and the two multiply together to give the wave's speed. For a fixed speed, a higher frequency means a shorter wavelength."
+  },
+  {
+    "id": "phy_doppler",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "The Doppler effect",
+    "standard_explanation": "The Doppler effect is the change in the observed frequency of a wave when the source and the observer move relative to each other. As a source approaches, its waves are bunched up so the frequency rises, and as it moves away they are stretched so the frequency falls. This is why a siren sounds higher-pitched as an ambulance approaches and lower once it has passed."
+  },
+  {
+    "id": "phy_series_parallel",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Series and parallel circuits",
+    "standard_explanation": "In a series circuit the components are joined end to end, so the same current flows through each one and the supply voltage is shared among them. In a parallel circuit each component is connected across the same two points, so each receives the full voltage while the current splits between the branches. Adding more parallel branches lowers the total resistance of the circuit."
+  },
+  {
+    "id": "phy_projectile",
+    "subject": "Physics",
+    "grade": 11,
+    "concept": "Projectile motion",
+    "standard_explanation": "Projectile motion is the curved path of an object thrown near the Earth's surface, once it is moving under gravity alone. Its horizontal motion continues at constant velocity while its vertical motion accelerates downward, and the two motions are independent of each other. Combining them produces the characteristic parabolic trajectory."
+  },
+  {
+    "id": "phy_thermal_expansion",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Thermal expansion",
+    "standard_explanation": "Most materials expand when heated and contract when cooled, because their particles vibrate more vigorously at higher temperatures and push one another slightly further apart. This is why small gaps are left in railway tracks and bridges, and why a tight metal jar lid loosens when run under hot water. Different materials expand by different amounts for the same rise in temperature."
+  },
+  {
+    "id": "phy_magnetism",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Magnetic field of a current",
+    "standard_explanation": "An electric current produces a magnetic field that circles around the wire carrying it. Winding the wire into a coil concentrates this field and makes an electromagnet, whose strength can be switched on and off and increased by adding more turns or more current. This link between electricity and magnetism is what makes motors and generators work."
+  },
+  {
+    "id": "mat_pythagoras",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "The Pythagoras theorem",
+    "standard_explanation": "The Pythagoras theorem states that in a right-angled triangle the square of the longest side, the hypotenuse, equals the sum of the squares of the other two sides. This lets you calculate any one side of a right-angled triangle when the other two are known. It is the basis for measuring straight-line distances in the plane."
+  },
+  {
+    "id": "mat_quadratic",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Quadratic equations",
+    "standard_explanation": "A quadratic equation has the form a x squared plus b x plus c equals zero and generally has two solutions, the values of x that make it true. Its graph is a parabola, and the solutions are the points where that parabola crosses the horizontal axis. They can be found by factoring, by completing the square, or with the quadratic formula."
+  },
+  {
+    "id": "mat_ap",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Arithmetic progressions",
+    "standard_explanation": "An arithmetic progression is a sequence of numbers in which each term differs from the one before it by a fixed amount called the common difference. Because the step is constant, any term can be found directly from the first term and the common difference without listing them all. Its running total grows in an even, predictable way."
+  },
+  {
+    "id": "mat_trigonometry",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Trigonometric ratios",
+    "standard_explanation": "Trigonometry relates the angles of a right-angled triangle to the ratios of its sides through the sine, cosine, and tangent of an angle. For a given angle these ratios stay the same regardless of the triangle's size, so they can be used to find unknown sides or angles. They let us measure heights and distances that cannot be reached directly."
+  },
+  {
+    "id": "mat_sets",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Sets and set operations",
+    "standard_explanation": "A set is a well-defined collection of distinct objects called its elements. Sets can be combined by union (all elements in either set) and intersection (elements common to both), and one set can be a subset of another. Set language gives a precise way to describe and reason about groups of things."
+  },
+  {
+    "id": "mat_complex",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Complex numbers",
+    "standard_explanation": "A complex number has a real part and an imaginary part, written a plus b i, where i is defined so that i squared equals minus one. Complex numbers extend the ordinary number line into a two-dimensional plane and allow every polynomial equation to have a solution. They are added like vectors and multiplied using the rule for i."
+  },
+  {
+    "id": "mat_limits",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Limits of a function",
+    "standard_explanation": "A limit describes the value a function approaches as its input approaches some point, even if the function is not actually defined at that point. It captures the idea of getting arbitrarily close to a value without necessarily reaching it. Limits are the foundation on which continuity and the whole of calculus are built."
+  },
+  {
+    "id": "mat_permutation",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Permutations and combinations",
+    "standard_explanation": "A permutation is an arrangement of objects in which the order matters, while a combination is a selection in which the order does not. Counting permutations and combinations lets us work out how many ways events can occur without listing every one. They underpin the probability of arrangements and selections."
+  },
+  {
+    "id": "che_atomic_structure",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "Atomic structure",
+    "standard_explanation": "An atom has a tiny, dense nucleus of positively charged protons and neutral neutrons, surrounded by negatively charged electrons. The number of protons decides which element the atom is, while the electrons occupy shells around the nucleus and determine how the atom bonds. Almost all of the atom's mass is in the nucleus, yet almost all of its volume is empty space."
+  },
+  {
+    "id": "che_periodic_trends",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Periodic table trends",
+    "standard_explanation": "The periodic table arranges the elements by increasing atomic number so that elements with similar properties fall into the same column, or group. Across a period the atoms become smaller and attract electrons more strongly, while down a group they become larger and lose electrons more easily. These trends let chemists predict how an unfamiliar element will behave."
+  },
+  {
+    "id": "che_acid_base",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Acids, bases, and neutralization",
+    "standard_explanation": "An acid releases hydrogen ions in solution while a base accepts them or releases hydroxide ions, and when the two react they neutralize each other to form a salt and water. How strong an acid or base is depends on how completely it ionizes in water. Neutralization is why an antacid tablet relieves excess stomach acid."
+  },
+  {
+    "id": "che_ionic_bond",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Ionic bonding",
+    "standard_explanation": "An ionic bond forms when one atom transfers one or more electrons to another, creating a positive ion and a negative ion that attract each other strongly. This usually happens between a metal, which loses electrons, and a non-metal, which gains them, as in common salt. The compounds formed are rigid crystals with high melting points."
+  },
+  {
+    "id": "che_rate_reaction",
+    "subject": "Chemistry",
+    "grade": 11,
+    "concept": "Rate of reaction and collision theory",
+    "standard_explanation": "The rate of a chemical reaction is how quickly reactants are turned into products, and it depends on how often and how energetically the reacting particles collide. Raising the temperature, increasing the concentration, or adding a catalyst all raise the collision rate or lower the energy barrier, so the reaction speeds up. Only collisions with enough energy and the right orientation actually lead to a reaction."
+  },
+  {
+    "id": "che_electrolysis",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Electrolysis",
+    "standard_explanation": "Electrolysis uses an electric current to drive a chemical change that would not happen on its own, splitting a compound into simpler substances. Positive ions move to the negative electrode and negative ions to the positive electrode, where they gain or lose electrons and are discharged. It is used to extract reactive metals and to electroplate objects with a thin metal layer."
+  },
+  {
+    "id": "che_isotopes",
+    "subject": "Chemistry",
+    "grade": 9,
+    "concept": "Isotopes",
+    "standard_explanation": "Isotopes are atoms of the same element that have the same number of protons but different numbers of neutrons. They therefore share almost all chemical properties but differ in mass, and some isotopes are unstable and radioactive. The atomic mass of an element is the average mass of its naturally occurring isotopes."
+  },
+  {
+    "id": "che_states_matter",
+    "subject": "Chemistry",
+    "grade": 8,
+    "concept": "States of matter and kinetic theory",
+    "standard_explanation": "The kinetic theory pictures all matter as made of tiny particles that are in constant motion, with the amount of motion increasing as the temperature rises. In a solid the particles only vibrate in fixed positions, in a liquid they move around while staying close together, and in a gas they move freely and far apart. Adding or removing heat moves a substance between these states."
+  },
+  {
+    "id": "bio_respiration",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Cellular respiration",
+    "standard_explanation": "Cellular respiration is the process by which cells release the energy stored in glucose to power their activities. In the presence of oxygen, glucose is broken down into carbon dioxide and water, releasing a large amount of usable energy. It is essentially the reverse of photosynthesis and goes on continuously in living cells."
+  },
+  {
+    "id": "bio_digestion",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Human digestion",
+    "standard_explanation": "Digestion is the breakdown of large, insoluble food molecules into small, soluble ones that the body can absorb into the blood. Mechanical action and digestive enzymes work along the gut, with each enzyme breaking down a particular type of food such as starch, protein, or fat. The absorbed nutrients then supply energy and building materials for the body."
+  },
+  {
+    "id": "bio_circulation",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Blood circulation",
+    "standard_explanation": "The circulatory system carries blood around the body through a network of vessels, driven by the pumping of the heart. Arteries carry blood away from the heart at high pressure, veins return it, and tiny capillaries let oxygen and nutrients pass out to the cells. The heart pumps oxygen-poor blood to the lungs and oxygen-rich blood to the rest of the body."
+  },
+  {
+    "id": "bio_mendel",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Mendelian inheritance",
+    "standard_explanation": "Mendelian inheritance explains how characteristics pass from parents to offspring through discrete units now called genes. Each individual carries two versions of each gene, and a dominant version masks the effect of a recessive one when both are present. This is why a trait can seem to disappear in one generation and reappear in the next."
+  },
+  {
+    "id": "bio_immune",
+    "subject": "Biology",
+    "grade": 11,
+    "concept": "The immune response",
+    "standard_explanation": "The immune system defends the body against disease-causing microbes. White blood cells recognize foreign invaders, some engulfing them directly and others producing antibodies that mark specific microbes for destruction. After an infection the body keeps a memory of the invader, so it can respond much faster if the same microbe returns."
+  },
+  {
+    "id": "bio_food_chain",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Food chains and energy flow",
+    "standard_explanation": "A food chain shows how energy and nutrients pass from one organism to the next as one is eaten by another, starting with producers such as green plants. At each step much of the energy is lost as heat, so food chains rarely have more than a few links. In nature these feeding relationships interconnect into a food web."
+  },
+  {
+    "id": "bio_transpiration",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Transpiration in plants",
+    "standard_explanation": "Transpiration is the loss of water vapour from a plant, mainly through tiny pores called stomata in the leaves. As water evaporates from the leaves it pulls a continuous column of water up from the roots through the stem, carrying dissolved minerals with it. This upward flow also helps to cool the plant."
+  },
+  {
+    "id": "bio_hormones",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Hormones and the endocrine system",
+    "standard_explanation": "Hormones are chemical messengers made by glands and carried in the blood to target organs, where they control slow, long-term processes such as growth and the regulation of blood sugar. Unlike nerve signals, which are fast and short-lived, hormonal signals act more slowly but their effects last much longer. Insulin, which lowers blood sugar, is a familiar example."
+  }
+]

@@ -1,0 +1,1388 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "It's like when you push against a wall door; the door pushes back with equal force but in the opposite direction, keeping you from moving and preventing an endless dance of motion between you both.",
+      "everyday": "Imagine you're pushing open a heavy door with your hand. The force of your hand pushing against the door creates an equal and opposite force from the door pushing back on your hand – that's Newton's third law in action!",
+      "sports": "Imagine you're playing a game of tennis. When your friend hits the ball with their racket, they apply force to hit the ball forward. Simultaneously, the ball applies an equal and opposite force backward against your friend's racket. This interaction is like Newton's third law in action - forces are always present but act on different objects, never directly on each other.",
+      "cooking": "It's like when you stir a pot of soup with a wooden spoon; the spoon pushes down on the liquid, and the liquid pushes back up on the spoon with equal force but in the opposite direction. Both forces are happening at once, not canceling out because they act on different objects – the spoon and the liquid."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ],
+    "analogies": {
+      "free": "Resistance is like a dam in a river system; more resistance means water (current) slows down and flows less even if pressure (voltage) remains constant.",
+      "everyday": "Resistance is like a traffic jam on a busy highway: Voltage is the pressure pushing cars forward, current is the flow of cars (or electrons), and resistance slows down or blocks them from moving smoothly, making it harder for more cars to pass through at once.",
+      "sports": "Resistance is like friction in a race; the higher the resistance (friction), the slower you go (current slows down). Just as you can push harder to overcome road bumps and continue at your original speed, adding more voltage pushes against the system's natural resistance to keep current flowing at its desired rate.",
+      "cooking": "Ohm's law is like following a recipe where voltage is the heat you apply to your ingredients, current is how fast they cook, and resistance is the kitchenware — some pots let heat through faster (higher current for same voltage), others resist heat flow (higher resistance). Your dish cooks slower or not at all if something in the pot slows down the heat transfer."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine you have a deck of cards where each card has an equal chance of being drawn. Now, if you draw two cards one after another without putting the first back in the deck, the probability that both are hearts is like choosing two marbles from a bag containing red and blue marbles. The more hearts there are (higher individual heart-picking probability), but since you don’t put the first card back, it doesn’t affect your second pick, just like picking marbles without replacement keeps each draw independent of the last one.",
+      "everyday": "Imagine you have a deck of cards and a bag of marbles. Each card has a different suit: hearts, diamonds, clubs, spades. Each marble is a different color. The probability of drawing a heart from the deck or pulling out a red marble from the bag are independent events because whether you draw a heart doesn't affect what color marble you pick next. If you know that the chance of picking a heart is 1/4 and the chance of getting a red marble is also 1/2, then the probability of both happening - drawing a heart AND pulling out a red marble - is simply those two chances multiplied together: (1/4) * (1/2) = 1/8.",
+      "sports": "Imagine you're playing a game where you roll two fair six-sided dice. The probability of rolling a six on one die is 1/6. If these events are independent, then the probability of rolling a six on both dice is like spinning a fair coin twice in succession—each spin has a 50% chance of landing heads or tails, so flipping two coins results in a 25% (or 1/4) chance of getting heads on both spins. Just as you multiply these probabilities to find the combined outcome, you do the same for dice rolls to calculate independent events' joint probability.",
+      "cooking": "Imagine you're making two different recipes: a cake and a pie. Each recipe has its own set of steps and ingredients that are independent of each other. Whether you bake the cake first or the pie first doesn't change the outcome of either dish. The probability of successfully baking both, if we assume equal chances for each, is like multiplying the chances of baking one by itself. So, just as you could flip a coin twice (heads-heads, heads-tails, tails-heads, tails-tails) and get two heads with a 25% chance, or have an even mix between both outcomes, in probability terms, we multiply the individual success rates to find the combined likelihood of both events happening."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "The pH scale for acids and bases",
+    "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+    "questions": [
+      {
+        "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+        "options": {
+          "A": "2 times",
+          "B": "10 times",
+          "C": "100 times",
+          "D": "The same"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A solution has a pH of 9. It is:",
+        "options": {
+          "A": "Acidic",
+          "B": "Neutral",
+          "C": "Basic",
+          "D": "Impossible"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why can a small drop in pH represent a big rise in acidity?",
+        "options": {
+          "A": "Because the scale is logarithmic, each unit is a tenfold change",
+          "B": "Because pH is measured in percentages",
+          "C": "Because pH only applies to strong acids",
+          "D": "Because lower numbers are always basic"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Pure water at room temperature has a pH of 7. This means it is:",
+        "options": {
+          "A": "Strongly acidic",
+          "B": "Neutral",
+          "C": "Strongly basic",
+          "D": "Undefined"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "pH is like a seesaw in a playground; at pH 7 you're perfectly balanced on the middle rung, equally supported by both sides. Move to the left and you tip towards acidic swings, each step moving you closer to one end of the seesaw - that's your acidiness increasing tenfold every time you move down. Move right and you lean into the basic side, also increasing in strength with each step on this side, ten times stronger for every unit increase above 7.",
+      "everyday": "Think of pH like a water balloon game where each point on the scale is its own color-coded zone. The middle zone, neutral at pH 7, has a clear blue water balloon. Zones below are yellow balloons for acidic solutions, and above are red balloons for basic ones. Each step up or down from the neutral blue means your balloon doubles in size, so a pH 3 \"yellow\" balloon is twice as big as a pH 4 \"blue\" one.",
+      "sports": "The pH scale is like scoring in a game of basketball. A neutral score (pH 7) is like being right at half-court with nothing extra or missing. Scores below half-court represent underperforming teams (acidic solutions), while scores above represent overachieving teams (basic solutions). Each point difference between scores changes how far apart the teams are from a perfect game, just as each pH unit change affects how acidic or basic a solution is.",
+      "cooking": "The pH scale is like measuring sweetness in a recipe: if your cake needs just a touch of sugar (pH around 7), you've got it right. Add too much sugar (below pH 3) and your cake will be super sweet, almost too tart to eat; add less sugar (above pH 10) and it'll taste too bitter, like when baking soda goes wrong. Just the right amount makes a perfect batter that's just right for baking."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Osmosis across a semipermeable membrane",
+    "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+    "questions": [
+      {
+        "q": "A cell is placed in pure water. Water tends to move:",
+        "options": {
+          "A": "Out of the cell, because the cell is more dilute",
+          "B": "Into the cell, because the cell interior is more concentrated",
+          "C": "Neither way, membranes block all water",
+          "D": "Out of the cell, shrinking it"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "What makes a membrane 'semipermeable'?",
+        "options": {
+          "A": "It blocks everything",
+          "B": "It lets everything through equally",
+          "C": "It lets water through but blocks larger dissolved particles",
+          "D": "It only lets salt through"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A raisin swells when soaked in water because:",
+        "options": {
+          "A": "Sugar leaves the raisin",
+          "B": "Water moves in from the dilute surroundings to the concentrated interior",
+          "C": "The skin dissolves",
+          "D": "Air is pumped in"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In which direction does water move during osmosis?",
+        "options": {
+          "A": "From lower water concentration to higher water concentration",
+          "B": "From higher water concentration to lower water concentration",
+          "C": "Always upward",
+          "D": "From basic to acidic solutions"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Osmosis is like water droplets trying to balance on either side of a thin piece of plastic sheet. The sheet only lets water through but not big drops or oil. Water moves from where there's more space (dilute side) until both sides have equal chances, just as kids always try to join the bigger game of catch.",
+      "everyday": "Imagine a bathtub with two sections divided by a plastic sheet that lets water through but keeps out soap suds. Water moves from the section where there's more empty space between the soap suds (dilute solution) to the section with fewer soap suds packed closely together (concentrated solution), until both sides are equally mixed or no more water can pass through the sheet.",
+      "sports": "Imagine a soccer game where one team has a ball in a small net (dilute solution) and the other team is outside with many players trying to push the ball through (concentrated solution). The goalkeepers (semipermeable membrane) let only water (small molecules like water) pass, blocking the bigger players. Water moves until both teams have equal numbers of players inside their own net, balancing out the concentration.",
+      "cooking": "The semipermeable membrane is like a well-sealed pie crust. Water molecules are hungry little chefs who want to escape the steamy filling inside and cool down on the outside. Just as they can only fit through tiny cracks in the dough, water can pass through small pores in the membrane but not larger particles. They keep moving until the insides and outsides of the 'pie' (cells) are equally thirsty or salty, no longer wanting to move around."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "questions": [
+      {
+        "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "1/3",
+          "D": "8"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A perfectly horizontal (flat) line has a slope of:",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "Infinity",
+          "D": "Negative"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the ramp picture, a steeper ramp corresponds to:",
+        "options": {
+          "A": "A smaller slope",
+          "B": "A larger slope",
+          "C": "Zero slope",
+          "D": "A negative slope"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+        "options": {
+          "A": "Less steep",
+          "B": "Steeper",
+          "C": "Flat",
+          "D": "Going downhill"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Slope is like the speed at which a slide descends - how fast you'll go down depending on whether it's leaning left or right, and if it's going faster (steep) or slower (flat). A positive slope means it leans to the right, making you go down quicker; negative slope means it leans to the left, sending you down even faster but in the opposite direction. Zero slope would be a flat slide that doesn't change your vertical position at all as you move along it.",
+      "everyday": "Imagine you're building a ladder against your house; the slope of the ladder is how steep it leans. If you move the bottom part closer to the wallhead (where the ladder meets the roof), making it lean more towards the door, that's like having a larger positive slope - steeper and going up. If instead you push the top of the ladder away from your house, making it lean more towards the ground, then it has a negative slope - still leaning but now going down. A flat ladder with no tilt at all would be like a zero slope.",
+      "sports": "The slope of a straight line is like how fast you're climbing stairs in an escalator ride: if the slope is positive, you're going up (positive rise), if negative, you're going down (negative rise). The steeper the slope, the quicker and faster you move up or down the escalator.",
+      "cooking": "The slope of a straight line is like adjusting the steepness of a ramp in your kitchen: if you make the rise (how high you lift one end) bigger while keeping the run (how far apart you set the ends) the same, the slope gets steeper, just as a positive slope goes up to the right. If you swap the direction so the lift is downward and keep the distance between points constant, it's like making a negative slope that goes down to the right."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "questions": [
+      {
+        "q": "An enzyme speeds up only one particular reaction because:",
+        "options": {
+          "A": "It is very large",
+          "B": "Its active site fits only a specific substrate shape",
+          "C": "It is used up each time",
+          "D": "It works at any temperature"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+        "options": {
+          "A": "Any molecule at all",
+          "B": "Only the matching substrate",
+          "C": "Only heat",
+          "D": "Only water"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Very high temperature can stop an enzyme working because it:",
+        "options": {
+          "A": "Adds more substrate",
+          "B": "Changes the enzyme's shape so the substrate no longer fits",
+          "C": "Speeds the enzyme up forever",
+          "D": "Turns the enzyme into a substrate"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After catalysing its reaction, an enzyme is:",
+        "options": {
+          "A": "Used up and discarded",
+          "B": "Free to catalyse the same reaction again",
+          "C": "Turned into product",
+          "D": "Permanently locked"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Enzymes are like molecular Velcro for cells; they have hooks that only attach to the exact loops and bumps of their matching substrates, speeding up reactions as surely as Velcro makes sticking a shirt to your back super quick. Just as you can't just throw a loop onto any old hook, these enzyme-substrate interactions require precise fit or nothing happens.",
+      "everyday": "Enzymes are like custom key-cutting machines in a lock shop. Each machine has a perfectly shaped cutting edge for only one type of lock, and once it's cut, the key can never be used again. Just like enzymes, these machines don't get worn out after each job but work best under certain conditions - if you keep them cool and dry, they'll always work their magic!",
+      "sports": "Enzymes are like expert referees in a soccer match. Just as a referee ensures fair play by calling fouls and penalties at exactly the right moments without getting in the way of the game, enzymes ensure that reactions happen precisely when needed within living cells, guiding molecules to react correctly without being consumed themselves. Like referees who adapt their calls based on the intensity of the game (like changing rules for different weather conditions), enzymes adjust their structure to maintain function under varying cellular environments.",
+      "cooking": "Enzymes are like the seasoning and spices in a recipe—they don't get used up, but they're essential for making the dish taste exactly right. Just as different seasonings fit into specific spots to enhance flavors, enzymes have an exact shape that fits only certain molecules, speeding up reactions much like how carefully placed ingredients can make a dish come together perfectly every time."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow.",
+    "analogies": {
+      "free": "Pressure is like water flowing through a pipe - more force (water pressure) at the start but less as it spreads out along the length of the pipe due to its area. Narrower pipes create higher pressures at their ends, just as a sharp object exerts greater force over a smaller surface, preventing materials from resisting or compressing under that intense pressure.",
+      "everyday": "The pressure of a water balloon is like squeezing your hand with varying force depending on whether you squeeze one finger or all five fingers together - more intense when concentrated on less area!",
+      "sports": "The pressure in a soccer ball is like squeezing air into a balloon - more force (from your foot) applied to less space (the small area where your shoe hits the ball) makes the ball feel harder and more resistant to being kicked, just as a sharp knife feels much stiffer than a blunt one because it transfers all its force through such a tiny point.",
+      "cooking": "Pressure is like pressing down on a cake pan with different amounts of force. If you apply the same amount of pressure but use a smaller, deeper pan, the cake won't rise properly - just as a sharp knife cuts through food much faster than a dull one because it applies more concentrated pressure to a smaller area."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface.",
+    "analogies": {
+      "free": "Refraction is like a fish swimming towards the surface but its eyes are still underwater. As light from above bends toward the water's surface, it appears as if the fish’s eyes are shifting position to keep their view of where they’re looking on the bottom.",
+      "everyday": "Refraction is like when you throw a ball into water - at first, it seems as if the ball is continuing its straight path through air, but then it bends and slows down as it enters the liquid, making it look like it's curving towards the surface.",
+      "sports": "Imagine you're playing catch with a friend in a swimming pool. The ball represents light. When your friend throws the ball to you on dry land, you can easily catch it straight because both the ball and your hands are in air. But if you switch to underwater, the ball bends as it travels through water towards your hand, making it seem like the ball is coming from a different angle even though your friend threw it directly at you.",
+      "cooking": "Imagine you're stirring a bowl of soup. The light is like the spoon moving through the liquid, and each medium (like water or glass) is like layers of different thickness in your soup. When you stir quickly, the spoon bends as it moves from one layer to another, just like how light changes direction when passing between mediums at different densities."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales.",
+    "analogies": {
+      "free": "Logarithms are like a zoom lens for numbers; just as a camera's zoom lets you see tiny details or vast landscapes by adjusting the focal length, logarithmic scales let us view huge ranges of values by compressing them vertically on a graph.",
+      "everyday": "Logarithms are like doubling a number game. Imagine you start with one cookie and double it every day for a month. By the end of the month, you'd have over a million cookies! Logarithms help us understand how many times we need to multiply by 2 (or any base) to reach a certain number of cookies, making such large numbers more manageable.",
+      "sports": "Logarithms are like running a race where each lap is ten times harder than the previous one. If you want to know how many laps it would take to run 10,000 meters (which is three laps of a standard 500-meter track), instead of adding up all those laps, you can use your knowledge of logarithms to figure out that only about 3.43 laps are needed - making the task much more manageable and exciting!",
+      "cooking": "Logarithms are like adjusting seasoning in a recipe: just as you might start with tiny amounts of spices that multiply their effects when added together, logarithmic scales let us handle huge changes by adding small adjustments instead of multiplying them directly."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic.",
+    "analogies": {
+      "free": "It's like when you squeeze a squishy stress ball; if you squeeze harder and release all that tension at once, your hands get warm because you're releasing stored energy as heat. In contrast, putting ice in water to cool it down is more like an endothermic reaction – the water absorbs heat from its surroundings to change state from liquid to solid (ice).",
+      "everyday": "The difference is like pouring hot water into a glass of cold lemonade - when they mix, if there's enough temperature difference, the heat from the water will make the lemonade warmer until they reach equilibrium, just as in exothermic reactions where energy moves outwards to balance. But if you pour warm water into cold ice cubes instead, it absorbs heat from its surroundings (like endothermic reactions), cooling them down and becoming colder itself.",
+      "sports": "Exothermic reactions are like a football match where one team has a better strategy and more energy reserves, making them score goals easily and leave their opponents breathless with the surplus of excitement they release. Endothermic reactions are more like when you play chess against a stronger opponent; you have to save your moves carefully because the other player is sapping your energy, slowly cooling you down as the game progresses.",
+      "cooking": "Imagine you're baking a cake where flour and sugar are your reactants. In an exothermic reaction, like when you add hot water to the dry ingredients to make a scalded batter that quickly heats up the bowl – just like adding hot water to flour makes it warm and hard to stir quickly. But in an endothermic reaction, like chilling butter with cold milk before whipping it into your frosting – you're absorbing energy by cooling down the mixture, making it harder to beat until it starts to stiffen and thicken."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth.",
+    "analogies": {
+      "free": "Photosynthesis is like a solar cooker in a garden, where sunlight acts as fire and water and carbon dioxide are the ingredients mixed into a soup of glucose, which then fuels the plant's growth much like how we use food to power our bodies.",
+      "everyday": "Photosynthesis is like baking a cake. Just as you need flour (carbon dioxide), sugar (water), eggs (light energy stored in sugar molecules) and a recipe (chlorophyll) to make your cake rise and taste delicious, plants use these ingredients plus sunlight to create their own 'flour' (glucose) which they store for energy just like how we store calories from our food.",
+      "sports": "Photosynthesis is like a game of ultimate frisbee in a lush green field. The chlorophyll players catch sunlight as their ball, using it to throw (or rather, convert) water and carbon dioxide molecules back and forth across their team boundary. They store energy in glucose 'frisbees' which they can use later for growth (like points scored), while also throwing out oxygen frisbees that other organisms like animals catch and use.",
+      "cooking": "Photosynthesis is like a chef in a kitchen who uses sunlight as their oven's heat source. They mix carbon dioxide and water (think of them as pantry ingredients) into a simple dish (glucose), which they then bake in their 'light' to create energy for future use, much like how we prepare food that provides us with the nutrients we need for growth and energy."
+    },
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "When a boxer throws a punch at an opponent's face, their hand pushes forward with great force, and simultaneously, the opponent's face is pushed backward by an equal amount and in the opposite direction, as if they threw the punch themselves. The same principle applies to how planets orbit around stars: the Earth's gravity pulls inward on the star, while the star's gravity pulls outward on our planet, creating a balanced yet opposing force that keeps them moving in tandem. This forward-pushing action results from the backward-pulling reaction, illustrating the Newtonian concept of equal and opposite forces.",
+      "everyday": "Imagine you're having a tug-of-war with your friend in the park. You pull on one end of the rope, and your friend pulls back on the other end. The force you apply to the rope is matched by the force your friend applies to you – both are strong, but opposite.",
+      "sports": "Imagine two wrestlers, Alex and Ben, in a grappling match. When Alex grabs Ben's arm to try and take him down, he exerts an upward force on Ben. At the same time, Ben is also pushing back downward with equal force on Alex, which prevents Alex from going all the way down. The forces they exert on each other are action-reaction pairs that always occur between two different objects (Alex and Ben).",
+      "cooking": "When you whip cream with a mixer, the whisk pushes down on the cream with a force that makes it move upwards, but at the same time, the whipped cream pushes back up on the whisk with an equal and opposite force that keeps it moving downwards, illustrating how forces always come in pairs. This pushing-back action is what keeps the whisk from flying out of your hand, demonstrating that the two forces are not opposing each other head-on, but rather balanced against each other."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ],
+    "analogies": {
+      "free": "A garden hose with a clogged filter has less water flowing through it for a given pump's pressure compared to one with a clear filter; similarly, higher resistance in an electrical circuit restricts the flow of electrons (current) more than lower resistance, and increasing voltage is like turning up the pump's pressure.",
+      "everyday": "Imagine trying to pour water from a container with different tap openings through which you can control the water flow. If the opening is small (high resistance), less water flows at the same pressure (voltage) compared to a larger opening where more water can flow freely, even at the same pressure. The wider opening allows more \"current\" to pass through, just like how increasing the tap's diameter lets more charge flow in an electric circuit, while restricting it with smaller openings increases its resistance and reduces the current.",
+      "sports": "Imagine running a race with your friends in a obstacle course. The voltage is like a strong push from the starting line, and the current is how fast you can move through the course. As you run, more obstacles (resistance) slow you down, so if you have to go around more obstacles, you'll be slower, just like if you had higher resistance in your circuit, you'd flow less charge (current).",
+      "cooking": "Imagine trying to pump water through a hose with different levels of kinkiness in its coils. The more kinked the coils are, the harder it is for the water to flow. If you have a constant pressure source pushing the water (like a faucet), a hose with many kinks will only allow a small amount of water to pass through compared to one with fewer kinks."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A deck of cards represents a sample space with multiple equally likely outcomes. Drawing one card first and then another card again is like two independent coin tosses: each draw doesn't influence the other, so their probabilities multiply together to give the probability of both events occurring. If you flip a coin three times, the outcome of any single flip is like an independent event in this analogy.",
+      "everyday": "Imagine you have two separate doors in your room: one leads to your bed and the other to a friend's house for a study session. The probability of going straight to bed is 9/10, and the probability of choosing your friend's house is 1/5. Because these choices are independent (you can either go to bed or choose your friend's house, but they're not linked), we multiply their probabilities: 0.9 * 0.2 = 0.18, which means there's a 18% chance you'll end up in both places.",
+      "sports": "Imagine playing two separate coin tosses one after the other: each toss is like flipping a single coin, and the probability of getting heads on one toss is the same as the probability of getting heads on another. If you flip one coin and get heads, it doesn't change whether or not I also flip my coin; they're independent events. To find the probability that both coins land on heads, I multiply the probability of each individual event: 1/2 × 1/2 = 1/4.",
+      "cooking": "Imagine making two cups of coffee: one with sugar and the other without. If you add sugar to your first cup before brewing, it won't affect the second cup's flavor - they're independent events. To find if both are brewed to perfection, you calculate the chances of each happening separately and then multiply those chances together (probability of perfect brew)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "The pH scale for acids and bases",
+    "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+    "questions": [
+      {
+        "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+        "options": {
+          "A": "2 times",
+          "B": "10 times",
+          "C": "100 times",
+          "D": "The same"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A solution has a pH of 9. It is:",
+        "options": {
+          "A": "Acidic",
+          "B": "Neutral",
+          "C": "Basic",
+          "D": "Impossible"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why can a small drop in pH represent a big rise in acidity?",
+        "options": {
+          "A": "Because the scale is logarithmic, each unit is a tenfold change",
+          "B": "Because pH is measured in percentages",
+          "C": "Because pH only applies to strong acids",
+          "D": "Because lower numbers are always basic"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Pure water at room temperature has a pH of 7. This means it is:",
+        "options": {
+          "A": "Strongly acidic",
+          "B": "Neutral",
+          "C": "Strongly basic",
+          "D": "Undefined"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A logarithmic pH scale is like a Richter scale for earthquakes, where each step represents tenfold increase in acidity, just as each step on the Richter scale represents a tenfold increase in earthquake intensity. A pH of 7 is equivalent to an earthquake with magnitude 0 (neutral), values below 7 are equivalent to decreasing intensities (more acidic), and values above 7 are equivalent to increasing intensities (more basic).",
+      "everyday": "Imagine a musical scale where notes get progressively more sour or sweet as you move away from the middle note of C. Just like how a sharp note sounds different from a flat note next to it, acidic solutions sound different from neutral solutions; and just as one octave has ten steps, a pH unit means a tenfold change in acidity.",
+      "sports": "Imagine a game of basketball where you're trying to score against an opponent with varying levels of defense. A defensive player who gives up only one point per shot is like water (pH 7), neutral and not too challenging. As the defender gets tougher, requiring two points per shot, they become like lemon juice (low pH), making it harder to score. Conversely, a teammate who lets in three points per shot would be like baking soda (high pH), making it easy to score against them.",
+      "cooking": "Imagine a kitchen scale for sugar and flour mixes. The pH scale is like this mix ratio, with neutral being equal parts of sugar and flour, acidic being more sugar than flour, and basic being more flour than sugar. Each step down the pH scale is like adding one less unit of flour, making the mixture increasingly concentrated with just sugar (more acidic), while each step up is like adding one more unit of flour, making it increasingly diluted with just sugar (more basic)."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Osmosis across a semipermeable membrane",
+    "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+    "questions": [
+      {
+        "q": "A cell is placed in pure water. Water tends to move:",
+        "options": {
+          "A": "Out of the cell, because the cell is more dilute",
+          "B": "Into the cell, because the cell interior is more concentrated",
+          "C": "Neither way, membranes block all water",
+          "D": "Out of the cell, shrinking it"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "What makes a membrane 'semipermeable'?",
+        "options": {
+          "A": "It blocks everything",
+          "B": "It lets everything through equally",
+          "C": "It lets water through but blocks larger dissolved particles",
+          "D": "It only lets salt through"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A raisin swells when soaked in water because:",
+        "options": {
+          "A": "Sugar leaves the raisin",
+          "B": "Water moves in from the dilute surroundings to the concentrated interior",
+          "C": "The skin dissolves",
+          "D": "Air is pumped in"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In which direction does water move during osmosis?",
+        "options": {
+          "A": "From lower water concentration to higher water concentration",
+          "B": "From higher water concentration to lower water concentration",
+          "C": "Always upward",
+          "D": "From basic to acidic solutions"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A semipermeable membrane is like a selectively permeable lunch bag during a picnic: just as water molecules can pass through but larger food particles cannot, and continue to flow from where there's more water (in the cooler shade) to where there's less (by the hot sun), until the bag becomes evenly filled with water. The movement stops when the water level is equal on both sides, just like the lunch bag isn't being refilled once it's full.",
+      "everyday": "A sponge soaks up a salty drink through its pores, but leaves undisturbed its untouched corner, where the saltwater hasn't touched yet, until the saltwater from the soaked area seeps into and balances out with the fresh water in the untouched corner. The pores act like tiny filters that allow only water to pass through, while keeping the salt back. As more salty drink is poured onto one side of the sponge, the clean water moves in until it's evenly distributed on both sides. Eventually, the sponge becomes saturated and no more water can seep into the untouched corner.",
+      "sports": "Imagine a swimmer in a pool with low water levels, trying to move water from one end of the pool to the other through a gate that only allows small balls (water molecules) to pass through while keeping larger pool toys (dissolved particles) out. As the swimmer tries to fill the pool, more and more \"balls\" are drawn from one end where it's plentiful to the other end where it's scarce, until the water levels are balanced, or external pressure stops them.",
+      "cooking": "Think of a semipermeable membrane like a fine-mesh strainer over a bowl of water and sugar. Water molecules can pass through the mesh but large sugar molecules cannot, allowing the water to move from the sugary solution (higher concentration) into the clear water (lower concentration) until equilibrium is reached. The pressure applied to the system is like adding extra water to the bowl, pushing it past the point where it stops moving. Eventually, the water and sugar concentrations become equal, just like when you've extracted as much liquid from a dessert as possible with your strainer."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "questions": [
+      {
+        "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "1/3",
+          "D": "8"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A perfectly horizontal (flat) line has a slope of:",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "Infinity",
+          "D": "Negative"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the ramp picture, a steeper ramp corresponds to:",
+        "options": {
+          "A": "A smaller slope",
+          "B": "A larger slope",
+          "C": "Zero slope",
+          "D": "A negative slope"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+        "options": {
+          "A": "Less steep",
+          "B": "Steeper",
+          "C": "Flat",
+          "D": "Going downhill"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a roller coaster with two steep hills (representing the run) and one gentle slope between them (representing the rise). The higher the hill, the steeper the slope, and if the roller coaster goes from one steep hill to the other, its vertical position changes more (rise) for every horizontal distance traveled (run), just like a straight line. A steeper roller coaster track is like a line with a larger slope, while a flat section corresponds to a zero-slope line.",
+      "everyday": "Imagine a water tank filled with different colored liquids. The slope of the liquid's surface is like the steepness of a straight line: the \"rise\" is how much higher one liquid level is than another (e.g., from blue to red), and the \"run\" is how far apart those two levels are horizontally (e.g., across the tank). As you move along the liquid surface, a steeper slope means you're moving up and over more as you travel rightward, just like a straight line.",
+      "sports": "Imagine playing a game of billiards where you shoot the cue ball to hit another ball on a table. The slope of the line representing the path of the cue ball is like how steep the angle of incidence (the angle at which you hit the cue ball) affects its trajectory; a shallower angle means it will roll more horizontally, while a steeper angle makes it curve more sharply towards the target ball.",
+      "cooking": "Imagine making cookies and measuring how quickly the dough rises in height compared to how far you move forward with the mixing spoon. The ratio of rise to run is like the slope: a faster rise means steeper dough, while a slower rise means flatter dough. If your spoon moves sideways more than up, the \"rise\" is actually negative, and if it doesn't move at all, the dough stays flat."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "questions": [
+      {
+        "q": "An enzyme speeds up only one particular reaction because:",
+        "options": {
+          "A": "It is very large",
+          "B": "Its active site fits only a specific substrate shape",
+          "C": "It is used up each time",
+          "D": "It works at any temperature"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+        "options": {
+          "A": "Any molecule at all",
+          "B": "Only the matching substrate",
+          "C": "Only heat",
+          "D": "Only water"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Very high temperature can stop an enzyme working because it:",
+        "options": {
+          "A": "Adds more substrate",
+          "B": "Changes the enzyme's shape so the substrate no longer fits",
+          "C": "Speeds the enzyme up forever",
+          "D": "Turns the enzyme into a substrate"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After catalysing its reaction, an enzyme is:",
+        "options": {
+          "A": "Used up and discarded",
+          "B": "Free to catalyse the same reaction again",
+          "C": "Turned into product",
+          "D": "Permanently locked"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "A key fits into a specific lock only because both have precisely crafted indentations and protrusions that align with each other; similarly, enzymes fit their substrates due to unique molecular conformations; once bound, the enzyme-substrate complex is shaped in such a way that chemical reactions can occur at an accelerated rate.",
+      "everyday": "Enzymes are like specialized key-cutters in a jewelry store. Each key-cutter has a unique shape that fits only specific keys, allowing them to unlock locks quickly and efficiently. The locksmith's workspace is tailored to their skills, with optimal lighting and temperature conditions; if it gets too hot or cold, the key-cutter becomes ineffective.",
+      "sports": "An enzyme is like a speed-drawing artist who helps draw a precise picture by providing the right pencil and holding the paper in place. The specific shape of the artist's hand (active site) matches only certain pencils (substrates), allowing for the perfect drawing, while extreme conditions like heat or cold make it impossible to hold the paper steady.",
+      "cooking": "An enzyme is like a highly specialized chef who efficiently mixes and stirs a specific recipe, ensuring the desired chemical reaction occurs within a narrow temperature range and pH level, without being consumed by the process, just as a skilled cook carefully controls the conditions to produce a perfect dish."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow.",
+    "analogies": {
+      "free": "A large crowd pushing on a wall exerts less force per square inch than a single person pushing with the same strength, because the wall has a larger surface area to spread out their combined effort. Conversely, a group of people standing shoulder-to-shoulder can exert more pressure as a whole by concentrating their collective force onto a smaller area.",
+      "everyday": "Imagine a large family gathering in a small living room, where everyone is moving around and bumping into each other. If one person stands still with all their weight concentrated on their feet, they can easily push against others or even break the furniture. But if you scatter the same amount of weight among many people standing in different parts of the room, it's much harder to move anyone or make a dent.",
+      "sports": "Imagine a team of soldiers trying to cross a rickety bridge with heavy equipment. If they spread their weight evenly across the bridge, it can hold their collective load without collapsing. However, if they concentrate all their force on one point, the bridge buckles under the pressure. Conversely, if multiple soldiers stand far apart, the bridge is less likely to collapse, as the individual forces are dispersed over a larger area.",
+      "cooking": "Imagine pouring a cup of water into a small bucket versus a large container. The amount of pressure from the water (i.e., its weight pushing down on the bottom) is directly proportional to the surface area in contact with the water, so pouring more water into the smaller bucket creates a much greater \"pressure\" than pouring it into the larger container, even if both buckets are filled to the same level."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface.",
+    "analogies": {
+      "free": "A bowling ball rolling on a bed of sand will move faster than it would on a smooth floor because the sand provides more resistance, slowing it down slightly as it moves forward; similarly, light slows down in denser media like water or glass and bends towards the normal as it enters those mediums, changing direction slightly.",
+      "everyday": "Imagine trying to slide a heavy bowling ball across a table covered with different types of smooth floor surfaces - like polished wood, tile, and rubber. The ball slows down when sliding on the densest surface (wood) and takes a curved path as it reaches the edge, whereas it speeds up on the less dense surface (rubber) and skews away from its original direction. This change in speed results in the ball taking an unusual trajectory, much like light bends around the boundary between two transparent media.",
+      "sports": "Imagine you're playing hockey on a rink with different levels of ice thickness. When your stick hits the water-ice surface, it slows down due to friction and bends towards the center of the rink because its new speed is less than when hitting the smooth ice. In contrast, if you hit the thick ice at the edge, your stick speeds up and bends away from the center, appearing as if the rink has warped.",
+      "cooking": "When pouring a denser syrup like honey into a lighter liquid like water, the surface appears to be broken or irregular because the slower-moving honey molecules at the boundary are pushed towards the normal, while the faster-moving water molecules are pulled away from it. In contrast, when pouring a lighter syrup like oil into the same water, the surface is smooth and flat, as both liquids move at similar speeds. This difference in behavior is due to the change in density of the two liquids, which affects their speed and movement."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales.",
+    "analogies": {
+      "free": "A logarithm is like a set of stairs with different rungs representing powers of ten. Each time you climb one rung, you multiply your current number by ten. This staircase compresses an enormous range of values into a manageable scale, making it easier to compare and measure quantities that would be too big or small otherwise, just like how the stairs allow us to ascend smoothly from a quiet room to a very loud concert hall.",
+      "everyday": "Imagine you have a collection of different sizes of folders, where each folder can hold twice as much paper as the previous one. When you label these folders with their capacity in terms of how many papers they can fit (e.g., 1 folder for 2 papers), it's like finding the exponent that turns the base capacity into the actual number of papers. For example, to get from the smallest folder (labelled 2) to a bigger one (labelled 8), you would need to raise 2 to the power of 3, just as you'd move from the \"2\" paper capacity to an \"8\" paper capacity by multiplying or adding the labels.",
+      "sports": "Imagine you're playing a board game where each number on the board represents the power of a fixed player's score multiplier. For example, if a certain number is marked 4, that means the player's score has been multiplied by 2^4 = 16 to reach that point. If someone tells you the multiplier for a certain score, you can use logarithms to figure out what level on the board they're at – it's like using a map to decipher a secret code!",
+      "cooking": "A recipe for making a large batch of cookies calls for a specific amount of yeast, but instead of measuring out an exact number of teaspoons, the baker specifies a \"yeast ratio.\" This ratio represents how many times to multiply the original yeast by, relative to the base unit (1 teaspoon). The logarithm then answers the question: what is this multiplier value?"
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic.",
+    "analogies": {
+      "free": "A thermos flask is a container that stores hot or cold liquid inside a vacuum-sealed space. The insulation in a thermos reduces heat transfer between the inner and outer containers, allowing the temperature to remain constant for a long time. In an exothermic reaction, like burning fuel, energy is released from the reactants to the surroundings, much like how the thermos releases trapped heat. Conversely, an endothermic reaction absorbs energy from its surroundings, similar to how the thermos insulates and prevents heat from escaping.",
+      "everyday": "Think of exothermic reactions like heating up a bed on a winter morning. You put in energy (heat from the heater) and the system (your body) gets warmer as the cold outside is replaced with warmth inside. In contrast, putting ice packs in your lunchbox on a hot summer day is like an endothermic reaction - you take in energy (cooling from the ice pack) to cool down something that would otherwise get hotter.",
+      "sports": "Imagine a basketball game where you're playing against your sibling. In an exothermic scenario, you score more baskets than they do, so you gain energy and your team's excitement level increases, while your sibling's is depleted, making them seem tired. Conversely, in an endothermic situation, you keep missing shots while they sink three-pointers, draining your own energy and leaving your team exhausted, but energizing their bench.",
+      "cooking": "Imagine you are making a cake in the oven. An exothermic reaction is like whipping heavy cream: when the cream gets more aerated, its potential energy (the energy of movement) turns into kinetic energy (the energy of motion), which manifests as heat and makes your hands warm. In contrast, melting butter on the stovetop is an endothermic process: the molecules in the butter gain energy from the heat, becoming less dense and cooling down."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth.",
+    "analogies": {
+      "free": "A solar panel converts sunlight into electrical energy by exciting electrons in a semiconductor material, which are then stored as chemical bonds in a battery, just like plants store light energy in glucose molecules and release oxygen through cellular respiration.",
+      "everyday": "A power plant charges your phone by converting chemical energy stored in batteries into electrical energy, just like a green leaf converts light energy from sunlight into chemical energy stored in glucose molecules, which are then used to fuel growth and other cellular processes.",
+      "sports": "Imagine a soccer team playing two matches: one against themselves and one against an opposing team. The match against themselves is like photosynthesis, where the team uses their own energy (stored in their muscles) to convert food (glucose) into new, powerful energy stores (chemical bonds). Meanwhile, they also use this energy to fuel their daily activities (growth and respiration), just as plants release oxygen as a byproduct of photosynthesis. This stored energy is like the glucose that plants use later for growth and respiration.",
+      "cooking": "Imagine a chef using sunlight as fuel for an oven to bake bread. The baker adds flour (carbon dioxide) and water to the dough, just like plants add carbon dioxide and water to photosynthesize glucose. As the sun's energy heats up the mixture, it transforms into a delicious loaf of bread with stored chemical energy in its bonds – this is similar to how sunlight powers the conversion of CO2 and H2O into glucose. The oxygen released during baking is released as a byproduct into the kitchen air."
+    },
+    "generator": "llama3.2:3b"
+  },
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine two people playing tug-of-war; when one person pulls back, the other person pulls back with equal force, even though they're pulling in opposite directions. This is like Newton's third law – every action has an equal and opposite reaction.",
+      "everyday": "Imagine pushing a shopping cart down the grocery aisle. When you push it forward, the cart pushes back on your hand with equal force, making it easier for you to move it along. This \"push-back\" force is an action-reaction pair, just like Newton described.",
+      "sports": "Think of two basketball players bouncing a ball back and forth. Each time one player pushes the ball, the other player pushes back with an equal amount of force, resulting in the ball moving in opposite directions.  This is similar to Newton's third law - every action has an equal and opposite reaction.",
+      "cooking": "Imagine you're kneading dough for a loaf of bread. When you push down on the dough with your hands (the first object), it pushes back on your hands (the second object) in equal force – this is action-reaction pair, like how force works."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a busy highway with cars representing electrons trying to flow through.  The traffic lights act like resistance, slowing down the cars (current) based on the light's color and their signal - red for slower, green for faster. A higher traffic jam (resistance) means fewer cars can pass through at any given time (lower current), just like a high-resistance wire limits how much current can flow.",
+      "everyday": "Imagine a garden hose filled with water.  The higher the pressure pushing water through (voltage), the more water flows out quickly (current). But if you make the hose narrower (resistance), the same amount of pressure will only let a smaller flow of water out (current) and it'll take longer to get the job done.",
+      "sports": "Imagine trying to score goals in a soccer game.  The harder you kick the ball (voltage), the more resistance you’ll encounter from the opposing players (resistance) and the slower your progress will be (current). A higher resistance means a tougher path for the \"ball\" of electricity, resulting in less current flow.",
+      "cooking": "Imagine you're making a cake batter and want to control how thick it is in your pan.  The voltage is like the amount of baking powder you add, the current is the speed at which you whisk the batter, and the resistance is like the size and material of your mixing bowl – a bigger bowl with less stiff sides will make a thinner batter, just as higher resistance in the wire means less current for a given voltage."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine flipping two coins - one heads and one tails.  You're not changing the outcome of one coin flip by making a prediction for another;  the probability you get heads on either coin flip is 1/2, independent of what the other coin does.  The probability of both getting heads or tails, respectively, is found by multiplying the individual probabilities of each coin.",
+      "everyday": "Imagine you have a bag of marbles, half red and half blue.  If you pick one marble out of the bag, then immediately choose another without looking at the first, the probability of picking a red marble is still 1/2, even if you chose a blue marble before. This is like independent events: each event's result doesn't impact the probability of the next.",
+      "sports": "Imagine flipping two coins simultaneously.  The probability of getting heads on both flips is determined by the individual probabilities of getting heads on each coin (1/2) and multiplying those probabilities together (1/2 * 1/2 = 1/4). Just like a single coin toss doesn't influence another coin's outcome, independent events don't affect each other.",
+      "cooking": "Imagine you're making a batch of cookies -  you need to roll out each dough ball evenly and bake them in an oven at a specific temperature. The probability of one cookie baking perfectly depends on the dough ball size and the oven temperature, not on whether another cookie is already in the oven or not, which is independent. You multiply the individual probabilities (probability of each dough ball being rolled out evenly and baked correctly) to find the probability of both events happening."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_ph",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "The pH scale for acids and bases",
+    "standard_explanation": "The pH scale measures how acidic or basic a solution is, running from about 0 to 14. A pH of 7 is neutral, values below 7 are acidic, and values above 7 are basic. The scale is logarithmic, so each step of one pH unit means a tenfold change in acidity: a solution of pH 3 is ten times more acidic than one of pH 4.",
+    "questions": [
+      {
+        "q": "Solution A has pH 2 and solution B has pH 4. How many times more acidic is A than B?",
+        "options": {
+          "A": "2 times",
+          "B": "10 times",
+          "C": "100 times",
+          "D": "The same"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A solution has a pH of 9. It is:",
+        "options": {
+          "A": "Acidic",
+          "B": "Neutral",
+          "C": "Basic",
+          "D": "Impossible"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Why can a small drop in pH represent a big rise in acidity?",
+        "options": {
+          "A": "Because the scale is logarithmic, each unit is a tenfold change",
+          "B": "Because pH is measured in percentages",
+          "C": "Because pH only applies to strong acids",
+          "D": "Because lower numbers are always basic"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "Pure water at room temperature has a pH of 7. This means it is:",
+        "options": {
+          "A": "Strongly acidic",
+          "B": "Neutral",
+          "C": "Strongly basic",
+          "D": "Undefined"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "The pH scale is like a musical instrument's volume knob -  it ranges from quiet (low pH) to loud (high pH). Each step on the scale represents a tenfold increase in either acidity or alkalinity, just like turning up or down the volume of your music.",
+      "everyday": "Imagine a pH scale as a rainbow, with red being the most acidic and violet being the most basic. Just like how a bright, sunny day is more intense than a cloudy afternoon, acids are strong and have low pH values, while bases are weak and have high pH values.",
+      "sports": "Think of a video game where you have different levels of difficulty - easy, medium, hard, etc.  Just like that, a solution's pH is measured on a scale from 0 to 14 and as you go down (lower pH), the solution gets more acidic, like a level in the game is harder, and as you move up (higher pH) it becomes more basic, just like how easy levels are easier.  Each step on the scale represents a tenfold change in acidity.",
+      "cooking": "Imagine a cake batter recipe -  the pH scale acts like a measuring tool for how much \"sourness\" or \"tanginess\" you're adding. Baking soda (which is a base) will make your batter rise, while lemon juice (an acid) makes it sour, changing the recipe and the overall taste. Just as baking soda requires more to create the same effect as lemon juice, strong acids require a higher pH for their acidic properties to be noticeable."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_osmosis",
+    "subject": "Biology",
+    "grade": 9,
+    "concept": "Osmosis across a semipermeable membrane",
+    "standard_explanation": "Osmosis is the movement of water molecules across a semipermeable membrane from a region of higher water concentration (dilute solution) to a region of lower water concentration (concentrated solution). The membrane lets water pass but blocks larger dissolved particles. Water moves until the concentrations on both sides are balanced, or until pressure stops it.",
+    "questions": [
+      {
+        "q": "A cell is placed in pure water. Water tends to move:",
+        "options": {
+          "A": "Out of the cell, because the cell is more dilute",
+          "B": "Into the cell, because the cell interior is more concentrated",
+          "C": "Neither way, membranes block all water",
+          "D": "Out of the cell, shrinking it"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "What makes a membrane 'semipermeable'?",
+        "options": {
+          "A": "It blocks everything",
+          "B": "It lets everything through equally",
+          "C": "It lets water through but blocks larger dissolved particles",
+          "D": "It only lets salt through"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A raisin swells when soaked in water because:",
+        "options": {
+          "A": "Sugar leaves the raisin",
+          "B": "Water moves in from the dilute surroundings to the concentrated interior",
+          "C": "The skin dissolves",
+          "D": "Air is pumped in"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In which direction does water move during osmosis?",
+        "options": {
+          "A": "From lower water concentration to higher water concentration",
+          "B": "From higher water concentration to lower water concentration",
+          "C": "Always upward",
+          "D": "From basic to acidic solutions"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a crowded party where everyone is trying to mingle and find someone to talk to.  Those who are more eager (water molecules) will rush through an open door (semipermeable membrane) into areas with fewer people (dilute solutions), until there's about equal mingling in both rooms (equal water concentration).",
+      "everyday": "Imagine a glass of water with salt dissolved in it.  A thin, breathable fabric separates this solution from another glass of pure water, and the fabric lets the water molecules pass through easily but prevents the salt crystals from traveling across.  As long as there's a difference in the amount of salt between the two glasses, the water molecules will continue to move toward the glass with less salt until they are equalized.",
+      "sports": "Imagine two teams of players standing on opposite sides of a fence. The fence is like a semipermeable membrane, only allowing water molecules through.  The team with more players (high concentration) will push against the fence, trying to get their water across.  The opposing team has fewer players and can't push back as hard; this causes them to lose water until balance is reached between teams.",
+      "cooking": "Imagine you're making cake batter.  You add water (the \"dilute solution\") to a bowl of flour (the \"concentrated solution\"). The batter will slowly seep through a sieve or a strainer (the \"semipermeable membrane\"), taking the water from the bowl with more water to the bowl with less water, until the concentration is balanced and the batter becomes even."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_slope",
+    "subject": "Mathematics",
+    "grade": 9,
+    "concept": "Slope of a straight line",
+    "standard_explanation": "The slope of a straight line measures how steep it is, defined as the rise (change in vertical position) divided by the run (change in horizontal position) between any two points on the line. A positive slope goes up to the right, a negative slope goes down, and a slope of zero is flat. A larger slope means a steeper line.",
+    "questions": [
+      {
+        "q": "A line rises 6 units vertically over a run of 2 units horizontally. Its slope is:",
+        "options": {
+          "A": "2",
+          "B": "3",
+          "C": "1/3",
+          "D": "8"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "A perfectly horizontal (flat) line has a slope of:",
+        "options": {
+          "A": "1",
+          "B": "0",
+          "C": "Infinity",
+          "D": "Negative"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the ramp picture, a steeper ramp corresponds to:",
+        "options": {
+          "A": "A smaller slope",
+          "B": "A larger slope",
+          "C": "Zero slope",
+          "D": "A negative slope"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Line P has slope 5 and line Q has slope 1. Compared with Q, line P is:",
+        "options": {
+          "A": "Less steep",
+          "B": "Steeper",
+          "C": "Flat",
+          "D": "Going downhill"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Imagine a ski slope, with its incline changing as you move up and down the run. The steeper the slope, the faster you're going downhill; the steeper the slope, the more quickly your horizontal position changes for each vertical change.",
+      "everyday": "Imagine a ramp leading up to your room. The slope of the ramp is like the slope of a line:  if you move further down the ramp (run), the height you gain will be steeper (rise), indicating a higher slope, and vice versa.",
+      "sports": "Imagine a basketball court with two teams. The slope of the line represents how fast each team advances their ball down the court: a steeper slope means they're moving faster and farther on each play, like going for a quick basket in the game, while a flatter slope indicates slower progress with fewer advances.",
+      "cooking": "Think of a recipe where you're mixing ingredients in precise proportions. The slope of the recipe line tells you how much each ingredient is adding (rise) to the final mixture based on the amount you add (run). A steeper slope means more change per ingredient, resulting in a quicker and potentially more intense flavor change."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_enzyme",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Enzymes as biological catalysts",
+    "standard_explanation": "Enzymes are proteins that speed up specific chemical reactions in living things. Each enzyme has an active site with a particular shape that fits only certain molecules, called substrates, much like a lock fits only its key. Enzymes are not used up, and they work best within specific temperature and pH ranges; extreme conditions can change their shape and stop them working.",
+    "questions": [
+      {
+        "q": "An enzyme speeds up only one particular reaction because:",
+        "options": {
+          "A": "It is very large",
+          "B": "Its active site fits only a specific substrate shape",
+          "C": "It is used up each time",
+          "D": "It works at any temperature"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the lock-and-key picture, the keyhole (active site) fits:",
+        "options": {
+          "A": "Any molecule at all",
+          "B": "Only the matching substrate",
+          "C": "Only heat",
+          "D": "Only water"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Very high temperature can stop an enzyme working because it:",
+        "options": {
+          "A": "Adds more substrate",
+          "B": "Changes the enzyme's shape so the substrate no longer fits",
+          "C": "Speeds the enzyme up forever",
+          "D": "Turns the enzyme into a substrate"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "After catalysing its reaction, an enzyme is:",
+        "options": {
+          "A": "Used up and discarded",
+          "B": "Free to catalyse the same reaction again",
+          "C": "Turned into product",
+          "D": "Permanently locked"
+        },
+        "answer": "B"
+      }
+    ],
+    "analogies": {
+      "free": "Enzymes are like tiny matchmakers in a chemical reaction party, each one designed to perfectly pair with a specific molecule at the right time and place. Just as a wrong match can create chaos, an enzyme's unique shape binds only certain molecules called substrates for optimal function.  This ensures efficient chemical reactions within living systems while leaving them untouched by the process.",
+      "everyday": "Imagine a kitchen blender used to make smoothies. The blender's blades are like enzymes, having a specific shape that fits certain ingredients (like fruits and vegetables).  The size and pressure of the blender's motor is like the temperature and pH ranges where enzymes work best, ensuring efficient processing of the ingredients into a smooth drink.",
+      "sports": "Imagine a basketball player dribbling the ball at a fast pace; they can easily pass the ball down the court for a goal because their hands are designed to grip and propel the ball efficiently.  Enzymes work similarly in cells, with their special shape acting like a tailored handgrip for the molecules they need to process, speeding up reactions by making them happen more quickly and effortlessly.",
+      "cooking": "Imagine a cake recipe where your grandma's secret ingredient is a specialized whisk. It has a unique shape that only fits with specific ingredients like flour and sugar, allowing them to mix together perfectly for the best cake.  Just like the whisk ensures the right ingredients combine seamlessly, enzymes act as catalysts by helping other molecules react in living organisms, making sure reactions happen efficiently."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_pressure",
+    "subject": "Physics",
+    "grade": 8,
+    "concept": "Pressure as force per unit area",
+    "standard_explanation": "Pressure is the force acting on a surface divided by the area over which that force is spread, written as pressure = force / area. The same force concentrated on a smaller area produces a much larger pressure, which is why a sharp knife or a thin needle presses hard enough to cut or pierce. Spreading a force over a large area lowers the pressure, which is why wide snowshoes stop a person from sinking into soft snow.",
+    "analogies": {
+      "free": "Imagine squeezing a balloon with your fingers – the harder you squeeze, the more pressure you exert on its surface.  But if you spread those same pressures across a larger area of the balloon's skin, you create less force per unit area and thus weaker pressure overall.",
+      "everyday": "Imagine you're standing on your trampoline, jumping up and down.  The more you jump, the harder you are pressing down on the trampoline, just like pressure is how much force is being put per square inch of surface area. The smaller the trampoline's footprint, the heavier you feel, just like if you push down harder on a small area of a flat surface, your weight will be spread out less and you'll experience more pressure.",
+      "sports": "Imagine you're trying to kick a soccer ball into a goal with your foot. The harder you kick (force), and the smaller the area of your foot on contact (area), the faster the ball will go and create more pressure as its force is concentrated on a smaller space, similar to how sharp objects press harder.  Conversely, if you spread out your foot across a bigger area when kicking, the force is less concentrated, leading to slower speed of the ball and lower pressure.",
+      "cooking": "Imagine you're spreading batter evenly across a large cookie sheet before putting it in an oven. The same amount of batter will spread thin and make a light layer on the pan, but if you put all that batter into a smaller space, like a muffin cup, the pressure will be much higher.  This is similar to how pressure works – more force concentrated on a smaller area leads to higher pressure."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "phy_refraction",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Refraction of light",
+    "standard_explanation": "Refraction is the bending of light as it passes from one transparent medium into another because its speed changes at the boundary. Light slows down when it enters a denser medium such as water or glass and bends towards the normal, and it speeds up and bends away from the normal when it enters a less dense medium. This change of direction is why a straw standing in a glass of water appears bent or broken at the surface.",
+    "analogies": {
+      "free": "Imagine a swimmer crossing a river towards a shallower area.  They'll feel their speed change as they enter the shallow water, and their trajectory will shift slightly to continue on that path even though their starting point was different.",
+      "everyday": "Imagine you're driving down a road with a slight incline, and your car accelerates on that slope.  This is similar to light as it passes from air into water; the speed of light changes when it encounters denser media, causing it to bend like the car accelerating up the hill. This bending happens because the density of the medium affects the speed at which light travels through it.",
+      "sports": "Imagine a baseball pitcher throwing a curveball. The ball bends in a specific way due to its spin, right?  Similarly, light bending as it travels from air into water is like spinning a football so that it curves when entering a different medium, but unlike our hands-on sports, this change is caused by the varying speeds of light through different materials.",
+      "cooking": "Imagine you're kneading dough for a cookie recipe. When you put flour and water together to make dough, they don't mix perfectly right away.  The dough moves differently in different areas of the bowl, causing some parts to get denser or less dense than others – just like light behaves differently when it travels through different mediums."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "mat_logarithm",
+    "subject": "Mathematics",
+    "grade": 11,
+    "concept": "Logarithms",
+    "standard_explanation": "A logarithm answers the question of what power a fixed base must be raised to in order to produce a given number, so the logarithm of 1000 to base 10 is 3 because 10 raised to the power 3 equals 1000. Logarithms are the inverse operation of exponentiation and turn multiplication into addition, which lets them compress an enormous range of values into a manageable scale. This is why quantities such as pH, sound in decibels, and earthquake magnitude are measured on logarithmic scales.",
+    "analogies": {
+      "free": "Think of a dimmer switch.  The dimmer controls how much light shines through, just like a logarithm determines the power that a base must be raised to reach a specific number. The dimmer represents a logarithmic scale because you can adjust the intensity level (or \"magnitude\") by changing its position on the scale.",
+      "everyday": "Think of a dimmer switch for your bedroom lights. The dimmer control, like logarithms, takes a big number (like the light brightness) and lets you find the power the bulb needs to be at to reach that specific level, from completely off to full bright.",
+      "sports": "Imagine you're playing a team sport where scoring involves a complex system of power boosts. The \"logarithm\" is like understanding how much of that boost power you need to reach the target score on your own.  You need to know exactly what level of intensity (power) will allow you to achieve a specific goal.",
+      "cooking": "Imagine a cake recipe where you need to know how much of each ingredient to use based on the desired size of the final product. A logarithm acts like a secret code that tells you exactly what power of an ingredient (like baking soda or flour) to add, allowing you to adjust the quantity accurately to get the desired outcome – just like adjusting the amount of sugar in a recipe changes its sweetness level!"
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "che_exothermic",
+    "subject": "Chemistry",
+    "grade": 10,
+    "concept": "Exothermic and endothermic reactions",
+    "standard_explanation": "In an exothermic reaction the products store less chemical energy than the reactants, so the surplus energy is released to the surroundings, usually as heat, and the surroundings become warmer. In an endothermic reaction the products store more energy than the reactants, so energy is absorbed from the surroundings and they become cooler. Burning a fuel is exothermic, whereas the reaction inside an instant cold pack is endothermic.",
+    "analogies": {
+      "free": "Imagine a balloon filled with helium. When you release the pin holding the balloon down, the helium inside quickly escapes (exothermic reaction), causing the balloon to deflate and lose its upward thrust (energy released). In contrast, when you put your hand under cold water in a cup, it feels colder because energy is being absorbed from your hand (endothermic reaction) into the water.",
+      "everyday": "Imagine your fridge as a place where cold air is stored. When you open the door and take out a hot bottle of water from outside, the cold air inside the fridge absorbs some of that heat energy to keep things cool - like an endothermic reaction. But when you put in frozen food or cook something on the stovetop, your fridge releases that excess heat into the environment to maintain its temperature, similar to how exothermic reactions release energy as heat.",
+      "sports": "Imagine a basketball game where the team scoring goals (products) gets more energy from the other team's efforts (reactants). The final score is higher for them and they release leftover energy as heat to the environment (surroundings), making the temperature of the area around them rise.  Now imagine a game with teams that need to take energy from the environment (like an ice pack) to stay cool, where the energy required to do so lowers their overall temperature.",
+      "cooking": "Imagine you're making cookies.  Baking them requires energy input (endothermic reaction) because you're turning raw ingredients into something tasty, which takes heat to happen. Burning a candle, however, is like an exothermic reaction - it releases energy in the form of light and heat as the fuel burns away."
+    },
+    "generator": "gemma2:2b"
+  },
+  {
+    "id": "bio_photosynthesis",
+    "subject": "Biology",
+    "grade": 10,
+    "concept": "Photosynthesis",
+    "standard_explanation": "Photosynthesis is the process by which green plants use light energy, captured by the pigment chlorophyll, to convert carbon dioxide and water into glucose and oxygen. The captured light energy is stored as chemical energy in the bonds of the glucose, which the plant later uses for growth and respiration. It is effectively the reverse of respiration and is the ultimate source of almost all food and oxygen on Earth.",
+    "analogies": {
+      "free": "Photosynthesis is like a plant's kitchen, where sunlight acts as the stovetop, chlorophyll is the chef mixing ingredients, carbon dioxide is the flour and water the yeast, all creating glucose (the delicious meal) that fuels the plant's growth and provides oxygen for us to breathe.",
+      "everyday": "Imagine a plant as a tiny factory that uses sunlight like an energy source to turn water and carbon dioxide into the fuel (glucose) it needs for growth, just like your mom cooks ingredients in the oven to create dinner from raw materials.  This process releases oxygen, which is like air freshener for our planet, allowing us to breathe.",
+      "sports": "Photosynthesis is like a team of athletes training for a big game – the plants use sunlight as their energy source, just like they get from the coach's instructions (chlorophyll), to transform carbon dioxide and water into a high-energy meal (glucose) – the food that helps them grow strong. Just like a team needs oxygen to breathe and perform, plants also need to release oxygen after producing glucose during photosynthesis.",
+      "cooking": "Imagine a kitchen where sunlight is like a powerful oven, and plants are the chefs. They use the light energy from the sun to mix carbon dioxide (like flour) and water (like yeast) into glucose (like dough), creating delicious sugars that fuel their growth. This process also releases oxygen as a byproduct, which we can then breathe!"
+    },
+    "generator": "gemma2:2b"
+  }
+]

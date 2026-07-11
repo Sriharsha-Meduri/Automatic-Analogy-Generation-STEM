@@ -1,0 +1,5 @@
+{"judge": "qwen2.5:7b", "generator": "probe", "concept_id": "probe_ohm", "subject": "Physics", "grade": 10, "ranks": {"wrong": 3, "decent": 2, "good": 1, "vague": 4}, "raw": "C: 1\nB: 2\nA: 3\nD: 4"}
+{"judge": "qwen2.5:7b", "generator": "probe", "concept_id": "probe_newton3", "subject": "Physics", "grade": 9, "ranks": {"wrong": 4, "decent": 1, "good": 2, "vague": 3}, "raw": "B: 1\nC: 2\nD: 3\nA: 4"}
+{"judge": "qwen2.5:7b", "generator": "probe", "concept_id": "probe_probability", "subject": "Mathematics", "grade": 10, "ranks": {"good": 1, "wrong": 3, "decent": 2, "vague": 4}, "raw": "A: 1\nC: 2\nB: 3\nD: 4"}
+{"judge": "qwen2.5:7b", "generator": "probe", "concept_id": "probe_photosynthesis", "subject": "Biology", "grade": 10, "ranks": {"decent": 1, "vague": 3, "wrong": 4, "good": 2}, "raw": "A: 1\nD: 2\nB: 3\nC: 4"}
+{"judge": "qwen2.5:7b", "generator": "probe", "concept_id": "probe_equilibrium", "subject": "Chemistry", "grade": 11, "ranks": {"vague": 3, "decent": 2, "good": 1, "wrong": 4}, "raw": "C: 1\nB: 2\nA: 3\nD: 4"}

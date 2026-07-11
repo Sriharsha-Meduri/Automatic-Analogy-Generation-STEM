@@ -1,0 +1,21 @@
+# LaTeX build artifacts (the compiled paper/main.pdf is kept; these regenerate on build)
+paper/*.aux
+paper/*.log
+paper/*.out
+paper/*.blg
+paper/*.bbl
+paper/*.synctex.gz
+paper/compile.log
+paper/bibtex.log
+
+# Python
+__pycache__/
+*.pyc
+
+# stray local download logs (not research artifacts)
+ollama_pull.log
+pull2.log
+serve*.log
+
+# manuscript kept out of the public repo
+paper/

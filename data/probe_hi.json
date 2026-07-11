@@ -1,0 +1,57 @@
+[
+  {
+    "id":"probe_ohm","subject":"Physics","grade":10,"generator":"probe",
+    "concept":"ओम का नियम और विद्युत प्रतिरोध",
+    "standard_explanation":"ओम का नियम कहता है कि current, voltage के directly proportional और resistance के inversely proportional होती है (V = I R)। fixed voltage पर ज़्यादा resistance का मतलब कम current।",
+    "analogies":{
+      "good":"Voltage एक pipe में पानी के दबाव जैसा है, current पानी के बहने की दर जैसा, और resistance यह कि pipe कितनी पतली है: किसी fixed दबाव पर पतली pipe (ज़्यादा resistance) कम पानी बहने देती है, इसलिए current कम रहती है।",
+      "decent":"एक circuit एक गलियारे में चलते लोगों जैसा है। Voltage यह है कि उन्हें पीछे से कितनी ज़ोर से धकेला जा रहा है और resistance यह कि गलियारा कितना सँकरा है, तो सँकरा गलियारा हर सेकंड कम लोगों को गुज़रने देता है।",
+      "vague":"बिजली थोड़ी नदी जैसी है: यह बस एक जगह से दूसरी जगह बहती रहती है, जिधर ज़मीन उसे ले जाए।",
+      "wrong":"Resistance circuit में एक extra battery जोड़ने जैसा है। जितना ज़्यादा resistance जोड़ोगे, वह charges को उतना ही ज़्यादा धक्का देगा, इसलिए ज़्यादा resistance हमेशा ज़्यादा current बहाता है।"
+    }
+  },
+  {
+    "id":"probe_newton3","subject":"Physics","grade":9,"generator":"probe",
+    "concept":"न्यूटन का तीसरा गति-नियम",
+    "standard_explanation":"जब कोई वस्तु दूसरी पर बल लगाती है, तो दूसरी भी पहली पर बराबर और विपरीत बल लगाती है। ये बल अलग-अलग वस्तुओं पर लगते हैं, इसलिए cancel नहीं होते।",
+    "analogies":{
+      "good":"जब तुम किसी छोटी नाव से घाट पर कूदते हो, तो तुम नाव को पीछे धकेलते हो और नाव तुम्हें बराबर बल से आगे धकेलती है। दोनों बल बराबर और विपरीत हैं पर अलग-अलग चीज़ों पर लगते हैं, इसीलिए तुम एक ओर जाते हो और नाव दूसरी ओर।",
+      "decent":"नाव खेना इसे अच्छे से दिखाता है: चप्पू पानी को पीछे धकेलता है, और पानी चप्पू को, और इस तरह नाव को, उतने ही बल से आगे धकेलता है।",
+      "vague":"हर action का एक reaction होता है, तो ज़िंदगी में चीज़ें हमेशा किसी न किसी रूप में लौटकर आती हैं, cause और effect की एक शृंखला की तरह।",
+      "wrong":"किसी भी धक्के में action बल हमेशा reaction बल से थोड़ा ज़्यादा होता है, और यही बचा हुआ अतिरिक्त बल वस्तु को चलाना शुरू करता है।"
+    }
+  },
+  {
+    "id":"probe_probability","subject":"Mathematics","grade":10,"generator":"probe",
+    "concept":"स्वतंत्र घटनाओं की प्रायिकता",
+    "standard_explanation":"दो घटनाएँ independent तब होती हैं जब एक का परिणाम दूसरे को प्रभावित न करे। ऐसी घटनाओं के दोनों के एक साथ होने की probability उनकी अलग-अलग probabilities का गुणनफल होती है।",
+    "analogies":{
+      "good":"दो independent घटनाएँ एक साथ सिक्का उछालने और पासा फेंकने जैसी हैं: सिक्के का heads आना पासे को नहीं बदलता, इसलिए heads और six दोनों पाने के लिए तुम chances को गुणा करते हो, यानी आधा गुणा एक-बटा-छह।",
+      "decent":"Independent घटनाएँ अलग-अलग खड़ी दो vending machines जैसी हैं: एक machine जो देती है उसका दूसरी पर कोई असर नहीं, इसलिए किसी खास जोड़ी के मिलने की probability दोनों chances को गुणा करके मिलती है।",
+      "vague":"Probability यह अंदाज़ा लगाने जैसी है कि कल क्या होगा: कुछ चीज़ें ज़्यादा संभव होती हैं और तुम कभी पूरी तरह निश्चित नहीं हो सकते।",
+      "wrong":"दो independent घटनाओं के लिए तुम उनकी probabilities को जोड़ते हो, तो heads (आधा) और six (एक-बटा-छह) पाने की probability आधा जमा एक-बटा-छह यानी दो-तिहाई होती है।"
+    }
+  },
+  {
+    "id":"probe_photosynthesis","subject":"Biology","grade":10,"generator":"probe",
+    "concept":"प्रकाश-संश्लेषण",
+    "standard_explanation":"हरे पौधे chlorophyll से सोखी प्रकाश-ऊर्जा से carbon dioxide और पानी को glucose और oxygen में बदलते हैं, और प्रकाश-ऊर्जा को glucose में रासायनिक ऊर्जा के रूप में संचित करते हैं।",
+    "analogies":{
+      "good":"एक पत्ती एक छोटी solar-powered रसोई जैसी है: यह सूरज की रोशनी को ऊर्जा-स्रोत बनाकर carbon dioxide और पानी को शक्कर में पकाती है, और इस पकाने के by-product के रूप में oxygen छोड़ती है।",
+      "decent":"Photosynthesis solar panel से battery चार्ज करने जैसा है: पौधा सूरज की ऊर्जा को पकड़कर उसे रासायनिक रूप (शक्कर) में बाद के लिए संचित कर लेता है।",
+      "vague":"पौधे जीवित चीज़ों जैसे हैं जो तब बड़े और हरे होते हैं जब तुम उन्हें धूप में रखना और पानी देना याद रखते हो।",
+      "wrong":"Photosynthesis में पौधा oxygen और सूरज की रोशनी अंदर लेता है और अपनी शक्कर जलाकर carbon dioxide छोड़ता है, और इसी तरह वह रोशनी से अपनी ऊर्जा बनाता है।"
+    }
+  },
+  {
+    "id":"probe_equilibrium","subject":"Chemistry","grade":11,"generator":"probe",
+    "concept":"गतिक रासायनिक साम्य (Dynamic equilibrium)",
+    "standard_explanation":"किसी उत्क्रमणीय अभिक्रिया के equilibrium पर forward और backward reactions बराबर दर से चलती हैं, इसलिए reactants और products की मात्रा स्थिर रहती है जबकि दोनों reactions जारी रहती हैं।",
+    "analogies":{
+      "good":"Equilibrium एक भीड़-भरे दो-तरफ़ा पैदल-पुल जैसा है जहाँ लोग दोनों दिशाओं में ठीक बराबर दर से पार करते हैं: हर ओर की संख्या स्थिर रहती है, भले ही लोग लगातार पार करते रहें।",
+      "decent":"यह एक साथ चलती ऊपर-जाती और नीचे-आती escalator जैसा है: हर मिनट जितने लोग ऊपर जाते हैं उतने ही नीचे आते हैं, इसलिए हर मंज़िल पर लोगों की संख्या लगभग वही रहती है।",
+      "vague":"Equilibrium थोड़ा एक seesaw जैसा है जो सब कुछ ठीक और संतुलित होने पर आख़िरकार बीच में सीधा हो जाता है।",
+      "wrong":"Equilibrium पर forward और backward दोनों reactions पूरी तरह रुक चुकी होती हैं, इसलिए mixture में अब कुछ नहीं हो रहा होता और chemicals बस वैसे ही पड़े रहते हैं।"
+    }
+  }
+]

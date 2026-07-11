@@ -1,0 +1,170 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "analogies": {
+      "free": "It's like when you push against a wall door; the force you apply pushes back on you equally hard, keeping you from moving through the door and ensuring the door stays where it is.",
+      "everyday": "Imagine you're pushing open a door with your hand. The force you apply pushes the door towards you, but according to Newton's third law, the door is also applying an equal and opposite force on your hand, making it feel like it’s trying to push you away.",
+      "sports": "Imagine two players in a tug-of-war contest. One player pulls with all their strength towards the center, while the other pushes back just as hard but in the opposite direction. They exert forces on each other, but those forces are balanced by the opposing pull of the rope and gravity, so neither player moves relative to the other. But if you were to look at it from above, you'd see both players pushing and pulling with equal strength, yet they don't cancel out because they act on different parts of their bodies.",
+      "cooking": "Imagine you're mixing dough in a bowl. You apply force with your hands to push down and squeeze the dough into shape. Simultaneously, the dough pushes back against your hands with an equal but opposite force, keeping them from sinking or flying away. These forces are always acting on different objects - your hands and the dough, not on the same hand."
+    },
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ],
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "analogies": {
+      "free": "Resistance is like plumbing in a house; higher resistance acts as clogs and valves that restrict water flow just as much as they allow. Just as adding more pipes can increase water flow by reducing friction and opposition to water movement, increasing resistance opposes or slows down current flow in circuits.",
+      "everyday": "Ohm's law is like water flowing through a pipe: Voltage is the pump pushing the water, current is how fast the water flows, and resistance is the thickness of the pipe. A thicker pipe (higher resistance) means less water can flow at any given pump pressure (lower current).",
+      "sports": "Ohm's law is like a water hose where the pressure (voltage) is constant, but the flow rate (current) depends on how narrow or wide open the nozzle (resistance) is - wider means more water comes out, narrower means less.",
+      "cooking": "Ohm's law is like adjusting the seasoning in a recipe: just as too much salt makes your food unpalatable (increasing resistance), but adding too little leaves you unsatisfied (insufficient current for the desired voltage), so in an electrical circuit, if there’s not enough resistance to counterbalance the applied voltage (like needing more salt to taste), the flow of “flavor” (current) won’t be strong enough. If there’s already too much resistance (too much salt), even with a high voltage push (lots of seasoning), you’ll still end up with a bland dish (no current)."
+    },
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ],
+    "generator": "qwen2.5:3b"
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "analogies": {
+      "free": "Imagine flipping a coin and then rolling a die. The outcome of whether you get heads or tails on the coin flip doesn't change the chances of getting any number on the die roll. These are independent events. Now, if we know there's a 1/2 chance of getting heads (probability) with our coin, and a 1/6 chance for each number on the die, then together, flipping heads and rolling a 4 has a combined probability of 1/2 x 1/6 = 1/12. It's like stacking layers where each layer represents one event happening independently.",
+      "everyday": "Imagine you have a deck of cards where every time you draw a card, you put it back and shuffle again. The probability of drawing a specific suit like hearts or diamonds is 1/4 because there are four suits in a deck. Now, if drawing a heart doesn't affect the next card drawn, which also has an independent chance of being a heart (still 1/4), then finding both cards as hearts would be like flipping two fair coins; you multiply their probabilities to get 1/4 x 1/4 = 1/16.",
+      "sports": "Imagine you're playing a game where you roll two dice: one red and one blue. The probability of rolling a six on each die is independent of the other because the outcome of one die doesn't affect the other. If the red die has a 1/6 chance of landing on six, and the blue die also has a 1/6 chance, then the combined probability of both dice showing six in one roll is 1/6 times 1/6, or 1/36—just like multiplying probabilities for independent events.",
+      "cooking": "Imagine you're making a cake and you need two ingredients: sugar and eggs. The probability of getting sugar in your bag is like finding a favourable outcome (sugar), while all the other items are equally likely to be in your bag (total number of outcomes). Now, if egg-laying chickens were also part of your kitchen, the chance of picking an egg isn't affected by whether you already found sugar. That's independent events — getting sugar doesn’t change the likelihood of finding an egg. So, just like multiplying the chances of choosing both ingredients separately gives you the total probability of getting them together in one bag, we multiply the probabilities of two independent events to find their combined likelihood."
+    },
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ],
+    "generator": "qwen2.5:3b"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "id": "phy_newton3",
+    "subject": "Physics",
+    "grade": 9,
+    "concept": "Newton's third law of motion",
+    "standard_explanation": "Newton's third law states that whenever one object exerts a force on a second object, the second object exerts a force of equal magnitude and opposite direction on the first. These two forces are called an action-reaction pair. They always act on two different objects, never on the same object, which is why they do not cancel each other out.",
+    "analogies": {
+      "eli12": "Imagine you are on a skateboard and you push hard against a wall. The wall pushes you back just as hard, and you roll away. You pushed the wall, but it was the wall's push on you that made you move. Every push comes with an equal push back.",
+      "sports": "When a swimmer pushes the water backward with their hands and feet, the water pushes the swimmer forward with an equal force. The swimmer never touches the finish line directly; they move only because the water shoves back exactly as hard as they shove it.",
+      "cooking": "Press a lump of dough down onto the counter and the counter presses back up into the dough with the same force, which is why the dough flattens rather than sinking through. Your hand and the counter push on each other equally and in opposite directions.",
+      "everyday": "When you step off a small boat onto a dock, the boat slides backward as you step forward. Your foot pushes the boat back, and the boat pushes you forward by the same amount, so both of you move in opposite directions."
+    },
+    "questions": [
+      {
+        "q": "A rocket in empty space has no air to push against. How does it still accelerate forward?",
+        "options": {
+          "A": "It pushes hot gas backward, and the gas pushes the rocket forward with equal force",
+          "B": "It pushes against the vacuum of space",
+          "C": "Gravity from distant stars pulls it forward",
+          "D": "It cannot accelerate without air"
+        },
+        "answer": "A"
+      },
+      {
+        "q": "A book rests on a table. The table pushes up on the book. By Newton's third law, the reaction to this force is:",
+        "options": {
+          "A": "The Earth's gravity pulling the book down",
+          "B": "The book pushing down on the table",
+          "C": "The weight of the book",
+          "D": "The table pushing down on the floor"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do action and reaction forces not cancel out to give zero motion?",
+        "options": {
+          "A": "They are unequal in size",
+          "B": "One is always larger than the other",
+          "C": "They act on two different objects, not the same one",
+          "D": "Reaction forces are imaginary"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "A large truck collides head-on with a small car. Compared with the force the truck exerts on the car, the force the car exerts on the truck is:",
+        "options": {
+          "A": "Smaller, because the car is lighter",
+          "B": "Equal in magnitude and opposite in direction",
+          "C": "Larger, because the car stops suddenly",
+          "D": "Zero, because the car is pushed backward"
+        },
+        "answer": "B"
+      }
+    ]
+  },
+  {
+    "id": "phy_ohm",
+    "subject": "Physics",
+    "grade": 10,
+    "concept": "Ohm's law and electrical resistance",
+    "standard_explanation": "Ohm's law states that the current flowing through a conductor is directly proportional to the voltage across it and inversely proportional to its resistance, written as V = I R. Voltage is the electrical push, current is the rate of flow of charge, and resistance opposes that flow. For a fixed voltage, a higher resistance means a smaller current.",
+    "analogies": {
+      "eli12": "Think of water in a pipe. Voltage is how hard the water is being pushed, current is how much water flows each second, and resistance is how narrow the pipe is. Push harder and more water flows; make the pipe narrower and less water flows.",
+      "sports": "Picture runners on a track. Voltage is the starting whistle urging them on, current is how many runners cross the line each second, and resistance is a set of hurdles. Add more hurdles and fewer runners get through per second, even with the same loud whistle.",
+      "cooking": "Imagine squeezing sauce through a piping bag. How hard you squeeze is the voltage, how much sauce comes out per second is the current, and a narrow nozzle is the resistance. A narrower nozzle lets out less sauce for the same squeeze.",
+      "everyday": "Think of people leaving a stadium through doors. The crowd's eagerness to leave is the voltage, the number of people passing per second is the current, and narrow doorways are the resistance. Narrower doors let fewer people out per second."
+    },
+    "questions": [
+      {
+        "q": "A device is connected to a fixed 12 V supply. If its resistance is doubled, the current through it will:",
+        "options": {
+          "A": "Double",
+          "B": "Stay the same",
+          "C": "Halve",
+          "D": "Become zero"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Two wires are connected to the same battery. Wire X carries more current than wire Y. What can you conclude?",
+        "options": {
+          "A": "Wire X has higher resistance",
+          "B": "Wire X has lower resistance",
+          "C": "Wire X has higher voltage across it",
+          "D": "Nothing, current does not depend on resistance"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "In the water-pipe picture of a circuit, what does electrical resistance correspond to?",
+        "options": {
+          "A": "How hard the water is pushed",
+          "B": "How much water flows per second",
+          "C": "How narrow the pipe is",
+          "D": "The total amount of water"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "To increase the current in a circuit without changing the resistance, you should:",
+        "options": {
+          "A": "Increase the voltage",
+          "B": "Decrease the voltage",
+          "C": "Add more resistance",
+          "D": "Disconnect the battery"
+        },
+        "answer": "A"
+      }
+    ]
+  },
+  {
+    "id": "mat_probability",
+    "subject": "Mathematics",
+    "grade": 10,
+    "concept": "Basic probability of independent events",
+    "standard_explanation": "The probability of an event is the number of favourable outcomes divided by the total number of equally likely outcomes, giving a value between 0 and 1. Two events are independent when the outcome of one does not affect the other. For independent events, the probability that both happen is found by multiplying their individual probabilities.",
+    "analogies": {
+      "eli12": "Think of two separate bags of marbles. Picking a red marble from the first bag does not change what is in the second bag. To find the chance of red from both, you multiply the chance from each bag, because the two picks do not talk to each other.",
+      "sports": "Imagine taking two penalty kicks. Whether the first goes in does not change your chance on the second. To find the chance of scoring both, you multiply the two separate chances, since each kick stands on its own.",
+      "cooking": "Picture flipping two pancakes. Whether the first lands neatly does not affect the second flip. The chance both land perfectly is the chance for one times the chance for the other, because each flip is its own event.",
+      "everyday": "Think of two different traffic lights on separate roads. One being red does not change the other. The chance both are red when you reach them is the chance of each being red multiplied together, since the lights are unconnected."
+    },
+    "questions": [
+      {
+        "q": "You flip a fair coin and roll a fair six-sided die. What is the probability of getting heads AND a 6?",
+        "options": {
+          "A": "1/2",
+          "B": "1/6",
+          "C": "1/12",
+          "D": "1/8"
+        },
+        "answer": "C"
+      },
+      {
+        "q": "Events A and B are independent. Which statement is true?",
+        "options": {
+          "A": "If A happens, B becomes more likely",
+          "B": "The outcome of A does not affect the probability of B",
+          "C": "A and B cannot both happen",
+          "D": "P(A and B) = P(A) + P(B)"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "The chance of rain today is 0.2 and, independently, the chance your bus is late is 0.5. The chance of both is:",
+        "options": {
+          "A": "0.7",
+          "B": "0.1",
+          "C": "0.5",
+          "D": "0.25"
+        },
+        "answer": "B"
+      },
+      {
+        "q": "Why do we multiply probabilities for two independent events rather than add them?",
+        "options": {
+          "A": "Because addition is only for impossible events",
+          "B": "Because we want the chance that both occur together, narrowing the outcomes",
+          "C": "Because multiplication always gives a larger number",
+          "D": "Because the events affect each other"
+        },
+        "answer": "B"
+      }
+    ]
+  }
+]
