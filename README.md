@@ -47,9 +47,10 @@ research questions:
 - **Comprehension gains come from explanation, not analogy.** A plain explanation lifts the
   weakest student model's accuracy by about 16 points; adding an analogy on top yields no
   reliable gain for any student.
-- **The tooling is English-first.** In Hindi the no-effect finding replicates, but the
-  automated evaluation degrades sharply: rubric output parses only 35% of the time (versus 97%
-  in English) and the judges catch the wrong analogy only 58% of the time (versus 100%).
+- **The tooling is English-first.** In Hindi the no-effect finding appears to hold, though the
+  automated evaluation degrades so sharply that we read this as tentative rather than a firm
+  replication: rubric output parses only 35% of the time (versus 97% in English) and the judges
+  catch the wrong analogy only 58% of the time (versus 100%).
 
 Full numbers, statistics, and caveats are documented in the analysis scripts and the raw
 outputs under `results/`; the manuscript is maintained separately.
