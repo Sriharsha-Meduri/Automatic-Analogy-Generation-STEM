@@ -5,7 +5,7 @@ paper/*.out
 paper/*.blg
 paper/*.bbl
 paper/*.synctex.gz
-paper/compile.log
+paper/compile*.log
 paper/bibtex.log
 
 # Python
@@ -17,5 +17,5 @@ ollama_pull.log
 pull2.log
 serve*.log
 
-# manuscript kept out of the public repo
-paper/
+# arXiv submission staging folder (redundant with paper/ + figures/; the .zip is kept)
+arxiv_submission/

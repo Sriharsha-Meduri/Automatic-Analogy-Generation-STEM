@@ -7,7 +7,9 @@ Sriharsha Meduri, Mohit Pratap Singh Rathore, and Gunveer Kalsi (Oviqo)
 This repository contains the code, dataset, and raw model outputs for a study of how to prompt
 language models for good STEM teaching analogies, and how to evaluate analogy quality
 automatically using only small open models on a single consumer GPU (an NVIDIA GTX 1650, 4 GB),
-with no paid API and no human annotation in the loop. The manuscript itself is not included here.
+with no paid API and no human annotation in the loop. The manuscript (LaTeX source and compiled
+PDF) is in [`paper/`](paper/), and the ready-to-upload arXiv source package is
+`analogy_arxiv_submission.zip`.
 
 ## What the study does
 

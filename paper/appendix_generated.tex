@@ -1,0 +1,69 @@
+\section{The SAQR rubric in full}\label{app:rubric}
+Each dimension is scored from 1 to 5 (1 = absent/poor, 2 = weak, 3 = adequate, 4 = good, 5 = excellent). Use the full range; reserve 5 for genuinely excellent cases and give low scores where the analogy is weak.
+
+\paragraph{Conceptual accuracy (\texttt{conceptual\_accuracy}).} Does the analogy map correctly onto the target concept, so that the important relationships in the concept correspond to matching relationships in the analogy?
+\emph{1:} The analogy is wrong or maps to the wrong idea; following it would teach an incorrect concept. \quad \emph{3:} The analogy captures the main relationship correctly, with minor gaps. \quad \emph{5:} The analogy maps the key relationships of the concept faithfully and precisely.
+
+\paragraph{Clarity (\texttt{clarity}).} Would a school student find the analogy easy to follow, and does it actually make the concept easier to grasp than the bare explanation?
+\emph{1:} Confusing or harder to follow than the concept itself. \quad \emph{3:} Clear and does help understanding. \quad \emph{5:} Immediately clear and noticeably illuminates the concept.
+
+\paragraph{Memorability (\texttt{memorability}).} Is the analogy vivid, concrete, and relatable enough that a student is likely to remember it and, through it, the concept?
+\emph{1:} Bland or abstract; nothing to hold onto. \quad \emph{3:} Concrete and reasonably sticky. \quad \emph{5:} Vivid, concrete, and highly memorable.
+
+\paragraph{Absence of misleading simplification (\texttt{non\_misleading}).} Does the analogy avoid introducing misconceptions? A good analogy either does not break down in a harmful way, or its limits are not likely to mislead a student.
+\emph{1:} Introduces a clear misconception a student would plausibly carry away. \quad \emph{3:} Mostly safe; minor over-simplification unlikely to mislead. \quad \emph{5:} No misleading simplification; the analogy breaks down only in ways a student would not over-extend.
+
+\paragraph{Overall usefulness (\texttt{overall\_usefulness}).} All things considered, how useful is this analogy for teaching this concept to a school student?
+\emph{1:} Not useful; better to omit it. \quad \emph{3:} Useful; a fair teacher would include it. \quad \emph{5:} Highly useful; a strong teaching aid.
+
+\section{Concept dataset}\label{app:concepts}
+The 32 concepts, balanced across four subjects and grades 8--12. Concepts marked $\star$ carry the four-option multiple-choice items used in the comprehension study.
+\begin{center}\small
+\begin{tabular}{llcl}
+\toprule
+ID & Subject & Grade & Concept \\ \midrule
+bio\_osmosis & Biology & 9 & Osmosis across a semipermeable membrane $\star$ \\
+bio\_enzyme & Biology & 10 & Enzymes as biological catalysts $\star$ \\
+bio\_photosynthesis & Biology & 10 & Photosynthesis  \\
+bio\_homeostasis & Biology & 11 & Homeostasis and negative feedback $\star$ \\
+bio\_mitosis & Biology & 11 & Mitosis (cell division)  \\
+bio\_neuron & Biology & 11 & Nerve impulse and the action potential  \\
+bio\_dna\_replication & Biology & 12 & DNA replication  \\
+bio\_natural\_selection & Biology & 12 & Natural selection $\star$ \\
+che\_mole & Chemistry & 9 & The mole as a counting unit $\star$ \\
+che\_covalent\_bond & Chemistry & 10 & Covalent bonding  \\
+che\_exothermic & Chemistry & 10 & Exothermic and endothermic reactions  \\
+che\_ph & Chemistry & 10 & The pH scale for acids and bases $\star$ \\
+che\_catalyst & Chemistry & 11 & Catalysts and activation energy $\star$ \\
+che\_equilibrium & Chemistry & 11 & Dynamic chemical equilibrium $\star$ \\
+che\_ideal\_gas & Chemistry & 11 & The ideal gas law  \\
+che\_redox & Chemistry & 11 & Oxidation and reduction (redox)  \\
+mat\_slope & Mathematics & 9 & Slope of a straight line $\star$ \\
+mat\_probability & Mathematics & 10 & Basic probability of independent events $\star$ \\
+mat\_derivative & Mathematics & 11 & The derivative as an instantaneous rate of change $\star$ \\
+mat\_function & Mathematics & 11 & Functions, domain and range  \\
+mat\_logarithm & Mathematics & 11 & Logarithms  \\
+mat\_vectors & Mathematics & 11 & Vectors as magnitude and direction  \\
+mat\_integral & Mathematics & 12 & The definite integral as accumulated area $\star$ \\
+mat\_matrix & Mathematics & 12 & Matrices and matrix multiplication  \\
+phy\_pressure & Physics & 8 & Pressure as force per unit area  \\
+phy\_newton3 & Physics & 9 & Newton's third law of motion $\star$ \\
+phy\_ohm & Physics & 10 & Ohm's law and electrical resistance $\star$ \\
+phy\_refraction & Physics & 10 & Refraction of light  \\
+phy\_gravitation & Physics & 11 & Newton's law of universal gravitation  \\
+phy\_momentum & Physics & 11 & Momentum and its conservation  \\
+phy\_resonance & Physics & 11 & Resonance in oscillating systems $\star$ \\
+phy\_induction & Physics & 12 & Electromagnetic induction (Faraday's law) $\star$ \\
+\bottomrule
+\end{tabular}
+\end{center}
+\section{Prompts}\label{app:prompts}
+\paragraph{Analogy generation (system).} \small\ttfamily You are an expert STEM teacher. You explain a concept with ONE vivid analogy that a school student (Class 8 to 12) can understand. The analogy must be scientifically faithful: the important relationships in the concept must correspond to matching relationships in the analogy. Do not teach a misconception for the sake of simplicity.\normalfont\normalsize
+\paragraph{Generation strategy instructions.}\begin{itemize}\setlength\itemsep{0pt}
+\item \textbf{free}: Use the single best analogy you can think of, from any source domain.
+\item \textbf{everyday}: Use an analogy drawn from ordinary everyday life (the home, daily routines, common objects).
+\item \textbf{sports}: Use an analogy drawn from sports, games, or physical play.
+\item \textbf{cooking}: Use an analogy drawn from cooking, baking, or the kitchen.
+\end{itemize}
+\paragraph{Comparative ranking (system).} \small\ttfamily You are an experienced STEM teacher comparing teaching analogies. You will see several analogies for the SAME concept, each labelled with a letter. Rank them from best to worst as teaching aids for a school student (Class 8 to 12), judging conceptual accuracy, clarity, and whether they mislead. Output ONLY lines of the form 'LETTER: rank', one per analogy, where 1 is best. Use each rank exactly once. No commentary.\normalfont\normalsize
+\paragraph{Absolute rubric scoring (system).} \small\ttfamily You are an experienced STEM teacher evaluating a teaching analogy on a fixed rubric. Score each dimension from 1 to 5 as a whole number, using the full range: 1 is poor, 3 is adequate, 5 is excellent. Do not give every dimension the same high score; discriminate. Output ONLY lines of the form 'dimension\_key: score', one per dimension, no commentary.\normalfont\normalsize
