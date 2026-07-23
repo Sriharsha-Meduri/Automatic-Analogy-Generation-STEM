@@ -27,16 +27,19 @@ practical upshot: a plain explanation lifts the weakest model's accuracy by roug
 points, but adding an analogy on top yields no measurable gain over the explanation for any of
 them.}
 
-\title{\bfseries Automatic Analogy Generation for STEM Education:\\
-Prompting Strategies and the Limits of Automated Quality Evaluation}
+\title{\bfseries Generating and Evaluating STEM Teaching Analogies with Small Language Models}
 
-\author{\textbf{Sriharsha Meduri} \quad Mohit Pratap Singh Rathore \quad Gunveer Kalsi \\[3pt]
-  \small Oviqo \\[2pt]
+\author{\textbf{Sriharsha Meduri}\textsuperscript{a} \quad Mohit Pratap Singh Rathore\textsuperscript{a} \quad
+  Gunveer Kalsi\textsuperscript{a} \quad Pratap Chandra Mandal\textsuperscript{b} \\[3pt]
+  \small \textsuperscript{a}Oviqo \qquad \textsuperscript{b}Indian Institute of Management Shillong \\[2pt]
   \small Correspondence: \texttt{sriharshameduri07@gmail.com}}
 \date{\today}
 
 \begin{document}
+\pagenumbering{arabic}
+\pagestyle{plain}
 \maketitle
+\thispagestyle{plain}
 
 \begin{abstract}
 \noindent
@@ -50,18 +53,15 @@ analogies under four source-domain strategies (unconstrained, everyday, sports,
 cooking), and a four-model panel evaluates each with a purpose-built five-dimension
 rubric (SAQR). Because small models score leniently and inconsistently, we take
 \emph{comparative ranking} as the primary signal and validate the panel against
-planted analogies of known quality. Constraining the source domain confers no quality
+planted analogies of known quality. Constraining the source domain confers no
 advantage over unconstrained generation: equivalence tests place all four strategies
-within a small margin, and the two protocols' mild orderings point in opposite
-directions, which we trace to a verbosity bias. Judged quality is highly predictable
-($R^2 = 0.72$) but mainly from length and subject, not strategy. The panel reliably
-screens out planted-wrong analogies yet barely agrees when ranking good ones; a plain
+within a small margin. Judged quality is highly predictable ($R^2 = 0.72$), but from
+length and subject, not strategy, a verbosity bias we quantify. The panel screens out
+planted-wrong analogies almost perfectly yet barely agrees when ranking good ones; a plain
 explanation lifts weak students' accuracy while an added analogy does not; and a preliminary Hindi
-replication is consistent with the same finding, while the automated evaluation itself does not
-carry over.
-A judge twice the panel's size sheds the verbosity bias entirely and resolves a small
-significant advantage for unconstrained generation, so the equivalence is partly the small
-panel's own limitation. The paper contributes a reusable, fully automated, reproducible
+replication is consistent, though the automated evaluation does not carry over. A judge twice the
+panel's size sheds the verbosity bias and resolves a small but significant advantage for
+unconstrained generation, so the equivalence partly reflects the small panel's own limitation. The paper contributes a reusable, fully automated, reproducible
 protocol and a candid account of automated evaluation's failure modes and their mitigations.
 \end{abstract}
 
@@ -126,26 +126,64 @@ prerequisite for the questions we ask here.
     judging analogies outside English?
 \end{description}
 
-\paragraph{Contributions.}
-\begin{enumerate}[leftmargin=1.6em]
-  \item A fully automated, reproducible protocol for generating STEM analogies
-    under controlled prompting strategies and evaluating them with a panel of
-    small open models on a single consumer GPU, with no paid API or human
-    annotation in the loop.
-  \item The STEM Analogy Quality Rubric (SAQR), a five-dimension rubric for
-    instructional analogies, together with a \emph{judge-validation probe} of
-    planted known-quality analogies that objectively tests whether an automated
-    judge can tell good analogies from bad ones.
-  \item Empirical findings on prompting strategy (no reliable source-domain
-    effect), on what the automated judges actually reward (surface length and
-    subject, a known judge bias that we quantify in this instructional setting),
-    on how an added analogy interacts with a proxy student's capability, and on
-    how far all of these carry into Hindi rather than only English.
-  \item A candid account of two failure modes of automated evaluation (student
-    ceiling effects, and lenient, position-biased judges) and the mitigations
-    (weak-student gradients, comparative ranking, label shuffling, probe
-    validation) that keep the protocol honest.
-\end{enumerate}
+\paragraph{Research objectives.} Each question is paired with a research objective (RO) that
+operationalises it, so that every objective is answered by a specific analysis reported later in
+the paper.
+\begin{description}[leftmargin=2.2em,style=nextline]
+  \item[RO1.] To measure and compare, with an automated multi-model panel, the instructional
+    quality of analogies generated under different source-domain prompting strategies
+    (addresses RQ1; Section~\ref{sec:results:rq1}).
+  \item[RO2.] To audit the automated judges by predicting their scores from cheap features and
+    quantifying the biases, such as verbosity, that threaten automated quality measurement
+    (addresses RQ2; Section~\ref{sec:results:rq2}).
+  \item[RO3.] To test whether an added analogy improves a proxy student model's answers to
+    conceptual questions, and how this depends on the student's capability
+    (addresses RQ3; Section~\ref{sec:results:rq3}).
+  \item[RO4.] To assess how far both the generation findings and the automated-evaluation protocol
+    transfer from English to Hindi, a mid-resource language
+    (addresses RQ4; Section~\ref{sec:results:rq4}).
+\end{description}
+
+\paragraph{Contributions.} We organise the contributions along three pillars: academic and
+research, industry and managerial, and society.
+
+\emph{Academic and research.} (i)~The STEM Analogy Quality Rubric (SAQR), a five-dimension rubric
+for instructional analogies grounded in the learning-sciences literature, together with a
+\emph{judge-validation probe} of planted known-quality analogies that objectively tests whether an
+automated judge can tell good analogies from bad ones. (ii)~Empirical findings on prompting strategy
+(no reliable source-domain effect), on what the automated judges actually reward (surface length and
+subject, a bias we quantify in this instructional setting), on how an added analogy interacts with a
+proxy student's capability, and on how far these carry into Hindi rather than only English.
+(iii)~A candid account of two failure modes of automated evaluation (student ceiling effects, and
+lenient, position-biased judges) and the mitigations (weak-student gradients, comparative ranking,
+label shuffling, probe validation) that keep the protocol honest.
+
+\emph{Industry and managerial.} A fully automated, reproducible protocol for generating and
+screening STEM analogies with small open models on a single consumer GPU, with no paid API or human
+annotation, that an educational-technology team or a content pipeline can adopt directly. It yields
+actionable guidance: let a capable model choose the analogy's domain rather than engineering
+source-domain constraints, treat a small-model panel as a cheap \emph{screen} rather than a
+fine-grained ranker and validate it against known-quality anchors, and scale the judge only when
+finer discrimination is needed.
+
+\emph{Society.} By requiring neither paid services nor specialised hardware, the protocol lowers the
+barrier for resource-constrained teachers, schools, and education regulators to vet automatically
+generated teaching material before it reaches learners. The Hindi study also surfaces an equity
+concern with practical weight: at this model scale automated evaluation is an English-first tool, so
+learners and educators working in mid-resource languages are currently underserved, which we name as
+a target for the field.
+
+\paragraph{How this study differs from prior work.} SAQR is a new rubric we introduce for this
+problem, not a pre-existing standard, and the study as a whole occupies a combination that earlier
+work does not. Prior evaluations of language-model-generated analogies either rely on human raters or
+paid frontier judges \citep{shao2025unlocking,zheng2023judging}, target analogy \emph{identification
+or solving} rather than the quality of instructional \emph{generation}
+\citep{jiayang2023storyanalogy,ye2024analobench}, or report judge scores without testing whether the
+judge can actually distinguish good analogies from bad. We instead evaluate instructional generation
+with a purpose-built rubric using only small open models, and we validate the judges against planted
+known-quality analogies, quantify their biases, tie quality to a comprehension outcome across a
+student-capability gradient, and test transfer to Hindi, while being explicit about where the
+automation fails. It is this combination, not any single component, that is new.
 
 \section{Related Work}
 \label{sec:related}
@@ -337,6 +375,17 @@ when interpreting the result.
 
 \subsection{Cross-lingual replication in Hindi (RQ4)}
 \label{sec:method:hindi}
+Hindi is among the world's most widely spoken languages, with several hundred million speakers, and
+is the most widely spoken language of India; for natural language processing it is nonetheless a
+\emph{mid-resource} language, with far less training data and tooling than English. We focus on it
+for three reasons. First, equity: a large share of STEM teaching in India and the wider Global South
+takes place in Hindi and other regional languages, so an analogy generation and screening tool that
+works only in English would leave those learners and teachers behind. Second, stringency: replicating
+the pipeline in a lower-resource language is a demanding test of whether the automated protocol
+generalises beyond English or merely reflects the abundance of English training data. Third, realism:
+Indian STEM classrooms routinely use a code-mixed register (Hindi grammar with English technical
+terms), which we adopt rather than an artificially pure Hindi.
+
 To test whether the English picture is language-specific, and how far small open models cope
 with a mid-resource language, we replicate the whole generation-and-evaluation pipeline in
 Hindi on a paired subset of 20 concepts (five per subject). The concepts are written in the
@@ -726,67 +775,104 @@ these steps requires a paid API or a human rater, which makes the protocol cheap
 use as a first-pass filter in an actual content pipeline, with humans reserved for the
 close calls the automated panel cannot resolve.
 
+\paragraph{Implications for educational practice and technology.} For the different stakeholders in
+education, the results translate into concrete guidance. For a \emph{teacher} or content author the
+message is permissive: a capable model's own choice of analogy domain is, on average, as good as a
+hand-specified one, so effort is better spent curating and checking a few candidates than engineering
+elaborate ``use a sports analogy'' prompts. For an \emph{educational-technology team} building an
+analogy feature, a panel of small open models is a usable and essentially free quality \emph{gate}: it
+reliably filters out wrong and misleading analogies before they reach a learner, and its cost profile
+(no paid API, one commodity GPU) makes it deployable at scale, provided it is treated as a screen and
+validated against known-quality anchors rather than trusted as a fine-grained ranker. For an
+\emph{institution or regulator} vetting automatically generated material, the study offers both a
+reusable rubric and a candid map of where automated evaluation is trustworthy (catching clear errors)
+and where it is not (splitting hairs among already-good analogies, or working outside English). And
+for \emph{learners in mid-resource languages}, the Hindi result is a caution: the same automated
+safeguards that protect English content do not yet transfer, so human oversight remains essential
+wherever the tooling is weakest.
+
 \section{Limitations and threats to validity}
 \label{sec:limitations}
-Several limitations bound our claims, and we state them plainly because the paper's value
-depends on being honest about what automated evaluation can and cannot do.
+Several limitations bound our claims, and we state them plainly because the paper's value depends on
+being honest about what automated evaluation can and cannot do. Each is numbered so that
+Section~\ref{sec:future} can pair it, one to one, with a corresponding avenue of future research.
 
-\emph{Proxies for people, with objective anchors.} The judges and the ``students'' are
-language models standing in for human teachers and learners, and this is the paper's central
-scope limitation: absent human ratings, our quality and comprehension numbers are automated
-proxy measurements, and any claim about human learning would ultimately require human
-validation, which we leave to future work. Two of our four measurements are, however,
-deliberately \emph{not} one model judging another. The judge-validation probe scores each panel
+\emph{L1. Proxies for people.} The judges and the ``students'' are language models standing in for
+human teachers and learners, and this is the paper's central scope limitation: absent human ratings,
+our quality and comprehension numbers are automated proxy measurements. Two of the four measurements
+are, deliberately, \emph{not} one model judging another. The judge-validation probe scores each panel
 against planted analogies of \emph{known}, author-fixed quality (including analogies that are
-objectively wrong), so it measures discrimination against ground truth, not against a model's
-opinion. And the comprehension study (RQ3) scores multiple-choice answers objectively against
-fixed keys, so it is a behavioural outcome rather than a quality judgement. That scoring is
-objective, but the learner is still a model: a language model can select the right option by
-pattern-matching without anything resembling human understanding, so RQ3 is best read as measuring
-whether a teaching text carries information a model can \emph{use}, and it bears on human learning
-only indirectly. A null there does not prove an analogy useless to a student, nor would a gain
-prove it teaches; establishing either would take human learners. These objective
-anchors are what let us state the paper's firmest claims (the panel discriminates planted-wrong
-analogies; a plain explanation raises weak-student accuracy) without resting them on one model
-rating another. The remaining subjective judgements (the rubric panel) are reported throughout
-with their agreement caveats.
+objectively wrong), so it measures discrimination against ground truth; and the comprehension study
+(RQ3) scores multiple-choice answers objectively against fixed keys. The learner is still a model,
+however, so RQ3 is best read as measuring whether a teaching text carries information a model can
+\emph{use}, and it bears on human learning only indirectly. These objective anchors let us state the
+paper's firmest claims without resting them on one model rating another; the remaining subjective
+judgements (the rubric panel) are reported throughout with their agreement caveats.
 
-\emph{Small-model judging.} Our judges are 2--3.8B-parameter models chosen to run on a 4\,GB
-GPU. They are lenient, they disagree on near-equal items, and, before we shuffled labels and
-switched to ranking, some defaulted to presentation order rather than reading the analogies.
-We mitigate these behaviours and validate against a probe, but a stronger judge would likely
-give finer, more reliable discrimination. Our larger-judge check (Section~\ref{sec:results:scale})
-bears this out in part: at 7B the screening and no-effect findings replicate and the verbosity
-bias weakens, but frontier-scale judges remain untested, so some quantitative details (the exact
-agreement levels and the size of the verbosity bias) may be specific to this model scale.
+\emph{L2. Small-model judging.} Our judges are 2--3.8B-parameter models chosen to run on a 4\,GB GPU.
+They are lenient, they disagree on near-equal items, and, before we shuffled labels and switched to
+ranking, some defaulted to presentation order rather than reading the analogies. We mitigate these
+behaviours and validate against a probe, and our larger-judge check (Section~\ref{sec:results:scale})
+bears this out in part: at 7B the screening and no-effect findings replicate and the verbosity bias
+weakens. Frontier-scale judges remain untested, so some quantitative details (the exact agreement
+levels and the size of the verbosity bias) may be specific to this model scale.
 
-\emph{Scope of the dataset.} We study 64 concepts across four subjects at grades 8--12, with a
-16-concept multiple-choice subset. This is enough to detect subject-level patterns but is far
-from full curriculum coverage, and the concepts, explanations, and questions were authored by
-a single researcher, which may embed idiosyncratic choices despite our attempts at
-curriculum fidelity. The parts that serve as \emph{ground truth}, however, are objective rather
-than matters of authorial taste: the multiple-choice keys are verifiable curriculum facts and
-the probe's planted-wrong analogies contain clear, checkable errors, so what the judges and
-students are scored against does not rest on one person's quality opinions.
+\emph{L3. Scope of the dataset.} We study 64 concepts across four subjects at grades 8--12, with a
+16-concept multiple-choice subset. This is enough to detect subject-level patterns but is far from
+full curriculum coverage, and the concepts, explanations, and questions were authored by a single
+researcher, which may embed idiosyncratic choices. The parts that serve as \emph{ground truth},
+however, are objective: the multiple-choice keys are verifiable curriculum facts and the probe's
+planted-wrong analogies contain clear, checkable errors.
 
-\emph{Cross-lingual scope.} The Hindi replication covers a single language, 20 concepts, and a
+\emph{L4. Cross-lingual scope.} The Hindi replication covers a single language, 20 concepts, and a
 code-mixed register, and the low Hindi parse rates mean that some Hindi metrics (notably the
-absolute-scoring comparisons, computed on the 35\% of outputs that parsed) rest on limited
-data. It establishes that the automated protocol degrades sharply outside English, but not
-precisely how it would behave for other languages or scripts. For the same reason the apparent
-replication of the no-strategy-effect finding in Hindi is best read as exploratory: with the panel
-barely able to tell good analogies from bad, we cannot cleanly separate a genuine absence of effect
-from an effect the degraded tooling simply could not detect.
+absolute-scoring comparisons, computed on the 35\% of outputs that parsed) rest on limited data. It
+establishes that the automated protocol degrades sharply outside English, but not precisely how it
+would behave for other languages or scripts, and the apparent replication of the no-effect finding in
+Hindi is therefore best read as exploratory.
 
-\emph{Generator/judge overlap and self-preference.} Three of the four panel models also serve
-as generators. We exclude every model from judging its own analogies, which removes direct
-self-preference, but shared training lineages could still induce subtler family-level
-preferences that our design does not fully rule out.
+\emph{L5. Generator/judge overlap and self-preference.} Three of the four panel models also serve as
+generators. We exclude every model from judging its own analogies, which removes direct
+self-preference, but shared training lineages could still induce subtler family-level preferences that
+our design does not fully rule out.
 
-\emph{Rubric validation.} SAQR is grounded in the learning-sciences literature and is
-behaviourally validated only indirectly (through the discrimination probe and the
-comprehension study). A formal validation against expert human ratings, and a test of its
-dimensions' independence, remain future work.
+\emph{L6. Rubric validation.} SAQR is grounded in the learning-sciences literature and is
+behaviourally validated only indirectly (through the discrimination probe and the comprehension
+study). A formal validation against expert human ratings, and a test of its dimensions' independence,
+are not attempted here.
+
+\section{Avenues of Future Research}
+\label{sec:future}
+We map each limitation above to a concrete next step, one to one, so that the research agenda follows
+directly from the boundaries of the present study.
+
+\emph{FR1 (addresses L1).} Conduct a human validation study: have expert teachers rate a sample of the
+generated analogies and have students take the comprehension test, then calibrate the automated proxy
+measurements against those human judgements. This is the single most important step for turning the
+protocol's proxy screen into evidence about human learning, and for an educational-technology team it
+is the study that would justify placing automated screening in front of real learners.
+
+\emph{FR2 (addresses L2).} Repeat the protocol with progressively larger and frontier judges to
+establish how inter-judge agreement, discrimination, and the verbosity bias scale with judge size, and
+so to locate the reliability ceiling. For a product team this quantifies the cost-reliability
+trade-off between a free small-model screen and a paid larger judge.
+
+\emph{FR3 (addresses L3).} Expand to full-curriculum coverage authored by multiple subject-matter
+experts, enabling per-topic and cross-author analyses and reducing single-author idiosyncrasy. This is
+what a curriculum body or textbook publisher would need before treating the protocol as a system-wide
+quality gate.
+
+\emph{FR4 (addresses L4).} Extend the cross-lingual study to more languages and scripts, with improved
+parsers or lightly instruction-tuned judges to raise parse rates, and map precisely where the protocol
+holds and where it fails. This directly targets the equity gap the Hindi arm surfaced.
+
+\emph{FR5 (addresses L5).} Use judge models drawn from disjoint training lineages, or held-out judges
+that never serve as generators, to rule out family-level preferences and further harden the panel
+against self-preference.
+
+\emph{FR6 (addresses L6).} Formally validate SAQR against expert human ratings and test the
+statistical independence of its five dimensions, yielding a rubric that other researchers and edtech
+teams can adopt with calibrated confidence.
 
 \section{Conclusion}
 \label{sec:conclusion}
@@ -817,6 +903,13 @@ measure, can be reused and stress-tested.
 \bibliography{refs}
 
 \appendix
+\section*{Supplementary material}
+\addcontentsline{toc}{section}{Supplementary material}
+\noindent The following appendices (the full SAQR rubric, the concept dataset, the prompt templates,
+and worked example analogies and judgments) are provided as supplementary material. They document and
+support the study but are not essential to the main argument, and can be moved to an online supplement
+in line with the target journal's policy.
+
 \input{appendix_generated}
 
 \section{Example analogies and judgments}
