@@ -19,3 +19,7 @@ serve*.log
 
 # arXiv submission staging folder (redundant with paper/ + figures/; the .zip is kept)
 arxiv_submission/
+
+# manuscript is kept out of the public code/data repo
+paper/
+*.zip
