@@ -2,7 +2,7 @@
 
 **Prompting Strategies and the Limits of Automated Quality Evaluation**
 
-Sriharsha Meduri, Mohit Pratap Singh Rathore, and Gunveer Kalsi (Oviqo)
+Sriharsha Meduri, Mohit Pratap Singh Rathore, and Gunveer Kalsi (Oviqo, India); Pratap Chandra Mandal (Indian Institute of Management Shillong, India)
 
 This repository contains the code, dataset, and raw model outputs for a study of how to prompt
 language models for good STEM teaching analogies, and how to evaluate analogy quality
